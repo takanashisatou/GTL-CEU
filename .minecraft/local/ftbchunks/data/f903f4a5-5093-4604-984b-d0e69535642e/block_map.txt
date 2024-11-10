@@ -30,6 +30,7 @@
 #13BE2A gtceu:diorite_gold_ore
 #2800C4 gtceu:diorite_pentlandite_ore
 #80497A minecraft:dirt
+#E66556 minecraft:flowering_azalea_leaves
 #DC1463 gtceu:galena_ore
 #0C3C48 gtceu:garnet_sand_indicator
 #1827B7 gtceu:garnierite_ore
@@ -43,7 +44,9 @@
 #88BAFA minecraft:gravel
 #32E756 gtceu:grossular_indicator
 #123594 gtceu:hematite_ore
+#26F60E gtceu:iv_arc_generator
 #C1E251 minecraft:jungle_leaves
+#1FAEC5 gtceu:lv_electric_furnace
 #DE9468 minecraft:magma_block
 #25078D gtceu:magnetite_ore
 #CACE49 gtceu:malachite_ore

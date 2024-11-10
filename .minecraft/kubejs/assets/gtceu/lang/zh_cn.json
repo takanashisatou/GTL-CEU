@@ -1,4 +1,5 @@
 {
+  "block.gtceu.arc_generator": "进阶II电弧发生器",
   "biome.kubejs.create": "创造",
   "biome.kubejs.void": "虚空",
   "biome.kubejs.w_ancient_world": "远古世界",
@@ -977,7 +978,7 @@
   "item.kubejs.bioware_mainframe": "生物活性处理器主机",
   "item.kubejs.bioware_printed_circuit_board": "生物印刷电路基板",
   "item.kubejs.bioware_processing_core": "生物活性CPU",
-  "item.kubejs.bioware_processor": "生物活性处理器",
+  "item.kubejs.bioware_processor": "生物活性处理",
   "item.kubejs.black_body_naquadria_supersolid": "超固态超能硅岩黑体",
   "item.kubejs.blue_halide_lamp": "蓝光卤素灯",
   "item.kubejs.bose_einstein_cooling_container": "玻色-爱因斯坦凝聚态物质遏制装置",

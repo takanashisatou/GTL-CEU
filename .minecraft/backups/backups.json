@@ -25,6 +25,19 @@
       "backupName": "automated",
       "backupFormat": "ZIP",
       "complete": true
+    },
+    {
+      "worldName": "TTP",
+      "createTime": 1731247200204,
+      "backupLocation": "C:\\Users\\Jerry\\Downloads\\GregTechLeisureCommunityEdition\\GregTechLeisureCommunityEdition\\.minecraft\\backups\\2024-11-10_22-0-0.zip",
+      "size": 14479100,
+      "ratio": 0.7508152,
+      "sha1": "2b2d06b52157d220a7bb81f6408f8f8533d78756",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
     }
   ]
 }
