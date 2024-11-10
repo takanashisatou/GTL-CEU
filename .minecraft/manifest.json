@@ -1,0 +1,313 @@
+{
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "GregTech-Leisure-1.4.0.5",
+  "version": "1.4.0.4",
+  "author": "",
+  "overrides": "overrides",
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.3.7",
+        "primary": true
+      }
+    ]
+  },
+  "files": [
+    {
+      "projectID": 299540,
+      "fileID": 5181098,
+      "fileName": "FastFurnace-1.20.1-8.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/5181/98/FastFurnace-1.20.1-8.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 5375681,
+      "fileName": "FastLeafDecay-32.jar",
+      "url": "https://edge.forgecdn.net/files/5375/681/FastLeafDecay-32.jar",
+      "required": true
+    },
+    {
+      "projectID": 475117,
+      "fileID": 4711435,
+      "fileName": "FastSuite-1.20.1-5.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/4711/435/FastSuite-1.20.1-5.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 288885,
+      "fileID": 5101229,
+      "fileName": "FastWorkbench-1.20.1-8.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/5101/229/FastWorkbench-1.20.1-8.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 957920,
+      "fileID": 5226922,
+      "fileName": "Glodium-1.20-1.5-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5226/922/Glodium-1.20-1.5-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 324717,
+      "fileID": 5672013,
+      "fileName": "Jade-1.20.1-forge-11.11.1.jar",
+      "url": "https://edge.forgecdn.net/files/5672/13/Jade-1.20.1-forge-11.11.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 412525,
+      "fileID": 5207625,
+      "fileName": "LibX-1.20.1-5.0.14.jar",
+      "url": "https://edge.forgecdn.net/files/5207/625/LibX-1.20.1-5.0.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 60089,
+      "fileID": 5338457,
+      "fileName": "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "url": "https://edge.forgecdn.net/files/5338/457/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 5414631,
+      "fileName": "Placebo-1.20.1-8.6.2.jar",
+      "url": "https://edge.forgecdn.net/files/5414/631/Placebo-1.20.1-8.6.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 310111,
+      "fileID": 5627518,
+      "fileName": "RoughlyEnoughItems-12.1.750-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5627/518/RoughlyEnoughItems-12.1.750-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 260262,
+      "fileID": 5393183,
+      "fileName": "ToolBelt-1.20.1-1.20.01.jar",
+      "url": "https://edge.forgecdn.net/files/5393/183/ToolBelt-1.20.1-1.20.01.jar",
+      "required": true
+    },
+    {
+      "projectID": 459929,
+      "fileID": 5217955,
+      "fileName": "ae2wtlib-15.2.3-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5217/955/ae2wtlib-15.2.3-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 223794,
+      "fileID": 5641282,
+      "fileName": "appliedenergistics2-forge-15.2.13.jar",
+      "url": "https://edge.forgecdn.net/files/5641/282/appliedenergistics2-forge-15.2.13.jar",
+      "required": true
+    },
+    {
+      "projectID": 419699,
+      "fileID": 5137938,
+      "fileName": "architectury-9.2.14-forge.jar",
+      "url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 704113,
+      "fileID": 5486070,
+      "fileName": "botarium-forge-1.20.1-2.3.4.jar",
+      "url": "https://edge.forgecdn.net/files/5486/70/botarium-forge-1.20.1-2.3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 348521,
+      "fileID": 4973441,
+      "fileName": "cloth-config-11.1.118-forge.jar",
+      "url": "https://edge.forgecdn.net/files/4973/441/cloth-config-11.1.118-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 399558,
+      "fileID": 4684054,
+      "fileName": "constructionwand-1.20.1-2.11.jar",
+      "url": "https://edge.forgecdn.net/files/4684/54/constructionwand-1.20.1-2.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 309927,
+      "fileID": 5367944,
+      "fileName": "curios-forge-5.9.1+1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5367/944/curios-forge-5.9.1%2b1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 908741,
+      "fileID": 5630140,
+      "fileName": "embeddium-0.3.30+mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5630/140/embeddium-0.3.30%2bmc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 931925,
+      "fileID": 5436746,
+      "fileName": "embeddiumplus-1.20.1-v1.2.13.jar",
+      "url": "https://edge.forgecdn.net/files/5436/746/embeddiumplus-1.20.1-v1.2.13.jar",
+      "required": true
+    },
+    {
+      "projectID": 429235,
+      "fileID": 4810975,
+      "fileName": "ferritecore-6.0.1-forge.jar",
+      "url": "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 314906,
+      "fileID": 5378090,
+      "fileName": "ftb-chunks-forge-2001.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/5378/90/ftb-chunks-forge-2001.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 410811,
+      "fileID": 4896152,
+      "fileName": "ftb-essentials-forge-2001.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/4896/152/ftb-essentials-forge-2001.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 404465,
+      "fileID": 5567591,
+      "fileName": "ftb-library-forge-2001.2.4.jar",
+      "url": "https://edge.forgecdn.net/files/5567/591/ftb-library-forge-2001.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 404468,
+      "fileID": 5267190,
+      "fileName": "ftb-teams-forge-2001.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5267/190/ftb-teams-forge-2001.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 386134,
+      "fileID": 5363345,
+      "fileName": "ftb-ultimine-forge-2001.1.5.jar",
+      "url": "https://edge.forgecdn.net/files/5363/345/ftb-ultimine-forge-2001.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 889915,
+      "fileID": 5257897,
+      "fileName": "ftb-xmod-compat-forge-2.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/5257/897/ftb-xmod-compat-forge-2.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 622737,
+      "fileID": 4834403,
+      "fileName": "ftbbackups2-forge-1.20-1.0.23.jar",
+      "url": "https://edge.forgecdn.net/files/4834/403/ftbbackups2-forge-1.20-1.0.23.jar",
+      "required": true
+    },
+    {
+      "projectID": 882495,
+      "fileID": 4884976,
+      "fileName": "gpumemleakfix-1.20.1-1.8.jar",
+      "url": "https://edge.forgecdn.net/files/4884/976/gpumemleakfix-1.20.1-1.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 976858,
+      "fileID": 5315928,
+      "fileName": "invtweaks-1.20.1-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5315/928/invtweaks-1.20.1-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 250702,
+      "fileID": 5543190,
+      "fileName": "jecharacters-1.20.1-forge-4.5.11.jar",
+      "url": "https://edge.forgecdn.net/files/5543/190/jecharacters-1.20.1-forge-4.5.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 238086,
+      "fileID": 5454840,
+      "fileName": "kubejs-forge-2001.6.5-build.14.jar",
+      "url": "https://edge.forgecdn.net/files/5454/840/kubejs-forge-2001.6.5-build.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 626839,
+      "fileID": 5074767,
+      "fileName": "laserio-1.6.8.jar",
+      "url": "https://edge.forgecdn.net/files/5074/767/laserio-1.6.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 688367,
+      "fileID": 4719290,
+      "fileName": "merequester-forge-1.20.1-1.1.4.jar",
+      "url": "https://edge.forgecdn.net/files/4719/290/merequester-forge-1.20.1-1.1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 790626,
+      "fileID": 5659982,
+      "fileName": "modernfix-forge-5.19.3+mc1.20.1.jar",
+      "url": "https://edge.forgecdn.net/files/5659/982/modernfix-forge-5.19.3%2bmc1.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 581495,
+      "fileID": 5299671,
+      "fileName": "oculus-mc1.20.1-1.7.0.jar",
+      "url": "https://edge.forgecdn.net/files/5299/671/oculus-mc1.20.1-1.7.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 576589,
+      "fileID": 5350440,
+      "fileName": "polylib-forge-2000.0.3-build.143.jar",
+      "url": "https://edge.forgecdn.net/files/5350/440/polylib-forge-2000.0.3-build.143.jar",
+      "required": true
+    },
+    {
+      "projectID": 570017,
+      "fileID": 5229844,
+      "fileName": "radium-mc1.20.1-0.12.3+git.50c5c33.jar",
+      "url": "https://edge.forgecdn.net/files/5229/844/radium-mc1.20.1-0.12.3%2bgit.50c5c33.jar",
+      "required": true
+    },
+    {
+      "projectID": 877289,
+      "fileID": 5224017,
+      "fileName": "redirector-5.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/5224/17/redirector-5.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 714059,
+      "fileID": 5020441,
+      "fileName": "resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "url": "https://edge.forgecdn.net/files/5020/441/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 570073,
+      "fileID": 5659871,
+      "fileName": "resourcefullib-forge-1.20.1-2.1.29.jar",
+      "url": "https://edge.forgecdn.net/files/5659/871/resourcefullib-forge-1.20.1-2.1.29.jar",
+      "required": true
+    },
+    {
+      "projectID": 416294,
+      "fileID": 5655836,
+      "fileName": "rhino-forge-2001.2.3-build.6.jar",
+      "url": "https://edge.forgecdn.net/files/5655/836/rhino-forge-2001.2.3-build.6.jar",
+      "required": true
+    }
+  ]
+}

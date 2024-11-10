@@ -1,0 +1,112 @@
+[21:33:12] [modloading-worker-0/INFO] ========================================
+[21:33:12] [modloading-worker-0/INFO] Minecraft: 1.20.1
+[21:33:12] [modloading-worker-0/INFO] Side: client
+[21:33:12] [modloading-worker-0/INFO] Development: false
+[21:33:12] [modloading-worker-0/INFO] Version: 12.1.750
+[21:33:12] [modloading-worker-0/INFO] Loader:
+[21:33:12] [modloading-worker-0/INFO] - Forge: 47.3.11
+[21:33:12] [modloading-worker-0/INFO] Dependencies:
+[21:33:12] [modloading-worker-0/INFO] - Cloth Config: 11.1.118
+[21:33:12] [modloading-worker-0/INFO] - Architectury: 9.2.14
+[21:33:12] [modloading-worker-0/INFO] Mixin: 0.8.5
+[21:33:12] [modloading-worker-0/INFO] OS: Windows 11 10.0 (amd64)
+[21:33:12] [modloading-worker-0/INFO] Java: 17.0.12 (Microsoft)
+[21:33:12] [modloading-worker-0/INFO] ========================================
+[21:33:12] [modloading-worker-0/INFO] Mods:
+[21:33:12] [modloading-worker-0/INFO] - ad_astra: 1.15.19
+[21:33:12] [modloading-worker-0/INFO] - ad_astra_rocketed: 1.0.5
+[21:33:12] [modloading-worker-0/INFO] - ae2: 15.2.13
+[21:33:12] [modloading-worker-0/INFO] - ae2wtlib: 15.2.3-forge
+[21:33:12] [modloading-worker-0/INFO] - architectury: 9.2.14
+[21:33:12] [modloading-worker-0/INFO] - avaritia: 1.3.8.3
+[21:33:12] [modloading-worker-0/INFO] - botarium: 2.3.4
+[21:33:12] [modloading-worker-0/INFO] - buildinggadgets2: 0.0NONE
+[21:33:12] [modloading-worker-0/INFO] - cloth_config: 11.1.118
+[21:33:12] [modloading-worker-0/INFO] - configuration: 2.2.0
+[21:33:12] [modloading-worker-0/INFO] - constructionwand: 1.20.1-2.11
+[21:33:12] [modloading-worker-0/INFO] - curios: 5.9.1+1.20.1
+[21:33:12] [modloading-worker-0/INFO] - embeddium: 0.3.30+mc1.20.1
+[21:33:12] [modloading-worker-0/INFO] - embeddium_extra: 0.5.4.3+mc1.20.1-build.121
+[21:33:12] [modloading-worker-0/INFO] - embeddiumplus: 1.2.13
+[21:33:12] [modloading-worker-0/INFO] - expatternprovider: 1.20-1.1.12-forge
+[21:33:12] [modloading-worker-0/INFO] - fastbench: 8.0.4
+[21:33:12] [modloading-worker-0/INFO] - fastfurnace: 8.0.2
+[21:33:12] [modloading-worker-0/INFO] - fastleafdecay: 32
+[21:33:12] [modloading-worker-0/INFO] - fastsuite: 5.0.1
+[21:33:12] [modloading-worker-0/INFO] - ferritecore: 6.0.1
+[21:33:12] [modloading-worker-0/INFO] - forge: 47.3.11
+[21:33:12] [modloading-worker-0/INFO] - ftbbackups2: 1.0.23
+[21:33:12] [modloading-worker-0/INFO] - ftbchunks: 2001.3.1
+[21:33:12] [modloading-worker-0/INFO] - ftbessentials: 2001.2.2
+[21:33:12] [modloading-worker-0/INFO] - ftblibrary: 2001.2.4
+[21:33:12] [modloading-worker-0/INFO] - ftbquests: 2001.4.8
+[21:33:12] [modloading-worker-0/INFO] - ftbteams: 2001.3.0
+[21:33:12] [modloading-worker-0/INFO] - ftbultimine: 2001.1.5
+[21:33:12] [modloading-worker-0/INFO] - ftbxmodcompat: 2.1.1
+[21:33:12] [modloading-worker-0/INFO] - glodium: 1.20-1.5-forge
+[21:33:12] [modloading-worker-0/INFO] - gpumemleakfix: 1.20.1-1.8
+[21:33:12] [modloading-worker-0/INFO] - gtceu: 1.4.0
+[21:33:12] [modloading-worker-0/INFO] - gtlcecore: 1.0.0
+[21:33:12] [modloading-worker-0/INFO] - gtmthings: 1.3.1
+[21:33:12] [modloading-worker-0/INFO] - infinitycells: 1.0.0
+[21:33:12] [modloading-worker-0/INFO] - invtweaks: 1.1.0
+[21:33:12] [modloading-worker-0/INFO] - jade: 11.11.1+forge
+[21:33:12] [modloading-worker-0/INFO] - jecharacters: 4.5.11
+[21:33:12] [modloading-worker-0/INFO] - kubejs: 2001.6.5-build.14
+[21:33:12] [modloading-worker-0/INFO] - laserio: 1.6.8
+[21:33:12] [modloading-worker-0/INFO] - ldlib: 1.0.26.b
+[21:33:12] [modloading-worker-0/INFO] - libx: 1.20.1-5.0.14
+[21:33:12] [modloading-worker-0/INFO] - mae2: 1.4.0
+[21:33:12] [modloading-worker-0/INFO] - memoryleakfix: 1.1.5
+[21:33:12] [modloading-worker-0/INFO] - merequester: 1.20.1-1.1.4
+[21:33:12] [modloading-worker-0/INFO] - minecraft: 1.20.1
+[21:33:12] [modloading-worker-0/INFO] - mixinextras: 0.3.5
+[21:33:12] [modloading-worker-0/INFO] - modernfix: 5.19.3+mc1.20.1
+[21:33:12] [modloading-worker-0/INFO] - modernui: 3.10.1.4
+[21:33:12] [modloading-worker-0/INFO] - mousetweaks: 2.25.1
+[21:33:12] [modloading-worker-0/INFO] - oculus: 1.7.0
+[21:33:12] [modloading-worker-0/INFO] - placebo: 8.6.2
+[21:33:12] [modloading-worker-0/INFO] - polylib: 2000.0.3-build.143
+[21:33:12] [modloading-worker-0/INFO] - radium: 0.12.3+git.50c5c33
+[21:33:12] [modloading-worker-0/INFO] - resourcefulconfig: 2.1.2
+[21:33:12] [modloading-worker-0/INFO] - resourcefullib: 2.1.29
+[21:33:12] [modloading-worker-0/INFO] - rhino: 2001.2.3-build.6
+[21:33:12] [modloading-worker-0/INFO] - roughlyenoughitems: 12.1.750
+[21:33:12] [modloading-worker-0/INFO] - rubidium: 0.7.1
+[21:33:12] [modloading-worker-0/INFO] - toolbelt: 1.20.01
+[21:33:12] [modloading-worker-0/INFO] - travelanchors: 1.20.1-5.0.1
+[21:33:12] [modloading-worker-0/INFO] ========================================
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:search]: INSTANCE
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:manual]: INSTANCE
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:basic]: INSTANCE
+[21:33:13] [modloading-worker-0/INFO] [REI] Config loaded
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Config saved
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Config saved
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Config saved
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider AE2 [ae2] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider REIForgePluginStub [ftblibrary] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider REIPluginImpl [ldlib] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider ExtendedAE [expatternprovider] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider REIForgePluginStub [kubejs] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider GTREIPlugin [gtceu] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider FTBQuestsREIIntegrationForge [ftbxmodcompat] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider ReiIsDumbClientPlugin [ad_astra] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientPluginImpl [roughlyenoughitems] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider DefaultClientRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21:33:13] [modloading-worker-0/DEBUG] [REI] Added filtering rule [roughlyenoughitems:hidden_from_recipe_viewers]: INSTANCE
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider HideIngredientsFromTagsPlugin [roughlyenoughitems] for REIPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider AE2 [ae2] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider REIForgePluginStub [ftblibrary] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider REIPluginImpl [ldlib] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider ExtendedAE [expatternprovider] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider REIForgePluginStub [kubejs] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider GTREIPlugin [gtceu] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider FTBQuestsREIIntegrationForge [ftbxmodcompat] for REIClientPlugin
+[21:33:13] [modloading-worker-0/INFO] [REI] Registered plugin provider ReiIsDumbClientPlugin [ad_astra] for REIClientPlugin

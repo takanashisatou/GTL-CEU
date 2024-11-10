@@ -1,0 +1,284 @@
+---- Minecraft Crash Report ----
+// Embeddium instance tainted by mods: [gtceu, oculus, embeddium_extra]
+// Please do not reach out for Embeddium support without removing these mods first.
+// -------
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 2024-11-10 16:11:46
+Description: Ticking screen
+
+java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.util.Formatter.parse(Formatter.java:2717) ~[?:?] {}
+	at java.util.Formatter.format(Formatter.java:2671) ~[?:?] {}
+	at java.util.Formatter.format(Formatter.java:2625) ~[?:?] {}
+	at java.lang.String.format(String.java:4145) ~[?:?] {re:mixin}
+	at net.minecraft.client.resources.language.I18n.m_118938_(I18n.java:24) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.lowdragmc.lowdraglib.utils.LocalizationUtils.format(LocalizationUtils.java:40) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading,re:mixin}
+	at com.lowdragmc.lowdraglib.gui.widget.MenuWidget.initWidget(MenuWidget.java:94) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.addWidget(WidgetGroup.java:270) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.addWidget(WidgetGroup.java:249) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {re:mixin}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.handleSyncWidget(WidgetGroup.java:412) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.updateScreen(WidgetGroup.java:400) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.updateScreen(WidgetGroup.java:397) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer.m_181908_(ModularUIGuiContainer.java:109) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_86600_(AbstractContainerScreen.java:595) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ldlib-common.mixins.json:accessor.AbstractContainerScreenAccessor,pl:mixin:APP:mousetweaks.mixins.json:AbstractContainerScreenAccessor,pl:mixin:APP:ae2.mixins.json:AbstractContainerScreenMixin,pl:mixin:APP:ae2.mixins.json:ResizableSlotHighlightMixin,pl:mixin:APP:mixins.epp.json:MixinAbstractContainerScreen,pl:mixin:APP:polylib-forge.mixins.json:AbstractContainerScreenMixin,pl:mixin:APP:adastra-common.mixins.json:client.AbstractContainerScreenMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$tick$42(Minecraft.java:1785) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinScreen,pl:mixin:APP:mixins.epp.json:MixinScreen,pl:mixin:APP:kubejs-common.mixins.json:ScreenMixin,pl:mixin:APP:ae2.mixins.json:WrappedGenericStackTooltipModIdMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1784) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1112) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[1.20.1-Forge.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	LowDragLib (ldlib), Version: 1.0.26.b
+		at TRANSFORMER/ldlib@1.0.26.b/com.lowdragmc.lowdraglib.utils.LocalizationUtils.format(LocalizationUtils.java:40)
+Stacktrace:
+	at java.util.Formatter.parse(Formatter.java:2717) ~[?:?] {}
+	at java.util.Formatter.format(Formatter.java:2671) ~[?:?] {}
+	at java.util.Formatter.format(Formatter.java:2625) ~[?:?] {}
+	at java.lang.String.format(String.java:4145) ~[?:?] {re:mixin}
+	at net.minecraft.client.resources.language.I18n.m_118938_(I18n.java:24) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.lowdragmc.lowdraglib.utils.LocalizationUtils.format(LocalizationUtils.java:40) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading,re:mixin}
+	at com.lowdragmc.lowdraglib.gui.widget.MenuWidget.initWidget(MenuWidget.java:94) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.addWidget(WidgetGroup.java:270) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.addWidget(WidgetGroup.java:249) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {re:mixin}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.handleSyncWidget(WidgetGroup.java:412) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.updateScreen(WidgetGroup.java:400) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.widget.WidgetGroup.updateScreen(WidgetGroup.java:397) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading}
+	at com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer.m_181908_(ModularUIGuiContainer.java:109) ~[ldlib-forge-1.20.1-1.0.26.b.jar%23313!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.inventory.AbstractContainerScreen.m_86600_(AbstractContainerScreen.java:595) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ldlib-common.mixins.json:accessor.AbstractContainerScreenAccessor,pl:mixin:APP:mousetweaks.mixins.json:AbstractContainerScreenAccessor,pl:mixin:APP:ae2.mixins.json:AbstractContainerScreenMixin,pl:mixin:APP:ae2.mixins.json:ResizableSlotHighlightMixin,pl:mixin:APP:mixins.epp.json:MixinAbstractContainerScreen,pl:mixin:APP:polylib-forge.mixins.json:AbstractContainerScreenMixin,pl:mixin:APP:adastra-common.mixins.json:client.AbstractContainerScreenMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$tick$42(Minecraft.java:1785) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinScreen,pl:mixin:APP:mixins.epp.json:MixinScreen,pl:mixin:APP:kubejs-common.mixins.json:ScreenMixin,pl:mixin:APP:ae2.mixins.json:WrappedGenericStackTooltipModIdMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Affected screen --
+Details:
+	Screen name: com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer
+Stacktrace:
+	at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinScreen,pl:mixin:APP:mixins.epp.json:MixinScreen,pl:mixin:APP:kubejs-common.mixins.json:ScreenMixin,pl:mixin:APP:ae2.mixins.json:WrappedGenericStackTooltipModIdMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1784) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1112) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[1.20.1-Forge.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['GOGOGOPioneer'/3, l='ClientLevel', x=339.89, y=65.49, z=24.16]]
+	Chunk stats: 961, 609
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (320,63,0), Section: (at 0,15,0 in 20,3,0; chunk contains blocks 320,-64,0 to 335,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 9470 game time, 9470 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.m_6026_(ClientLevel.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:embeddium.mixins.json:features.render.world.ClientLevelMixin,pl:mixin:APP:lithium.mixins.json:chunk.entity_class_groups.ClientWorldMixin,pl:mixin:APP:mixins.oculus.vertexformat.json:block_rendering.MixinClientLevel,pl:mixin:APP:architectury.mixins.json:MixinClientLevel,pl:mixin:APP:kubejs-common.mixins.json:ClientLevelMixin,pl:mixin:APP:gtceu.mixins.json:ClientLevelAccessor,pl:mixin:APP:embeddium.mixins.json:core.world.biome.ClientWorldMixin,pl:mixin:APP:embeddium.mixins.json:core.world.map.ClientWorldMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2319) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:735) ~[client-1.20.1-20230612.114412-srg.jar%23270!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.modernui-forge.json:MixinMinecraft,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge,pl:mixin:APP:memoryleakfix.mixins.json:hugeScreenshotLeak.Minecraft_screenshotMixin,pl:mixin:APP:memoryleakfix.mixins.json:targetEntityLeak.Minecraft_targetClearMixin,pl:mixin:APP:embeddiumplus.mixin.json:fps.GpuUsageMixin,pl:mixin:APP:configuration.mixins.json:MinecraftMixin,pl:mixin:APP:ae2.mixins.json:PickColorMixin,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[1.20.1-Forge.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: gtceu:dynamic_assets, vanilla, mod_resources, KubeJS Resource Pack [assets]
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.12, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 953037584 bytes (908 MiB) / 3321888768 bytes (3168 MiB) up to 8455716864 bytes (8064 MiB)
+	CPUs: 32
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i9-14900HX
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.42
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 32
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 128.00
+	Graphics card #0 deviceId: 0xa788
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.5186
+	Graphics card #1 name: NVIDIA GeForce RTX 4070 Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x2860
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.4680
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 36145.20
+	Virtual memory used (MB): 31087.29
+	Swap memory total (MB): 3766.32
+	Swap memory used (MB): 136.30
+	JVM Flags: 11 total; -Xmx8064m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Loaded Shaderpack: (off)
+	Launched Version: 1.20.1-Forge
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 4070 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 546.80, NVIDIA Corporation
+	Window size: 2560x1494
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: vanilla, mod_resources
+	Current Language: zh_cn
+	CPU: 32x Intel(R) Core(TM) i9-14900HX
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['GOGOGOPioneer'/3, l='ServerLevel[TTP]', x=339.89, y=65.49, z=24.16]]
+	Data Packs: vanilla, mod:radium, mod:rhino (incompatible), mod:ftbessentials (incompatible), mod:ad_astra_rocketed, mod:botarium (incompatible), mod:travelanchors, mod:gpumemleakfix (incompatible), mod:invtweaks, mod:laserio (incompatible), mod:fastsuite (incompatible), mod:placebo (incompatible), mod:modernfix (incompatible), mod:libx, mod:mixinextras (incompatible), mod:ldlib (incompatible), mod:memoryleakfix (incompatible), mod:cloth_config (incompatible), mod:forge, mod:embeddium, mod:embeddiumplus, mod:gtlcecore, mod:glodium (incompatible), mod:mousetweaks, mod:configuration, mod:toolbelt (incompatible), mod:avaritia, mod:jade (incompatible), mod:ae2 (incompatible), mod:expatternprovider (incompatible), mod:infinitycells (incompatible), mod:resourcefulconfig (incompatible), mod:merequester (incompatible), mod:roughlyenoughitems (incompatible), mod:curios (incompatible), mod:oculus, mod:fastbench (incompatible), mod:jecharacters (incompatible), mod:ftbultimine (incompatible), mod:buildinggadgets2 (incompatible), mod:resourcefullib (incompatible), mod:fastfurnace (incompatible), mod:constructionwand, mod:architectury (incompatible), mod:kubejs (incompatible), mod:ae2wtlib (incompatible), mod:ftblibrary (incompatible), mod:gtceu, mod:gtmthings, mod:mae2, mod:ftbteams (incompatible), mod:ftbchunks (incompatible), mod:ftbquests (incompatible), mod:ftbxmodcompat (incompatible), mod:ferritecore (incompatible), mod:embeddium_extra, mod:modernui, mod:polylib, mod:ftbbackups2 (incompatible), mod:fastleafdecay, mod:ad_astra (incompatible), gtceu:dynamic_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.11.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.11.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.11.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.11.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.11.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar redirector TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		radium-mc1.20.1-0.12.3+git.50c5c33.jar            |Radium                        |radium                        |0.12.3+git.50c5c33  |DONE      |Manifest: NOSIGNATURE
+		rhino-forge-2001.2.3-build.6.jar                  |Rhino                         |rhino                         |2001.2.3-build.6    |DONE      |Manifest: NOSIGNATURE
+		ftb-essentials-forge-2001.2.2.jar                 |FTB Essentials                |ftbessentials                 |2001.2.2            |DONE      |Manifest: NOSIGNATURE
+		ad_astra_rocketed-forge-1.20.1-1.0.5.jar          |Ad Astra: Rocketed            |ad_astra_rocketed             |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.4.jar                   |Botarium                      |botarium                      |2.3.4               |DONE      |Manifest: NOSIGNATURE
+		TravelAnchors-1.20.1-5.0.1.jar                    |Travel Anchors                |travelanchors                 |1.20.1-5.0.1        |DONE      |Manifest: NOSIGNATURE
+		gpumemleakfix-1.20.1-1.8.jar                      |Gpu memory leak fix           |gpumemleakfix                 |1.20.1-1.8          |DONE      |Manifest: NOSIGNATURE
+		invtweaks-1.20.1-1.1.0.jar                        |Inventory Tweaks Refoxed      |invtweaks                     |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		laserio-1.6.8.jar                                 |LaserIO                       |laserio                       |1.6.8               |DONE      |Manifest: NOSIGNATURE
+		FastSuite-1.20.1-5.0.1.jar                        |Fast Suite                    |fastsuite                     |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.20.1-8.6.2.jar                          |Placebo                       |placebo                       |8.6.2               |DONE      |Manifest: NOSIGNATURE
+		modernfix-forge-5.19.3+mc1.20.1.jar               |ModernFix                     |modernfix                     |5.19.3+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		LibX-1.20.1-5.0.14.jar                            |LibX                          |libx                          |1.20.1-5.0.14       |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.5.jar                       |MixinExtras                   |mixinextras                   |0.3.5               |DONE      |Manifest: NOSIGNATURE
+		ldlib-forge-1.20.1-1.0.26.b.jar                   |LowDragLib                    |ldlib                         |1.0.26.b            |DONE      |Manifest: NOSIGNATURE
+		memoryleakfix-forge-1.17+-1.1.5.jar               |Memory Leak Fix               |memoryleakfix                 |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.118-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.118            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.11-universal.jar                |Forge                         |forge                         |47.3.11             |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		embeddium-0.3.30+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.30+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		embeddiumplus-1.20.1-v1.2.13.jar                  |Embeddium++                   |embeddiumplus                 |1.2.13              |DONE      |Manifest: NOSIGNATURE
+		gtlcecore-1.0.0.jar                               |gtlcecore                     |gtlcecore                     |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		Glodium-1.20-1.5-forge.jar                        |Glodium                       |glodium                       |1.20-1.5-forge      |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		configuration-forge-1.20.1-2.2.0.jar              |Configuration                 |configuration                 |2.2.0               |DONE      |Manifest: NOSIGNATURE
+		ToolBelt-1.20.1-1.20.01.jar                       |Tool Belt                     |toolbelt                      |1.20.01             |DONE      |Manifest: NOSIGNATURE
+		Re-Avaritia-forged-1.20.1-1.3.8.3.jar             |Re-Avaritia-forged            |avaritia                      |1.3.8.3             |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-forge-11.11.1.jar                     |Jade                          |jade                          |11.11.1+forge       |DONE      |Manifest: NOSIGNATURE
+		appliedenergistics2-forge-15.2.13.jar             |Applied Energistics 2         |ae2                           |15.2.13             |DONE      |Manifest: NOSIGNATURE
+		ExtendedAE-1.20-1.1.12-forge.jar                  |ExtendedAE                    |expatternprovider             |1.20-1.1.12-forge   |DONE      |Manifest: NOSIGNATURE
+		Infinity Cells-1.0.0.jar                          |Infinity Cells                |infinitycells                 |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.2.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.2               |DONE      |Manifest: NOSIGNATURE
+		merequester-forge-1.20.1-1.1.4.jar                |ME Requester                  |merequester                   |1.20.1-1.1.4        |DONE      |Manifest: NOSIGNATURE
+		RoughlyEnoughItems-12.1.750-forge.jar             |Roughly Enough Items (REI)    |roughlyenoughitems            |12.1.750            |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.9.1+1.20.1.jar                     |Curios API                    |curios                        |5.9.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.7.0.jar                         |Oculus                        |oculus                        |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		FastWorkbench-1.20.1-8.0.4.jar                    |Fast Workbench                |fastbench                     |8.0.4               |DONE      |Manifest: NOSIGNATURE
+		jecharacters-1.20.1-forge-4.5.11.jar              |Just Enough Characters        |jecharacters                  |4.5.11              |DONE      |Manifest: NOSIGNATURE
+		ftb-ultimine-forge-2001.1.5.jar                   |FTB Ultimine                  |ftbultimine                   |2001.1.5            |DONE      |Manifest: NOSIGNATURE
+		buildinggadgets2-1.0.7.jar                        |Building Gadgets 2            |buildinggadgets2              |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.29.jar            |Resourceful Lib               |resourcefullib                |2.1.29              |DONE      |Manifest: NOSIGNATURE
+		FastFurnace-1.20.1-8.0.2.jar                      |FastFurnace                   |fastfurnace                   |8.0.2               |DONE      |Manifest: NOSIGNATURE
+		constructionwand-1.20.1-2.11.jar                  |Construction Wand             |constructionwand              |1.20.1-2.11         |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.14.jar                |KubeJS                        |kubejs                        |2001.6.5-build.14   |DONE      |Manifest: NOSIGNATURE
+		ae2wtlib-15.2.3-forge.jar                         |AE2WTLib                      |ae2wtlib                      |15.2.3-forge        |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-2001.2.4.jar                    |FTB Library                   |ftblibrary                    |2001.2.4            |DONE      |Manifest: NOSIGNATURE
+		gtceu-1.20.1-1.4.0.jar                            |GregTech                      |gtceu                         |1.4.0               |DONE      |Manifest: NOSIGNATURE
+		gtmthings-1.3.1.jar                               |GTMThings                     |gtmthings                     |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		mae2-1.4.0.jar                                    |Modern AE2 Additions          |mae2                          |1.4.0               |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-2001.3.0.jar                      |FTB Teams                     |ftbteams                      |2001.3.0            |DONE      |Manifest: NOSIGNATURE
+		ftb-chunks-forge-2001.3.1.jar                     |FTB Chunks                    |ftbchunks                     |2001.3.1            |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-2001.4.8.jar                     |FTB Quests                    |ftbquests                     |2001.4.8            |DONE      |Manifest: NOSIGNATURE
+		ftb-xmod-compat-forge-2.1.1.jar                   |FTB XMod Compat               |ftbxmodcompat                 |2.1.1               |DONE      |Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |DONE      |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar     |Embeddium Extra               |embeddium_extra               |0.5.4.3+mc1.20.1-bui|DONE      |Manifest: NOSIGNATURE
+		ModernUI-Forge-1.20.1-3.10.1.4-universal.jar      |Modern UI                     |modernui                      |3.10.1.4            |DONE      |Manifest: NOSIGNATURE
+		polylib-forge-2000.0.3-build.143.jar              |PolyLib                       |polylib                       |2000.0.3-build.143  |DONE      |Manifest: NOSIGNATURE
+		ftbbackups2-forge-1.20-1.0.23.jar                 |FTB Backups 2                 |ftbbackups2                   |1.0.23              |DONE      |Manifest: NOSIGNATURE
+		FastLeafDecay-32.jar                              |Fast Leaf Decay               |fastleafdecay                 |32                  |DONE      |Manifest: NOSIGNATURE
+		ad_astra-forge-1.20.1-1.15.19.jar                 |Ad Astra                      |ad_astra                      |1.15.19             |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: d9ba25d1-69a6-43f7-a918-4778ba962675
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.11
+	Fragments: Back Stack Index: 0
+FragmentManager misc state:
+  mHost=icyllis.modernui.mc.UIManager$HostCallbacks@3c13cbcd
+  mContainer=icyllis.modernui.mc.UIManager$HostCallbacks@3c13cbcd
+  mCurState=5 mStateSaved=false mStopped=false mDestroyed=false

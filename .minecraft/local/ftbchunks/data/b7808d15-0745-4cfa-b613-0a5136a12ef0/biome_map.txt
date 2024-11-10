@@ -1,0 +1,9 @@
+#47F minecraft:birch_forest
+#460 minecraft:cherry_grove
+#010 minecraft:forest
+#508 minecraft:frozen_peaks
+#286 minecraft:grove
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#51A minecraft:stony_shore
