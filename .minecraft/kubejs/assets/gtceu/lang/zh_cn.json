@@ -1,5 +1,10 @@
 {
-  "block.gtceu.arc_generator": "进阶II电弧发生器",
+  "block.gtceu.lv_arc_generator":"基础电弧发生器",
+  "block.gtceu.mv_arc_generator":"进阶电弧发生器",
+  "block.gtceu.hv_arc_generator":"进阶电弧发生器 II",
+  "block.gtceu.ev_arc_generator":"进阶电弧发生器 III",
+  "gtceu.arc_generator": "精英电弧发生器",
+  "block.gtceu.iv_arc_generator": "精英电弧发生器",
   "biome.kubejs.create": "创造",
   "biome.kubejs.void": "虚空",
   "biome.kubejs.w_ancient_world": "远古世界",
