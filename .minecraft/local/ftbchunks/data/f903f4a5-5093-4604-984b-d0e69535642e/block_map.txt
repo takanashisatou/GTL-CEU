@@ -48,6 +48,7 @@
 #95182F gtceu:hv_arc_generator
 #26F60E gtceu:iv_arc_generator
 #C1E251 minecraft:jungle_leaves
+#A704EE gtceu:luv_arc_generator
 #DC8FAB gtceu:lv_arc_generator
 #1FAEC5 gtceu:lv_electric_furnace
 #DE9468 minecraft:magma_block
@@ -65,6 +66,7 @@
 #6B66FC gtceu:oil_medium
 #DCB160 gtceu:olivine_indicator
 #559669 gtceu:opal_ore
+#CB4996 gtceu:opv_arc_generator
 #F6678E minecraft:oxeye_daisy
 #683491 gtceu:pentlandite_ore
 #BB7F65 minecraft:podzol
@@ -87,6 +89,12 @@
 #ACC8AE gtceu:talc_indicator
 #0F02B6 gtceu:tin_ore
 #C9235D gtceu:tricalcium_phosphate_ore
+#81F507 gtceu:uev_arc_generator
+#378EA4 gtceu:uhv_arc_generator
+#C96C83 gtceu:uiv_arc_generator
+#FD5C82 gtceu:uv_arc_generator
+#556C94 gtceu:uxv_arc_generator
 #88779D minecraft:vine
 #25B88D gtceu:yellow_garnet_ore
 #077CD3 gtceu:yellow_limonite_ore
+#611758 gtceu:zpm_arc_generator
