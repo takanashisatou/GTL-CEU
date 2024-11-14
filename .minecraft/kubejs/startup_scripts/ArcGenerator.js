@@ -10,5 +10,5 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {//注册机器
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('arc_generator', 'simple', GTValues.LV,GTValues.MV,GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV,GTValues.ZPM,GTValues.UV,GTValues.UHV,GTValues.UEV,GTValues.UIV,GTValues.UXV,GTValues.OpV)//名字和配方类型相同、单方块、机器电压
         .recipeType('arc_generator', true, true)//显示的配方类型名字
-        .workableTieredHullRenderer('gtlcecore:block/arcgenerator')//设置机器材质
+        .workableTieredHullRenderer('gtceu:block/machines/arcgenerator')//设置机器材质
 })

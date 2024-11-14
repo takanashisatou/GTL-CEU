@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "77F8039ACE718C6C"
 	group: "68CBF1606D696C68"
-	icon: "gtlcore:primitive_robot_arm"
+	icon: "kubejs:precision_steam_mechanism"
 	id: "77F8039ACE718C6C"
 	order_index: 0
 	quest_links: [ ]

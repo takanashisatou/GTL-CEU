@@ -349,6 +349,7 @@
 			y: 0.5d
 		}
 		{
+			dependency_requirement: "all_started"
 			id: "2040F67216F6C725"
 			tasks: [{
 				id: "7F53AFE5D79C776C"
@@ -601,6 +602,90 @@
 			}]
 			x: 18.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"37F29E79ACC5FF0F"
+				"2667D265532AD38E"
+			]
+			id: "208DB689166017C5"
+			tasks: [{
+				id: "469497A288C9A6DE"
+				item: "gtceu:gasoline_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"60B9848C6EE1308F"
+				"7E819C4A0FE01F2B"
+				"62CDFA3293269503"
+				"7C55E0393CB878B3"
+			]
+			id: "37F29E79ACC5FF0F"
+			tasks: [{
+				id: "39B3444E89CAD05C"
+				item: "gtceu:raw_gasoline_bucket"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -1.0d
+		}
+		{
+			id: "2667D265532AD38E"
+			tasks: [{
+				id: "749C307EF8A5ACC3"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 0.5d
+		}
+		{
+			id: "60B9848C6EE1308F"
+			tasks: [{
+				icon: "gtceu:naphtha_bucket"
+				id: "2057DF2213E22C84"
+				type: "custom"
+			}]
+			title: "合成粗汽油的准备1-石脑油"
+			x: 26.5d
+			y: -3.5d
+		}
+		{
+			id: "7E819C4A0FE01F2B"
+			tasks: [{
+				id: "192A4EC987157F5E"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
+			}]
+			title: "合成粗汽油的准备2-炼油气"
+			x: 26.5d
+			y: -2.5d
+		}
+		{
+			id: "62CDFA3293269503"
+			tasks: [{
+				id: "6D1663A0A04C6912"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			title: "合成粗汽油的准备3-甲醇"
+			x: 26.5d
+			y: -1.5d
+		}
+		{
+			id: "7C55E0393CB878B3"
+			tasks: [{
+				id: "0CB778E0041D2FB5"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			title: "合成粗汽油的准备4-丙酮"
+			x: 26.5d
+			y: -0.5d
 		}
 	]
 	title: "石化与生化"

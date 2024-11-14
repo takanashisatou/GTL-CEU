@@ -1,9 +1,9 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "circle"
 	filename: "ziyuan"
 	group: "24F4987B35ABEE82"
-	icon: "gtceu:raw_trinium_compound"
+	icon: "gtceu:large_void_miner"
 	id: "0EF94FA5D02096D9"
 	order_index: 7
 	progression_mode: "flexible"

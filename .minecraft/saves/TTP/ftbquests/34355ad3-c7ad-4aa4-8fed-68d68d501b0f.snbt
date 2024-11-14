@@ -12,5 +12,9 @@
 		5AEB07FB238AAF85: 1731193178531L
 	}
 	claimed_rewards: { }
-	player_data: { }
+	player_data: {
+		34355ad3c7ad4aa48fed68d68d501b0f: {
+			can_edit: 1b
+		}
+	}
 }

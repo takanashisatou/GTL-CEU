@@ -45,6 +45,7 @@
 #88BAFA minecraft:gravel
 #32E756 gtceu:grossular_indicator
 #123594 gtceu:hematite_ore
+#FEDB34 gtceu:hv_arc_furnace
 #95182F gtceu:hv_arc_generator
 #26F60E gtceu:iv_arc_generator
 #C1E251 minecraft:jungle_leaves
@@ -67,6 +68,7 @@
 #DCB160 gtceu:olivine_indicator
 #559669 gtceu:opal_ore
 #CB4996 gtceu:opv_arc_generator
+#D2A4D5 gtceu:overworld_marker
 #F6678E minecraft:oxeye_daisy
 #683491 gtceu:pentlandite_ore
 #BB7F65 minecraft:podzol
