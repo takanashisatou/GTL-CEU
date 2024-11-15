@@ -1,4 +1,6 @@
-{
+{ "material.gtceu.MgSO4_liquid" : "硫酸镁",
+  "material.gtceu.MgSO4" : "硫酸镁",
+  "material.gtceu.uranyl":"铀酰",
   "gtceu.arc_generator": "电弧发生器",
   "block.gtceu.lv_arc_generator":"基础电弧发生器",
   "block.gtceu.mv_arc_generator":"进阶电弧发生器",

@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -123,7 +123,7 @@ key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent
 key_key.invtweaks_sort_either.desc:key.mouse.middle
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_key.modernfix.config:key.keyboard.unknown
+key_key.modernfix.config:key.keyboard.i
 key_key.toolbelt.open:key.keyboard.r
 key_key.toolbelt.cycle.left:key.keyboard.unknown
 key_key.toolbelt.cycle.right:key.keyboard.unknown
@@ -168,7 +168,7 @@ key_gtceu.key.enable_jetpack:key.keyboard.g
 key_gtceu.key.enable_boots:key.keyboard.period
 key_gtceu.key.armor_charging:key.keyboard.n
 key_gtceu.key.tool_aoe_change:key.keyboard.v
-key_key.modernui.openCenter:key.keyboard.k:CONTROL
+key_key.modernui.openCenter:key.keyboard.comma
 key_key.modernui.zoom:key.keyboard.c
 key_key.ad_astra.toggle_suit_flight:key.keyboard.v
 key_key.ad_astra.open_radio:key.keyboard.r

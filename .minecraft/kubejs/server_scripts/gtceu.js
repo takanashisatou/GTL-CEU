@@ -602,7 +602,12 @@ ServerEvents.recipes((event) => {
         "WCW"
     ], {
         A: "gtceu:zpm_machine_hull",
-        B: "gtceu:naquadria_rod",
+        
+
+
+
+
+
         C: "#gtceu:circuits/zpm",
         D: "gtceu:zpm_field_generator",
         W: "gtceu:naquadah_quadruple_cable"

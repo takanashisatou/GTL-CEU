@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5C90963CE77640B7"
+	group: "24F4987B35ABEE82"
+	icon: "kubejs:reactor_uranium_quad"
+	id: "5C90963CE77640B7"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "7B9DC58E862E3E4C"
+		tasks: [
+			{
+				id: "2FA60660EEE9D71C"
+				item: "gtceu:raw_uraninite"
+				type: "item"
+			}
+			{
+				id: "03C9B6601DBBA266"
+				item: "gtceu:raw_pitchblende"
+				type: "item"
+			}
+		]
+		x: -8.0d
+		y: -0.5d
+	}]
+	title: "核物理与核化学"
+}

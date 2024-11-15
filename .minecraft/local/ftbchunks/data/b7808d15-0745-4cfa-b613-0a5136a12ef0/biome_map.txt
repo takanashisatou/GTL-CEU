@@ -1,5 +1,6 @@
 #47F minecraft:birch_forest
 #460 minecraft:cherry_grove
+#4F9 minecraft:dark_forest
 #010 minecraft:forest
 #508 minecraft:frozen_peaks
 #286 minecraft:grove

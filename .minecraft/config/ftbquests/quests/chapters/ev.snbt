@@ -1381,6 +1381,7 @@
 		}
 		{
 			dependencies: ["1EA6BA3CBF4BE5DB"]
+			description: ["你可以去看看核物理与核化学这一章查看如何进行铀处理"]
 			id: "7852E4465B3CAF80"
 			rewards: [{
 				id: "379C58C619F20529"
@@ -1392,6 +1393,7 @@
 				item: "gtceu:uranium_triplatinum_ingot"
 				type: "item"
 			}]
+			title: "铀处理"
 			x: 18.0d
 			y: 0.0d
 		}
