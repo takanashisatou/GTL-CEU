@@ -76,12 +76,6 @@ ServerEvents.recipes(event => {
         F: "gtceu:double_steel_plate"
     })
 
-    gtr.compressor("ad_astra:ice_shard")
-        .itemInputs("minecraft:blue_ice")
-        .itemOutputs("ad_astra:ice_shard")
-        .EUt(30)
-        .duration(200)
-
     gtr.assembler("ad_astra:rocket_nose_cone")
         .itemInputs("gtceu:stainless_steel_frame", "minecraft:lightning_rod", "kubejs:ultimate_control_circuit", "gtceu:exquisite_glass_gem", "gtceu:computer_monitor_cover", "2x gtceu:double_aluminium_plate")
         .inputFluids("gtceu:soldering_alloy 576")

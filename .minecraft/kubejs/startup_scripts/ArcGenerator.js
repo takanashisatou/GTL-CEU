@@ -1,7 +1,7 @@
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {//注册配方类型
-    event.create('arc_generator')//设置配方类型的名字
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {//注册机器
+    event.create('arc_generator')//设置机器的名字
       .category('arc_generator')//设置类型
-      .setEUIO('in') //设置配方类型的能源输入/输出
+      .setEUIO('in') //设置机器的能源输入/输出
       .setMaxIOSize(6, 1, 6, 1)//设置机器输入输出个数(物品输入,物品输出,流体输入,流体输出)
       .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)//设置机器的背面带有覆盖版
       .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)//设置机器运行时处理中的样子
