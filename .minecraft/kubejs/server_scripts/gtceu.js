@@ -602,12 +602,7 @@ ServerEvents.recipes((event) => {
         "WCW"
     ], {
         A: "gtceu:zpm_machine_hull",
-        
-
-
-
-
-
+        B: "gtceu:naquadria_rod",
         C: "#gtceu:circuits/zpm",
         D: "gtceu:zpm_field_generator",
         W: "gtceu:naquadah_quadruple_cable"
@@ -11733,14 +11728,6 @@ ServerEvents.recipes((event) => {
         .EUt(GTValues.VA[GTValues.MAX])
         .duration(400)
 
-    gtr.centrifuge("gtceu:adamantine_compounds_dust_a")
-        .notConsumable("kubejs:microwormhole_generator")
-        .itemInputs("4x gtceu:adamantine_compounds_dust")
-        .itemOutputs("gtceu:adamantine_dust")
-        .inputFluids("gtceu:mana 1000")
-        .EUt(GTValues.VA[GTValues.UXV])
-        .duration(20)
-
     gtr.assembler("kubejs:magnetohydrodynamicallyconstrainedstarmatter_helmet")
         .notConsumable("gtceu:spacetime_nanoswarm")
         .notConsumable("gtceu:cosmicneutronium_nanoswarm")
@@ -13025,20 +13012,6 @@ ServerEvents.recipes((event) => {
         .outputFluids("gtceu:fuming_nitric_acid 1000")
         .EUt(120)
         .duration(200)
-
-    gtr.large_chemical_reactor("gtceu:nether_air")
-        .itemInputs("64x minecraft:gunpowder")
-        .inputFluids("gtceu:blaze 1000", "gtceu:hydrogen_sulfide 10000", "gtceu:sulfur_dioxide 10000", "gtceu:carbon_monoxide 10000", "gtceu:coal_gas 1000")
-        .outputFluids("gtceu:nether_air 1000")
-        .EUt(480)
-        .duration(400)
-
-    gtr.large_chemical_reactor("gtceu:ender_air")
-        .itemInputs("64x gtceu:ender_pearl_dust")
-        .inputFluids("gtceu:fuming_nitric_acid 1000", "gtceu:nitrogen_dioxide 10000", "gtceu:helium 10000", "gtceu:radon 1000", "gtceu:deuterium 1000")
-        .outputFluids("gtceu:ender_air 1000")
-        .EUt(1920)
-        .duration(800)
 
     gtr.chemical_bath("minecraft:netherrack")
         .itemInputs("minecraft:granite")

@@ -4,6 +4,8 @@ ServerEvents.recipes((event) => {
 
     event.remove({ id: "minecraft:netherite_ingot" })
     event.remove({ id: "minecraft:ender_eye" })
+    event.remove({ id: "minecraft:netherite_scrap" })
+    event.remove({ id: "minecraft:netherite_scrap_from_blasting" })
 
     event.shaped("minecraft:sculk_sensor", [
         "ABA",
@@ -33,12 +35,6 @@ ServerEvents.recipes((event) => {
         .duration(400)
         .EUt(30)
 
-    gtr.assembler("gtceu:skeleton_skull")
-        .itemInputs("9x minecraft:bone")
-        .itemOutputs("skeleton_skull")
-        .duration(100)
-        .EUt(120)
-
     gtr.extractor("gtceu:bones")
         .itemInputs("#minecraft:dirt")
         .chancedOutput("bone", 25, 0)
@@ -50,13 +46,6 @@ ServerEvents.recipes((event) => {
         .itemOutputs("sponge")
         .duration(200)
         .EUt(2)
-
-    gtr.chemical_reactor("gtceu:nether_star")
-        .itemInputs("#forge:dusts/diamond", "#forge:dusts/iridium")
-        .inputFluids("gtceu:rocket_fuel 1000", "gtceu:nether_air 8000")
-        .itemOutputs("gtceu:nether_star_dust")
-        .duration(200)
-        .EUt(7680);
 
     gtr.assembler("minecraft:nether_star")
         .itemInputs("4x minecraft:soul_sand", "3x minecraft:wither_skeleton_skull")
@@ -151,13 +140,6 @@ ServerEvents.recipes((event) => {
         .EUt(1920)
         .duration(800)
         .blastFurnaceTemp(6470)
-
-    gtr.chemical_reactor("minecraft:dragon_egg")
-        .itemInputs("minecraft:egg", "64x kubejs:warped_ender_pearl")
-        .inputFluids("gtceu:antimatter 1000", "gtceu:ender_eye 10000", "gtceu:sterilized_growth_medium 10000")
-        .chancedOutput("minecraft:dragon_egg", 9000, 0)
-        .duration(2000)
-        .EUt(GTValues.VA[GTValues.UV])
 
     gtr.chemical_bath("minecraft:crying_obsidian")
         .itemInputs("minecraft:obsidian")
