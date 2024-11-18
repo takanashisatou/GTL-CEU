@@ -139,5 +139,43 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.EV])
         .duration(20)
         .outputFluids('gtceu:uranyl_carbonate 1000')
+
+    gtr.large_chemical_reactor("gtceu:uranium_process_enrich_1")
+        .inputFluids("gtceu:nitric_acid 1000" , 'gtceu:uranyl_carbonate 1000')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20)
+        .outputFluids('gtceu:enriched_impure_uranyl_solution 1000')
+        
+    gtr.large_chemical_reactor("gtceu:uranium_process_enrich_2")
+        .inputFluids("gtceu:nitric_acid 1000" , 'gtceu:uranyl_sulfate 1000')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20)
+        .outputFluids('gtceu:enriched_impure_uranyl_solution 1000')
+    
+    gtr.large_chemical_reactor('gtceu:uranyl_nitrate_solution_compound')
+        .inputFluids("gtceu:tributyl_phosphate 1000" , 'gtceu:enriched_impure_uranyl_solution 1000')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20)
+        .outputFluids('gtceu:uranyl_nitrate_solution_compound 1000')
+
+    gtr.large_chemical_reactor('gtceu:ammonium_diuranate')
+        .inputFluids("gtceu:uranyl_nitrate_solution_compound 1000" , 'gtceu:ammonia 1000')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20)
+        .itemOutputs('1x gtceu:ammonium_diuranate_dust')
+
+    gtr.large_chemical_reactor('gtceu:uranium_1')
+        .itemInputs('1x gtceu:triuranium_octoxide_dust')
+        .inputFluids("gtceu:hydrogen 16000")
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20)
+        .itemOutputs('3x gtceu:uranium_dust')
+        .outputFluids('minecraft:water 8000')
+
+    gtr.dehydrator('triuranium_octoxide')
+        .itemInputs('1x gtceu:ammonium_diuranate_dust')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(20)
+        .itemOutputs('1x gtceu:triuranium_octoxide_dust')
   }
 )

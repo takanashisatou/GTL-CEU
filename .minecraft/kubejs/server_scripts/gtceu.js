@@ -14312,7 +14312,7 @@ ServerEvents.recipes((event) => {
         .duration(60)
 
     gtr.canner("kubejs:reactor_mox_simple")
-        .itemInputs("kubejs:reactor_fuel_rod", "6x gtceu:uranium_dust")
+        .itemInputs("kubejs:reactor_fuel_rod", "2x gtceu:triuranium_octoxide_dust")
         .inputFluids("gtceu:plutonium 432")
         .itemOutputs("kubejs:reactor_mox_simple")
         .EUt(7680)
