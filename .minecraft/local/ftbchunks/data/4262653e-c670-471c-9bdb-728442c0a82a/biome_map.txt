@@ -1,0 +1,6 @@
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#72D minecraft:snowy_beach
+#340 minecraft:snowy_taiga
+#169 minecraft:taiga

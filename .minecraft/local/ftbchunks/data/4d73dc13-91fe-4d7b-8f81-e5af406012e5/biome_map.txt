@@ -1,0 +1,15 @@
+#556 minecraft:beach
+#2DC minecraft:deep_dark
+#008 minecraft:desert
+#010 minecraft:forest
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#498 minecraft:lush_caves
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#3AF minecraft:sparse_jungle
+#51A minecraft:stony_shore
+#2B7 minecraft:warm_ocean
+#1C9 minecraft:wooded_badlands

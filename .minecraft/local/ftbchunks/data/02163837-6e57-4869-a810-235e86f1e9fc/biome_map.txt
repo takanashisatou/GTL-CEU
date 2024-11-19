@@ -1,0 +1,7 @@
+#556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
+#010 minecraft:forest
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5FF minecraft:river

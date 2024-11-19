@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#705 minecraft:deep_frozen_ocean
+#010 minecraft:forest
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#3DC minecraft:plains
+#5FF minecraft:river
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#169 minecraft:taiga
