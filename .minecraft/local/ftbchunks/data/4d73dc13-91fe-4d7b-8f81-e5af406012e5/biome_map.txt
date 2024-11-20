@@ -1,7 +1,13 @@
+#6F6 minecraft:badlands
 #556 minecraft:beach
+#3D6 minecraft:cold_ocean
 #2DC minecraft:deep_dark
 #008 minecraft:desert
+#4CA minecraft:dripstone_caves
 #010 minecraft:forest
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#286 minecraft:grove
 #4B0 minecraft:jungle
 #79A minecraft:lukewarm_ocean
 #498 minecraft:lush_caves
@@ -9,7 +15,10 @@
 #5FF minecraft:river
 #67B minecraft:savanna
 #706 minecraft:savanna_plateau
+#4E5 minecraft:snowy_plains
+#340 minecraft:snowy_taiga
 #3AF minecraft:sparse_jungle
 #51A minecraft:stony_shore
+#169 minecraft:taiga
 #2B7 minecraft:warm_ocean
 #1C9 minecraft:wooded_badlands
