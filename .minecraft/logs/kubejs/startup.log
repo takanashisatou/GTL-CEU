@@ -1,64 +1,64 @@
-[23:35:12] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[23:35:12] [INIT] Loaded plugins:
-[23:35:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[23:35:12] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[23:35:12] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[23:35:12] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[23:35:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[23:35:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[23:35:12] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[23:35:12] [INIT] - com.probejs.ProbeJSPlugin
-[23:35:13] [INFO] material.js#2: Loaded Java class 'com.lowdragmc.lowdraglib.LDLib'
-[23:35:13] [INFO] Loaded script startup_scripts:material.js in 0.077 s
-[23:35:13] [INFO] Loaded script startup_scripts:item.js in 0.008 s
-[23:35:13] [INFO] Loaded script startup_scripts:block.js in 0.005 s
-[23:35:13] [INFO] Loaded script startup_scripts:recipe.js in 0.007 s
-[23:35:13] [INFO] machine.js#2: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.SpaceElevator'
-[23:35:13] [INFO] machine.js#3: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.steam.LargeBoilerMachine'
-[23:35:13] [INFO] machine.js#4: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine'
-[23:35:13] [INFO] machine.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine'
-[23:35:13] [INFO] machine.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
-[23:35:13] [INFO] machine.js#7: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.research.ComputationProviderMachine'
-[23:35:13] [INFO] machine.js#8: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.Slaughterhouse'
-[23:35:13] [INFO] machine.js#9: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.DysonSphere'
-[23:35:13] [INFO] machine.js#10: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.StorageMachine'
-[23:35:13] [INFO] machine.js#11: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.AssemblyLineMachine'
-[23:35:13] [INFO] machine.js#12: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FissionReactorMachine'
-[23:35:13] [INFO] machine.js#13: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.TierCasingMachine'
-[23:35:13] [INFO] machine.js#14: Loaded Java class 'com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability'
-[23:35:13] [INFO] machine.js#15: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.RecipeHelper'
-[23:35:13] [INFO] machine.js#16: Loaded Java class 'com.hepdd.gtmthings.utils.TeamUtil'
-[23:35:13] [INFO] machine.js#17: Loaded Java class 'com.gregtechceu.gtceu.utils.FormattingUtil'
-[23:35:13] [INFO] machine.js#18: Loaded Java class 'com.hepdd.gtmthings.api.misc.WirelessEnergyManager'
-[23:35:13] [INFO] machine.js#19: Loaded Java class 'java.math.BigInteger'
-[23:35:13] [INFO] machine.js#20: Loaded Java class 'com.gregtechceu.gtceu.api.capability.GTCapabilityHelper'
-[23:35:13] [INFO] Loaded script startup_scripts:machine.js in 0.208 s
-[23:35:13] [INFO] Loaded script startup_scripts:ores.js in 0.0 s
-[23:35:13] [INFO] Loaded script startup_scripts:ArcGenerator.js in 0.0 s
-[23:35:13] [INFO] Loaded script startup_scripts:GTLCECoreCustomMaterialOfGTCEU.js in 0.002 s
-[23:35:13] [INFO] Loaded script startup_scripts:key.js in 0.0 s
-[23:35:13] [INFO] Loaded script startup_scripts:platinum_processor.js in 0.0 s
-[23:35:13] [INFO] Loaded script startup_scripts:tips.js in 0.002 s
-[23:35:13] [INFO] Loaded 11/11 KubeJS startup scripts in 0.728 s with 0 errors and 0 warnings
-[23:35:14] [INFO] key.js#3: Loaded Java class 'net.minecraft.client.KeyMapping'
-[23:35:14] [INFO] key.js#4: Loaded Java class 'org.lwjgl.glfw.GLFW'
-[23:35:14] [INFO] key.js#5: Loaded Java class 'dev.architectury.registry.client.keymappings.KeyMappingRegistry'
-[23:35:15] [INFO] material.js#67: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
-[23:35:15] [INFO] material.js#68: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
-[23:35:15] [INFO] material.js#69: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty'
-[23:35:15] [INFO] material.js#70: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties'
-[23:35:15] [INFO] material.js#71: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty'
-[23:35:15] [INFO] material.js#72: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
-[23:35:15] [INFO] material.js#73: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.info.MaterialFlag'
-[23:35:15] [INFO] material.js#765: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.info.CustomRendererMaterialIconSet'
-[23:35:15] [INFO] ores.js#11: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour'
-[23:35:15] [INFO] ores.js#12: Loaded Java class 'net.minecraft.tags.BlockTags'
-[23:35:15] [INFO] recipe.js#3: Loaded Java class 'com.lowdragmc.lowdraglib.utils.LocalizationUtils'
-[23:35:15] [INFO] recipe.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.block.ICoilType'
-[23:35:15] [INFO] recipe.js#6: Loaded Java class 'java.util.ArrayList'
-[23:35:15] [INFO] recipe.js#7: Loaded Java class 'net.minecraft.world.item.ItemStack'
-[23:35:15] [INFO] recipe.js#8: Loaded Java class 'com.lowdragmc.lowdraglib.utils.CycleItemStackHandler'
-[23:35:15] [INFO] recipe.js#9: Loaded Java class 'net.minecraft.client.resources.language.I18n'
-[23:35:15] [INFO] recipe.js#10: Loaded Java class 'com.gregtechceu.gtceu.data.recipe.GenerateDisassembly'
-[23:35:15] [INFO] recipe.js#11: Loaded Java class 'com.gregtechceu.gtceu.utils.ResearchManager'
-[23:35:38] [INFO] tips.js#3: Loaded Java class 'com.gregtechceu.gtceu.utils.TextUtil'
+[23:25:34] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[23:25:34] [INIT] Loaded plugins:
+[23:25:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:25:34] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:25:34] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[23:25:34] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[23:25:34] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[23:25:34] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[23:25:34] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[23:25:34] [INIT] - com.probejs.ProbeJSPlugin
+[23:25:35] [INFO] material.js#2: Loaded Java class 'com.lowdragmc.lowdraglib.LDLib'
+[23:25:35] [INFO] Loaded script startup_scripts:material.js in 0.134 s
+[23:25:35] [INFO] Loaded script startup_scripts:item.js in 0.012 s
+[23:25:35] [INFO] Loaded script startup_scripts:block.js in 0.008 s
+[23:25:35] [INFO] Loaded script startup_scripts:recipe.js in 0.012 s
+[23:25:36] [INFO] machine.js#2: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.SpaceElevator'
+[23:25:36] [INFO] machine.js#3: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.steam.LargeBoilerMachine'
+[23:25:36] [INFO] machine.js#4: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine'
+[23:25:36] [INFO] machine.js#5: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine'
+[23:25:36] [INFO] machine.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
+[23:25:36] [INFO] machine.js#7: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.research.ComputationProviderMachine'
+[23:25:36] [INFO] machine.js#8: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.Slaughterhouse'
+[23:25:36] [INFO] machine.js#9: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.DysonSphere'
+[23:25:36] [INFO] machine.js#10: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.StorageMachine'
+[23:25:36] [INFO] machine.js#11: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.AssemblyLineMachine'
+[23:25:36] [INFO] machine.js#12: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.FissionReactorMachine'
+[23:25:36] [INFO] machine.js#13: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.electric.TierCasingMachine'
+[23:25:36] [INFO] machine.js#14: Loaded Java class 'com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability'
+[23:25:36] [INFO] machine.js#15: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.RecipeHelper'
+[23:25:36] [INFO] machine.js#16: Loaded Java class 'com.hepdd.gtmthings.utils.TeamUtil'
+[23:25:36] [INFO] machine.js#17: Loaded Java class 'com.gregtechceu.gtceu.utils.FormattingUtil'
+[23:25:36] [INFO] machine.js#18: Loaded Java class 'com.hepdd.gtmthings.api.misc.WirelessEnergyManager'
+[23:25:36] [INFO] machine.js#19: Loaded Java class 'java.math.BigInteger'
+[23:25:36] [INFO] machine.js#20: Loaded Java class 'com.gregtechceu.gtceu.api.capability.GTCapabilityHelper'
+[23:25:36] [INFO] Loaded script startup_scripts:machine.js in 0.315 s
+[23:25:36] [INFO] Loaded script startup_scripts:ores.js in 0.002 s
+[23:25:36] [INFO] Loaded script startup_scripts:ArcGenerator.js in 0.001 s
+[23:25:36] [INFO] Loaded script startup_scripts:GTLCECoreCustomMaterialOfGTCEU.js in 0.001 s
+[23:25:36] [INFO] Loaded script startup_scripts:key.js in 0.0 s
+[23:25:36] [INFO] Loaded script startup_scripts:platinum_processor.js in 0.0 s
+[23:25:36] [INFO] Loaded script startup_scripts:tips.js in 0.002 s
+[23:25:36] [INFO] Loaded 11/11 KubeJS startup scripts in 1.174 s with 0 errors and 0 warnings
+[23:25:36] [INFO] key.js#3: Loaded Java class 'net.minecraft.client.KeyMapping'
+[23:25:36] [INFO] key.js#4: Loaded Java class 'org.lwjgl.glfw.GLFW'
+[23:25:36] [INFO] key.js#5: Loaded Java class 'dev.architectury.registry.client.keymappings.KeyMappingRegistry'
+[23:25:42] [INFO] material.js#67: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty'
+[23:25:42] [INFO] material.js#68: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
+[23:25:42] [INFO] material.js#69: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty'
+[23:25:42] [INFO] material.js#70: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties'
+[23:25:42] [INFO] material.js#71: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty'
+[23:25:42] [INFO] material.js#72: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.BlastProperty'
+[23:25:42] [INFO] material.js#73: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.info.MaterialFlag'
+[23:25:42] [INFO] material.js#765: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.info.CustomRendererMaterialIconSet'
+[23:25:42] [INFO] ores.js#11: Loaded Java class 'net.minecraft.world.level.block.state.BlockBehaviour'
+[23:25:42] [INFO] ores.js#12: Loaded Java class 'net.minecraft.tags.BlockTags'
+[23:25:42] [INFO] recipe.js#3: Loaded Java class 'com.lowdragmc.lowdraglib.utils.LocalizationUtils'
+[23:25:42] [INFO] recipe.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.block.ICoilType'
+[23:25:42] [INFO] recipe.js#6: Loaded Java class 'java.util.ArrayList'
+[23:25:42] [INFO] recipe.js#7: Loaded Java class 'net.minecraft.world.item.ItemStack'
+[23:25:42] [INFO] recipe.js#8: Loaded Java class 'com.lowdragmc.lowdraglib.utils.CycleItemStackHandler'
+[23:25:42] [INFO] recipe.js#9: Loaded Java class 'net.minecraft.client.resources.language.I18n'
+[23:25:42] [INFO] recipe.js#10: Loaded Java class 'com.gregtechceu.gtceu.data.recipe.GenerateDisassembly'
+[23:25:42] [INFO] recipe.js#11: Loaded Java class 'com.gregtechceu.gtceu.utils.ResearchManager'
+[23:26:26] [INFO] tips.js#3: Loaded Java class 'com.gregtechceu.gtceu.utils.TextUtil'
