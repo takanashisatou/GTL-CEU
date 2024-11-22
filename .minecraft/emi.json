@@ -1,0 +1,20 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:gtceu:blackstone_aluminium_ore",
+    "item:gtceu:pure_stibnite_dust",
+    "item:gtceu:raw_vanadium_magnetite",
+    "item:gtceu:raw_pyrolusite",
+    "item:minecraft:deepslate_gold_ore",
+    "item:minecraft:iron_ore",
+    "item:gtlcecore:semiconductor_single_crystal_silicon"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
