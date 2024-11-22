@@ -12,3 +12,4 @@
 .minecraft/shaderpacks
 .minecraft/versions
 .minecraft/local
+*.log
