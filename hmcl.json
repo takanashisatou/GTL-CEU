@@ -106,16 +106,16 @@
     {
       "url": "https://littleskin.cn/api/yggdrasil/",
       "metadataResponse": "{\"meta\":{\"serverName\":\"LittleSkin\",\"implementationName\":\"Yggdrasil Connect\",\"implementationVersion\":\"0.0.6\",\"links\":{\"announcement\":\"https://littleskin.cn/api/announcements\",\"homepage\":\"https://littleskin.cn\",\"register\":\"https://littleskin.cn/auth/register\"},\"feature.no_email_login\":true,\"feature.openid_configuration_url\":\"https://open.littleskin.cn/.well-known/openid-configuration\"},\"skinDomains\":[\"littleskin.cn\"],\"signaturePublickey\":\"-----BEGIN PUBLIC KEY-----\\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArGcNOOFIqLJSqoE3u0hj\\ntOEnOcET3wj9Drss1BE6sBqgPo0bMulOULhqjkc/uH/wyosYnzw3xaazJt87jTHh\\nJ8BPMxCeQMoyEdRoS3Jnj1G0Kezj4A2b61PJJM1DpvDAcqQBYsrSdpBJ+52MjoGS\\nvJoeQO5XUlJVQm21/HmJnqsPhzcA6HgY71RHYE5xnhpWJiPxLKUPtmt6CNYUQQoS\\no2v36XWgMmLBZhAbNOPxYX+1ioxKamjhLO29UhwtgY9U6PWEO7/SBfXzyRPTzhPV\\n2nHq7KJqd8IIrltslv6i/4FEM81ivS/mm+PN3hYlIYK6z6Ymii1nrQAplsJ67OGq\\nYHtWKOvpfTzOollugsRihkAG4OB6hM0Pr45jjC3TIc7eO7kOgIcGUGUQGuuugDEz\\nJ1N9FFWnN/H6P9ukFeg5SmGC5+wmUPZZCtNBLr8o8sI5H7QhK7NgwCaGFoYuiAGL\\ngz3k/3YwJ40BbwQayQ2gIqenz+XOFIAlajv+/nyfcDvZH9vGNKP9lVcHXUT5YRnS\\nZSHo5lwvVrYUrqEAbh/zDz8QMEyiujWvUkPhZs9fh6fimUGxtm8mFIPCtPJVXjeY\\nwD3Lvt3aIB1JHdUTJR3eEc4eIaTKMwMPyJRzVn5zKsitaZz3nn/cOA/wZC9oqyEU\\nmc9h6ZMRTRUEE4TtaJyg9lMCAwEAAQ\u003d\u003d\\n-----END PUBLIC KEY-----\\n\"}",
-      "metadataTimestamp": 1732202716214
+      "metadataTimestamp": 1732235580807
     },
     {
       "url": "http://120.24.193.170:20001/api/yggdrasil/",
       "metadataResponse": "{\"meta\":{\"serverName\":\"RealSkin\",\"implementationName\":\"Yggdrasil API for Blessing Skin\",\"implementationVersion\":\"5.2.1\",\"links\":{\"homepage\":\"http:\\/\\/120.24.193.170:20001\",\"register\":\"http:\\/\\/120.24.193.170:20001\\/auth\\/register\"},\"feature.non_email_login\":true},\"skinDomains\":[\"120.24.193.170\"],\"signaturePublickey\":\"-----BEGIN PUBLIC KEY-----\\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAoG\\/qebzvq1fTgVdp4vzt\\nCy1zJFthFpdyk+Ps0hZfv1F1X\\/AIaiOK4zo\\/xhMfFg5q86wy4jGjdLvVYua7SGSg\\nDR35x7wY7O8JLAFc8t8R3iLKLDiWZaQ5zp2sUHHxab9IzfQ0kqN1rnorQ\\/j4ARmZ\\nLOEw+hQGgbz31yHT0KiTZqmH9HHHfi9nnNkbwmowiwXS1WO23+SiV+ecv8WEE73R\\npxFPkswUlDvBkE80ay5F\\/bNQmPEYdW1REDqoU2YjFO61Llb6sWxUrMmBfBufrdnF\\nXZa5exSZhPWEvnFwNctxtQV3uNTIyQKiCuR0HiA5lgungnMMvjVJzCLc5a5D9btT\\nBflOPEtwK8PbLbcv\\/7CkBguCDb7pnFsnWsFdik69seUiUZSdYtQjR\\/7SEDeg5L2s\\nVRJx2QcMy\\/JVNOYlAQYlVPVvQ5mwchs2nsB5kMFzr35aHqvZJNgDWuuQJBNF+BPW\\nrCN1tC3F4Hvozli30AYdueJ6iN5MrQonKqpUuPzHxpAOU3JRDlWPuQ+y5UEp9tQy\\nnC4PQxQpcMkfzWWBDdoxUVQkyyIhZrgugBDoyHb9jLkKK\\/XXaWALy9Vk6hZjH4Tz\\n\\/tDG0NjW9pxubLIqSwGS+5UfL4IsY8PA6rA0l3sIzBTEL55IeeJl5EcKNoPZi2XA\\nbd\\/wNJ6al+PnfoOVHcfVS70CAwEAAQ\u003d\u003d\\n-----END PUBLIC KEY-----\\n\"}",
-      "metadataTimestamp": 1732202715908
+      "metadataTimestamp": 1732235580544
     }
   ],
   "addedLittleSkin": true,
-  "promptedVersion": "3.5.9.262",
+  "promptedVersion": "3.5.9.263",
   "_version": 2,
   "uiVersion": 0,
   "animationDisabled": false,
