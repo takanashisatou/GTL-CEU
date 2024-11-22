@@ -45,8 +45,6 @@ StartupEvents.registry("item", event => {
     event.create('cryolite')
     event.create('sinter')
     event.create('metallurgical_grade_silica_fume')
-    event.create('semiconductor_polysilicon')
-    event.create('semiconductor_monocrystalline_silicon')
 })
 GTCEuStartupEvents.materialModification(() => {
     GTMaterials.get("uranyl_sulfate").setFormula("UO₂SO₄")
