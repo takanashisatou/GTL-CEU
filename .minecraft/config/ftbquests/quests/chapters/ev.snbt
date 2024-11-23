@@ -627,21 +627,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"056D5A2274001900"
-				"1D247D35BFB55469"
-			]
-			description: ["铂系金属包括铂、钯、铑、钌、铱和锇。这些金属都具有良好的耐腐蚀性、高的熔点和优良的催化性能。"]
-			id: "01A1A06A3963D3BE"
-			tasks: [{
-				id: "69BA892CBCBEBB1B"
-				item: "gtceu:platinum_group_sludge_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["5CE474BD971D9A4B"]
 			id: "04FD2A25CAC86CAB"
 			rewards: [{
@@ -664,120 +649,6 @@
 			title: "铂与钯"
 			x: 2.0d
 			y: 4.0d
-		}
-		{
-			id: "056D5A2274001900"
-			tasks: [{
-				id: "3BA644F108FC3339"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["056D5A2274001900"]
-			hide_dependent_lines: true
-			id: "668BDF2093A9291B"
-			rewards: [{
-				id: "528352B7EE9D92EE"
-				item: "avaritia:neutron_horse_armor"
-				type: "item"
-			}]
-			tasks: [{
-				id: "284C18263BB214FF"
-				item: "gtceu:aqua_regia_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			id: "1AEB6A36DD3F8408"
-			tasks: [{
-				id: "2AE0A2D76BE61F24"
-				item: "gtceu:platinum_slag_dust"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			id: "2732380C1E0033D8"
-			tasks: [{
-				id: "18E99A28034CE615"
-				item: "gtceu:platinum_raw_dust"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			id: "41A9E381A0326997"
-			tasks: [{
-				id: "2F7946196BA328BF"
-				item: "gtceu:palladium_raw_dust"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			id: "4BD741311E61665C"
-			tasks: [{
-				id: "17772738EAECA5DD"
-				item: "gtceu:platinum_sludge_residue_dust"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			id: "46435121E3AE44EF"
-			tasks: [{
-				id: "077A2ADE5E3735A3"
-				item: "gtceu:inert_metal_mixture_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-				"5572651D3F510E1E"
-			]
-			dependency_requirement: "one_completed"
-			id: "56105EBA9D073902"
-			min_required_dependencies: 2
-			tasks: [{
-				id: "4727481B8F45C4E1"
-				item: "gtceu:rarest_metal_mixture_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -815,380 +686,6 @@
 			}]
 			x: 10.0d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"1AEB6A36DD3F8408"
-				"46435121E3AE44EF"
-			]
-			dependency_requirement: "one_completed"
-			id: "447948ACBDAF1D5A"
-			tasks: [
-				{
-					id: "3184F386275ACCAD"
-					item: "gtceu:rhodium_sulfate_bucket"
-					type: "item"
-				}
-				{
-					id: "15EEBC46E4611D55"
-					item: "gtceu:rhodium_sulfate_gas_bucket"
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1AEB6A36DD3F8408"]
-			id: "5572651D3F510E1E"
-			tasks: [{
-				id: "6F52D25C0DFC4B08"
-				item: "gtceu:leach_residue_dust"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"5572651D3F510E1E"
-				"46435121E3AE44EF"
-			]
-			dependency_requirement: "one_completed"
-			id: "515CC449D60C6B6F"
-			tasks: [{
-				id: "08775C688318E02F"
-				item: "gtceu:sodium_rutheniate_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["56105EBA9D073902"]
-			id: "6555B785CDEA2B0D"
-			tasks: [{
-				id: "16CC0DB1A157BB61"
-				item: "gtceu:iridium_metal_residue_dust"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["56105EBA9D073902"]
-			id: "1E69FCB460019502"
-			tasks: [{
-				id: "32C3A9A2137ECCE8"
-				item: "gtceu:acidic_osmium_solution_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["6555B785CDEA2B0D"]
-			id: "544D94653B07DABF"
-			tasks: [
-				{
-					id: "4FBB1CDD11226171"
-					item: "gtceu:iridium_dioxide_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "56B2A608CE9CD004"
-					optional_task: true
-					type: "checkmark"
-				}
-			]
-			x: 5.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6BA527FE4D528D54"]
-			id: "17365ABC639496E6"
-			tasks: [{
-				id: "4CCC488DCA086040"
-				item: "gtceu:iridium_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1E69FCB460019502"]
-			id: "7B57E5FA2FD62C15"
-			tasks: [
-				{
-					id: "630A0AD9877F9200"
-					item: "gtceu:osmium_tetroxide_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "452AE3303E0EEBAD"
-					optional_task: true
-					type: "checkmark"
-				}
-			]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7B57E5FA2FD62C15"]
-			id: "25FDE220C552A0D7"
-			tasks: [{
-				id: "160FE1F2BCD8F27F"
-				item: "gtceu:osmium_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["447948ACBDAF1D5A"]
-			id: "3A816A08848067B0"
-			tasks: [
-				{
-					id: "33EAC6FF223BFEC9"
-					item: "gtceu:roughly_rhodium_metal_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "558E68DA7C3103ED"
-					type: "checkmark"
-				}
-			]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3A816A08848067B0"]
-			id: "3E439E4735E85BE5"
-			tasks: [
-				{
-					id: "19419BA850D12934"
-					item: "gtceu:rhodium_salt_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4883DCDBB6868D36"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3E439E4735E85BE5"]
-			id: "737542A27F32418F"
-			tasks: [
-				{
-					id: "1DF06FAB724C577E"
-					item: "gtceu:rhodium_salt_solution_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2652754592AFD2CC"
-					type: "checkmark"
-				}
-			]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["737542A27F32418F"]
-			id: "1745E379DAEA5EE0"
-			tasks: [
-				{
-					id: "16D5062BB781CD95"
-					item: "gtceu:rhodium_nitrate_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "21DB0D927149AE17"
-					type: "checkmark"
-				}
-			]
-			x: 10.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1745E379DAEA5EE0"]
-			id: "712E7D1F539B51A8"
-			tasks: [
-				{
-					id: "459E521C65860513"
-					item: "gtceu:rhodium_filter_cake_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "00B99609CDA405C6"
-					type: "checkmark"
-				}
-			]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["712E7D1F539B51A8"]
-			id: "73399771638FD112"
-			tasks: [
-				{
-					id: "04C94B060214C917"
-					item: "gtceu:rhodium_filter_cake_solution_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "394D4E69C251078D"
-					type: "checkmark"
-				}
-			]
-			x: 12.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["73399771638FD112"]
-			id: "18FB4DDA55B7D430"
-			optional: true
-			tasks: [
-				{
-					id: "17292F329ACCF7A7"
-					item: "gtceu:reprecipitated_rhodium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "20DCA52F1DFFA94B"
-					type: "checkmark"
-				}
-			]
-			x: 13.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["18FB4DDA55B7D430"]
-			id: "51AA4887F2DC9747"
-			tasks: [{
-				id: "1530C7BBA1C03A74"
-				item: "gtceu:rhodium_dust"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"41A9E381A0326997"
-				"2732380C1E0033D8"
-			]
-			description: ["这里主要是为了回收原料"]
-			id: "2CD7D8B5F38A50F5"
-			tasks: [
-				{
-					id: "734594D8EE4E807E"
-					item: "gtceu:platinum_dust"
-					type: "item"
-				}
-				{
-					id: "55675C54FA52DF87"
-					item: "gtceu:palladium_dust"
-					type: "item"
-				}
-			]
-			x: 11.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["515CC449D60C6B6F"]
-			id: "5C12F24D7C0DB328"
-			optional: true
-			tasks: [
-				{
-					id: "18ED9710724B22C6"
-					item: "gtceu:ruthenium_tetroxide_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0942DD5664B498DA"
-					type: "checkmark"
-				}
-			]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5C12F24D7C0DB328"]
-			id: "277E11D01F736C89"
-			tasks: [
-				{
-					id: "3F47C69329E4940B"
-					item: "gtceu:ruthenium_tetroxide_hot_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7458D756C52CA570"
-					type: "checkmark"
-				}
-			]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["277E11D01F736C89"]
-			id: "1378ED1EC657A5D8"
-			tasks: [
-				{
-					id: "3524EF5F33337353"
-					item: "gtceu:ruthenium_tetroxide_lq_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "789796FD0D9D48BE"
-					type: "checkmark"
-				}
-			]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1378ED1EC657A5D8"]
-			id: "6458E7BCD8D06C86"
-			tasks: [
-				{
-					id: "66D25854C8643D8D"
-					item: "gtceu:ruthenium_tetroxide_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7CC80098F63F28EB"
-					type: "checkmark"
-				}
-			]
-			x: 8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6458E7BCD8D06C86"]
-			id: "20D5748D17E2C06D"
-			tasks: [{
-				id: "18994A92E76B04F4"
-				item: "gtceu:ruthenium_dust"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1318,39 +815,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["17365ABC639496E6"]
-			description: ["你也可以用凋零骷髅头和灵魂沙组装"]
-			id: "631707E722744406"
-			tasks: [{
-				id: "5F92475B90FE1AF2"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
 			dependencies: [
-				"00ACD41B8ABD498C"
-				"14D60DF010FF0396"
-			]
-			id: "7AEC0D308494C0F8"
-			rewards: [{
-				id: "079C2ECD4F827B41"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "50CF22DC1B6C3E56"
-				item: "gtceu:raw_desh"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"7AEC0D308494C0F8"
 				"51AA4887F2DC9747"
 				"0375D068023B13D7"
 			]
@@ -1420,7 +885,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7852E4465B3CAF80"]
+			dependencies: [
+				"7852E4465B3CAF80"
+				"631707E722744406"
+			]
 			id: "0375D068023B13D7"
 			rewards: [{
 				id: "7A3B69AFC8217DF8"
@@ -1445,63 +913,6 @@
 			}]
 			x: 18.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["544D94653B07DABF"]
-			id: "353CE5B960B508FE"
-			tasks: [
-				{
-					id: "5B5A86C461B6CA47"
-					item: "gtceu:acidic_iridium_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7D697FF2C350AF5A"
-					optional_task: true
-					type: "checkmark"
-				}
-			]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["353CE5B960B508FE"]
-			id: "6BA527FE4D528D54"
-			tasks: [
-				{
-					id: "2DE0156492FEFC8E"
-					item: "gtceu:iridium_chloride_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "00117A13240F6FCB"
-					type: "checkmark"
-				}
-			]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5CE474BD971D9A4B"]
-			id: "1D247D35BFB55469"
-			tasks: [
-				{
-					id: "2516A6D15A1040C4"
-					item: "gtceu:raw_cooperite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4AC20884A08A352C"
-					item: "gtceu:raw_bornite"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["4C43D30FD9B89965"]
@@ -1540,6 +951,98 @@
 			}]
 			x: 12.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			description: [
+				"在EV阶段你需要完成铂系矿物处理，这会是所有玩家的必经之路。"
+				"[ \"具体的内容可到产线\", { \"text\": \"相关章节\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0638E6238C942AC8\" } }, \"查看。\" ]"
+			]
+			icon: "gtceu:iridium_dust"
+			id: "6ED573F643B0DFB2"
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "不可避免的......"
+			tasks: [{
+				id: "0E07140CEDD9D40A"
+				title: " 你需要做的产线"
+				type: "checkmark"
+			}]
+			title: "你需要做的产线"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6ED573F643B0DFB2"
+				"7625AC3DC205C725"
+			]
+			description: [
+				"拿着你产线得到的最终产物，到这里换取点奖励吧！"
+				"或许你应该出去走走休息一下？"
+			]
+			id: "38B2620CE18D7CB3"
+			rewards: [{
+				id: "0AA150E401286AC3"
+				item: {
+					Count: 1
+					id: "gtceu:tungstensteel_fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 512000
+							FluidName: "gtceu:aqua_regia"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "暂时完结了......"
+			tasks: [
+				{
+					count: 64L
+					id: "5485A9A65F2BF5FF"
+					item: { Count: 64, id: "gtceu:ruthenium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4CCA893DEF29912B"
+					item: { Count: 64, id: "gtceu:iridium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7C7578A165EFA5C9"
+					item: { Count: 64, id: "gtceu:rhodium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "63A4272EF77270F8"
+					item: { Count: 64, id: "gtceu:osmium_dust" }
+					type: "item"
+				}
+			]
+			title: "苦尽甘来"
+			x: 7.964285714285715d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"17365ABC639496E6"
+				"38B2620CE18D7CB3"
+			]
+			description: ["你也可以用凋零骷髅头和灵魂沙组装"]
+			id: "631707E722744406"
+			tasks: [{
+				id: "5F92475B90FE1AF2"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Tier4-EV"]
