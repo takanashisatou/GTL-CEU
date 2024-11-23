@@ -60,6 +60,28 @@
 			description: ["ZPM阶段主要材料"]
 			hide_dependent_lines: true
 			id: "0485D45408234C99"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 255E79058ADB7C59"
+					exclude_from_claim_all: true
+					id: "1A21A4B66CD4C6B0"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启ZPM"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 334F2FB0E3A828FD"
+					exclude_from_claim_all: true
+					id: "542A4796EE57A295"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭LuV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -116,6 +138,7 @@
 		}
 		{
 			dependencies: ["118FDF6D9F868002"]
+			description: ["在有三钛线圈前不能直接烧制，靠聚变出的液态铕固化获得"]
 			id: "52DF531AFB3A07CE"
 			tasks: [{
 				id: "102F17C54DB17FBD"

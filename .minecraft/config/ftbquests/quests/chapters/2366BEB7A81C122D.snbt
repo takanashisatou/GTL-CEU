@@ -49,6 +49,28 @@
 				"这个需求量很大，制作速度慢"
 			]
 			id: "035C470213E8B4DB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 42C72077E6F090A9"
+					exclude_from_claim_all: true
+					id: "3F495D3499F6FCFB"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启UHV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 03078EF3ACD0E9AD"
+					exclude_from_claim_all: true
+					id: "78885DB5C454A84A"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭UV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{

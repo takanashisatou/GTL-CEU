@@ -15,6 +15,28 @@
 			]
 			hide_dependent_lines: true
 			id: "1E7344C133C99565"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 2B07E660BE4B95AA"
+					exclude_from_claim_all: true
+					id: "777057369D408924"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启EV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 00FEFAF832E49B0D"
+					exclude_from_claim_all: true
+					id: "594BB09515F9BCFA"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭HV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{

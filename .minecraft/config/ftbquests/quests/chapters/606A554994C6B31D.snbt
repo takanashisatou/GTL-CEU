@@ -1120,6 +1120,171 @@
 			x: 4.5d
 			y: -5.5d
 		}
+		{
+			disable_toast: true
+			icon: "gtceu:bronze_ingot"
+			id: "557C3B9762AC07CD"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "01AEB894180BA37E"
+				type: "custom"
+			}]
+			title: "ULV "
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:steel_ingot"
+			id: "190661BA3C149185"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "260FBF2D2EDD214A"
+				type: "custom"
+			}]
+			title: "LV"
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:aluminium_ingot"
+			id: "2984DE37230AB9A2"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "4A1D4209425047B8"
+				type: "custom"
+			}]
+			title: "MV"
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:stainless_steel_ingot"
+			id: "00FEFAF832E49B0D"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "22009C50678BAC88"
+				title: "HV"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:titanium_ingot"
+			id: "2B07E660BE4B95AA"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "2CA66004C0B2F920"
+				title: "EV"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "1EA2DAB43CAE4759"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "2D1DBA14A41B67DC"
+				title: "IV"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:rhodium_plated_palladium_ingot"
+			id: "334F2FB0E3A828FD"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "3CFA8AF15A19546E"
+				title: "LuV"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:naquadah_alloy_ingot"
+			id: "255E79058ADB7C59"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "607847B55D0C2152"
+				title: "ZPM"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:darmstadtium_ingot"
+			id: "03078EF3ACD0E9AD"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "4BD6224F279056BE"
+				title: "UV"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			icon: "gtceu:neutronium_ingot"
+			id: "42C72077E6F090A9"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "2ACE6F81B4EFB9DF"
+				title: "UHV"
+				type: "custom"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["557C3B9762AC07CD"]
+			hide: true
+			id: "08C807EB7973E35A"
+			tasks: [{
+				consume_items: true
+				id: "727B93BECF736C8E"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["190661BA3C149185"]
+			hide: true
+			id: "252D1E6E448916E6"
+			tasks: [{
+				id: "0E619AAECE169C73"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
 	]
 	title: "小市场"
 }

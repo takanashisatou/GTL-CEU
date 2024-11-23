@@ -109,6 +109,28 @@
 				"553B2D61416792DC"
 			]
 			id: "51B9A72C19F84F0E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 190661BA3C149185"
+					exclude_from_claim_all: true
+					id: "611768EE8B46367C"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启LV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 557C3B9762AC07CD"
+					exclude_from_claim_all: true
+					id: "0AF849ACFCBF3FDE"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭ULV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -203,7 +225,7 @@
 				"198ED0A20800F3ED"
 				"20F6BF1EDC6EBDC1"
 			]
-			description: ["你需要在高炉上放两个LV能源仓以将高炉超频到MV，这样它可以运行MV的配方"]
+			description: ["你需要在高炉上放两个LV能源仓以将高炉升压到MV，这样它可以运行MV的配方"]
 			icon_scale: 2.0d
 			id: "07D0D7005DA4F446"
 			rewards: [{
