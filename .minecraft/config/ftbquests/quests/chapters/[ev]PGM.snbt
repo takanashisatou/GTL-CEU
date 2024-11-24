@@ -1,0 +1,963 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev_2"
+	group: "3470B2BC68BD1452"
+	icon: "gtceu:ev_conveyor_module"
+	id: "4D5AB76946E8F883"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66ACD6EBDCC10B6A"]
+			description: [
+				"所需机器：离心机"
+				"所需电压：HV"
+				"所需时间：1S"
+			]
+			id: "4BD741311E61665C"
+			tasks: [{
+				id: "17772738EAECA5DD"
+				item: "gtceu:platinum_sludge_residue_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73399771638FD112"]
+			description: [
+				"所需机器：蒸馏室"
+				"所需电压：LV"
+				"所需时间：2.5S"
+			]
+			icon: "gtceu:reprecipitated_rhodium_dust"
+			id: "18FB4DDA55B7D430"
+			optional: true
+			tasks: [
+				{
+					id: "17292F329ACCF7A7"
+					item: "gtceu:reprecipitated_rhodium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20DCA52F1DFFA94B"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["18FB4DDA55B7D430"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：3.5S"
+			]
+			id: "51AA4887F2DC9747"
+			tasks: [{
+				count: 64L
+				id: "1530C7BBA1C03A74"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3F8B99CDE6720615"
+				"056D5A2274001900"
+			]
+			description: [
+				"铂系金属包括铂、钯、铑、钌、铱和锇。这些金属都具有良好的耐腐蚀性、高的熔点和优良的催化性能。"
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：30S"
+			]
+			id: "01A1A06A3963D3BE"
+			tasks: [{
+				id: "69BA892CBCBEBB1B"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"01A1A06A3963D3BE"
+				"668BDF2093A9291B"
+			]
+			description: [
+				"所需机器：离心机"
+				"所需电压：HV"
+				"所需时间：1S"
+			]
+			id: "1AEB6A36DD3F8408"
+			tasks: [{
+				id: "2AE0A2D76BE61F24"
+				item: "gtceu:platinum_slag_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66ACD6EBDCC10B6A"]
+			description: [
+				"所需机器：离心机"
+				"所需电压：HV"
+				"所需时间：1S"
+			]
+			id: "2732380C1E0033D8"
+			tasks: [{
+				id: "18E99A28034CE615"
+				item: "gtceu:platinum_raw_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"01A1A06A3963D3BE"
+				"668BDF2093A9291B"
+			]
+			description: [
+				"所需机器：离心机"
+				"所需电压：HV"
+				"所需时间：1S"
+			]
+			id: "46435121E3AE44EF"
+			tasks: [{
+				id: "077A2ADE5E3735A3"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"01A1A06A3963D3BE"
+				"5572651D3F510E1E"
+				"668BDF2093A9291B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"所需机器：离心机"
+				"所需电压：HV"
+				"所需时间：1S"
+			]
+			id: "56105EBA9D073902"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "4727481B8F45C4E1"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1AEB6A36DD3F8408"
+				"46435121E3AE44EF"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"所需原料：惰性金属混合物粉"
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：2.5S"
+				"所需线圈：白铜"
+				"{@pagebreak}"
+				"所需原料：铂渣粉"
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:rhodium_sulfate_gas_bucket"
+			id: "447948ACBDAF1D5A"
+			tasks: [
+				{
+					id: "15EEBC46E4611D55"
+					item: "gtceu:rhodium_sulfate_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C2CDCAE0375E909"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AEB6A36DD3F8408"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:leach_residue_dust"
+			id: "5572651D3F510E1E"
+			tasks: [
+				{
+					id: "6F52D25C0DFC4B08"
+					item: "gtceu:leach_residue_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36C999C9FD248BB4"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5572651D3F510E1E"
+				"46435121E3AE44EF"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:sodium_rutheniate_dust"
+			id: "515CC449D60C6B6F"
+			tasks: [
+				{
+					id: "08775C688318E02F"
+					item: "gtceu:sodium_rutheniate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4713AE95F17AEF13"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56105EBA9D073902"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:iridium_metal_residue_dust"
+			id: "6555B785CDEA2B0D"
+			tasks: [
+				{
+					id: "16CC0DB1A157BB61"
+					item: "gtceu:iridium_metal_residue_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "238FBCFF3AF36F4F"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56105EBA9D073902"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:acidic_osmium_solution_bucket"
+			id: "1E69FCB460019502"
+			tasks: [
+				{
+					id: "32C3A9A2137ECCE8"
+					item: "gtceu:acidic_osmium_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C11D38E9F8F3B40"
+					type: "checkmark"
+				}
+			]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6555B785CDEA2B0D"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：10S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:iridium_dioxide_dust"
+			id: "544D94653B07DABF"
+			tasks: [
+				{
+					id: "4FBB1CDD11226171"
+					item: "gtceu:iridium_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56B2A608CE9CD004"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BA527FE4D528D54"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：EV"
+				"所需时间：4S"
+			]
+			id: "17365ABC639496E6"
+			tasks: [{
+				count: 64L
+				id: "4CCC488DCA086040"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E69FCB460019502"]
+			description: [
+				"所需机器：蒸馏塔"
+				"所需电压：LV"
+				"所需时间：4S"
+				"所需层数：2"
+			]
+			icon: "gtceu:osmium_tetroxide_dust"
+			id: "7B57E5FA2FD62C15"
+			tasks: [
+				{
+					id: "630A0AD9877F9200"
+					item: "gtceu:osmium_tetroxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "452AE3303E0EEBAD"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B57E5FA2FD62C15"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：3.5S"
+			]
+			id: "25FDE220C552A0D7"
+			tasks: [{
+				count: 64L
+				id: "160FE1F2BCD8F27F"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C19595ACA5D90CB"]
+			description: [
+				"所需机器：脱水机"
+				"所需电压：LV"
+				"所需时间：4S"
+			]
+			icon: "gtceu:roughly_rhodium_metal_dust"
+			id: "3A816A08848067B0"
+			tasks: [
+				{
+					id: "33EAC6FF223BFEC9"
+					item: "gtceu:roughly_rhodium_metal_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "558E68DA7C3103ED"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A816A08848067B0"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：3.5S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:rhodium_salt_dust"
+			id: "3E439E4735E85BE5"
+			tasks: [
+				{
+					id: "19419BA850D12934"
+					item: "gtceu:rhodium_salt_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4883DCDBB6868D36"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E439E4735E85BE5"]
+			description: [
+				"所需机器：搅拌机"
+				"所需电压：LV"
+				"所需时间：3S"
+			]
+			icon: "gtceu:rhodium_salt_solution_bucket"
+			id: "737542A27F32418F"
+			tasks: [
+				{
+					id: "1DF06FAB724C577E"
+					item: "gtceu:rhodium_salt_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2652754592AFD2CC"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["737542A27F32418F"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：3S"
+			]
+			icon: "gtceu:rhodium_nitrate_dust"
+			id: "1745E379DAEA5EE0"
+			tasks: [
+				{
+					id: "16D5062BB781CD95"
+					item: "gtceu:rhodium_nitrate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21DB0D927149AE17"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1745E379DAEA5EE0"]
+			description: [
+				"所需机器：筛选机"
+				"所需电压：LV"
+				"所需时间：2.5S"
+			]
+			icon: "gtceu:rhodium_filter_cake_dust"
+			id: "712E7D1F539B51A8"
+			tasks: [
+				{
+					id: "459E521C65860513"
+					item: "gtceu:rhodium_filter_cake_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00B99609CDA405C6"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2732380C1E0033D8"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：1.5S"
+			]
+			id: "2CD7D8B5F38A50F5"
+			tasks: [{
+				id: "734594D8EE4E807E"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["515CC449D60C6B6F"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：1.5S"
+			]
+			icon: "gtceu:ruthenium_tetroxide_bucket"
+			id: "5C12F24D7C0DB328"
+			tasks: [
+				{
+					id: "18ED9710724B22C6"
+					item: "gtceu:ruthenium_tetroxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0942DD5664B498DA"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C12F24D7C0DB328"]
+			description: [
+				"所需机器：裂化机"
+				"所需电压：HV"
+				"所需时间：2S"
+			]
+			icon: "gtceu:ruthenium_tetroxide_hot_bucket"
+			id: "277E11D01F736C89"
+			tasks: [
+				{
+					id: "3F47C69329E4940B"
+					item: "gtceu:ruthenium_tetroxide_hot_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7458D756C52CA570"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["277E11D01F736C89"]
+			description: [
+				"所需机器：蒸馏塔"
+				"所需电压：HV"
+				"所需时间：1.5S"
+				"所需层数：2"
+			]
+			icon: "gtceu:ruthenium_tetroxide_lq_bucket"
+			id: "1378ED1EC657A5D8"
+			tasks: [
+				{
+					id: "3524EF5F33337353"
+					item: "gtceu:ruthenium_tetroxide_lq_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "789796FD0D9D48BE"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1378ED1EC657A5D8"]
+			description: [
+				"所需机器：流体固化机"
+				"所需电压：LV"
+				"所需时间：1S"
+			]
+			icon: "gtceu:ruthenium_tetroxide_dust"
+			id: "6458E7BCD8D06C86"
+			tasks: [
+				{
+					id: "66D25854C8643D8D"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CC80098F63F28EB"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6458E7BCD8D06C86"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：3S"
+			]
+			id: "20D5748D17E2C06D"
+			tasks: [{
+				count: 64L
+				id: "18994A92E76B04F4"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["544D94653B07DABF"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：4.5S"
+			]
+			icon: "gtceu:acidic_iridium_bucket"
+			id: "353CE5B960B508FE"
+			tasks: [
+				{
+					id: "5B5A86C461B6CA47"
+					item: "gtceu:acidic_iridium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D697FF2C350AF5A"
+					optional_task: true
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["353CE5B960B508FE"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：2S"
+			]
+			icon: "gtceu:iridium_chloride_dust"
+			id: "6BA527FE4D528D54"
+			tasks: [
+				{
+					id: "2DE0156492FEFC8E"
+					item: "gtceu:iridium_chloride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00117A13240F6FCB"
+					type: "checkmark"
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5CE474BD971D9A4B"
+				"0638E6238C942AC8"
+			]
+			description: ["大部分的矿在火星就能挖得到，不过地狱也有部分矿石。"]
+			id: "1D247D35BFB55469"
+			tasks: [
+				{
+					id: "2516A6D15A1040C4"
+					item: "gtceu:raw_cooperite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4AC20884A08A352C"
+					item: "gtceu:raw_bornite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63C115F99C31D79B"
+					item: { Count: 64, id: "gtceu:raw_chalcocite" }
+					type: "item"
+				}
+				{
+					id: "403FA4D78B639E3F"
+					item: "gtceu:raw_tetrahedrite"
+					type: "item"
+				}
+			]
+			title: "原矿"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["66ACD6EBDCC10B6A"]
+			description: [
+				"所需机器：离心机"
+				"所需电压：HV"
+				"所需时间：1S"
+			]
+			id: "41A9E381A0326997"
+			tasks: [{
+				id: "2F7946196BA328BF"
+				item: "gtceu:palladium_raw_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["712E7D1F539B51A8"]
+			description: [
+				"所需机器：搅拌机"
+				"所需电压：LV"
+				"所需时间：2S"
+			]
+			icon: "gtceu:rhodium_filter_cake_solution_bucket"
+			id: "73399771638FD112"
+			tasks: [
+				{
+					id: "04C94B060214C917"
+					item: "gtceu:rhodium_filter_cake_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "394D4E69C251078D"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0638E6238C942AC8"]
+			description: ["盐酸和硝酸都是需要大量准备的"]
+			id: "056D5A2274001900"
+			tasks: [{
+				id: "3BA644F108FC3339"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"056D5A2274001900"
+				"3D4478AFAB80D3F8"
+			]
+			id: "668BDF2093A9291B"
+			rewards: [{
+				id: "528352B7EE9D92EE"
+				item: "avaritia:neutron_horse_armor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "284C18263BB214FF"
+				item: "gtceu:aqua_regia_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6ED573F643B0DFB2"]
+			description: [
+				"在EV你必须把它做完的，不过放心，这一系列的任务会手把手教你做好它。"
+				"当然局限于阶段，你现在可能没办法使用大机器来进行产线铺设，到了你IV或者以后产能充足的时候记得换好大机器。"
+				"千万别用AE下单完成矿物处理，要不然有得你麻烦的。"
+			]
+			id: "0638E6238C942AC8"
+			size: 3.0d
+			tasks: [{
+				id: "384ED005A78AB1B8"
+				title: "欢迎来到铂系产线"
+				type: "checkmark"
+			}]
+			x: -0.9928571428571473d
+			y: -11.628571428571412d
+		}
+		{
+			dependencies: ["0638E6238C942AC8"]
+			description: ["盐酸和硝酸都是需要大量准备的"]
+			id: "3D4478AFAB80D3F8"
+			tasks: [{
+				id: "7693B4710C0CC7D4"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1D247D35BFB55469"]
+			id: "3F8B99CDE6720615"
+			tasks: [
+				{
+					id: "2357677B29DC21D6"
+					item: "gtceu:purified_cooperite_ore"
+					type: "item"
+				}
+				{
+					id: "33EBFB5B8DF9B4E3"
+					item: "gtceu:purified_bornite_ore"
+					type: "item"
+				}
+				{
+					id: "3BCDA7A727C3B6E2"
+					item: "gtceu:purified_tetrahedrite_ore"
+					type: "item"
+				}
+				{
+					id: "43A5E60E46079790"
+					item: "gtceu:purified_chalcocite_ore"
+					type: "item"
+				}
+			]
+			title: "粗处理矿"
+			x: 0.5357142857142421d
+			y: -6.821428571428569d
+		}
+		{
+			dependencies: ["447948ACBDAF1D5A"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：2S"
+			]
+			icon: "gtceu:rhodium_sulfate_bucket"
+			id: "5C19595ACA5D90CB"
+			tasks: [
+				{
+					id: "1F518A3EBECF7516"
+					item: "gtceu:rhodium_sulfate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6393F9B2E99D1A7D"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01A1A06A3963D3BE"
+				"668BDF2093A9291B"
+			]
+			description: ["这些产物本质上都是需要回收的产物，不参与主生产。"]
+			id: "66ACD6EBDCC10B6A"
+			tasks: [{
+				id: "532169DAA488A149"
+				type: "checkmark"
+			}]
+			title: "其他乱七八糟的东西"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41A9E381A0326997"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：2S"
+			]
+			id: "4C0592F47FC34A19"
+			tasks: [{
+				id: "5BC415DF53D83529"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BD741311E61665C"]
+			description: [
+				"所需机器：离心机"
+				"所需电压：LV"
+				"所需时间：49.6S"
+			]
+			id: "77312DD2D5BA46F7"
+			tasks: [
+				{
+					id: "08A13D84DB54A014"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+				{
+					id: "15E188FFB1AD7959"
+					item: "gtceu:gold_dust"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4C0592F47FC34A19"
+				"2CD7D8B5F38A50F5"
+				"77312DD2D5BA46F7"
+				"51AA4887F2DC9747"
+				"20D5748D17E2C06D"
+				"25FDE220C552A0D7"
+				"17365ABC639496E6"
+			]
+			description: ["记得将所有无用的副产物回收。"]
+			id: "7625AC3DC205C725"
+			rewards: [{
+				count: 128
+				id: "146229A44088567C"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "1A84A38C52D90E36"
+				title: "还没结束！"
+				type: "checkmark"
+			}]
+			x: 9.483333333333327d
+			y: 5.8000000000000185d
+		}
+	]
+	title: "[EV]铂系产线"
+}
