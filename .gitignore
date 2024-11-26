@@ -1,0 +1,17 @@
+.minecraft/.vscode
+.minecraft/assets
+.minecraft/backups
+.minecraft/crash-reports
+.minecraft/ldlib
+.minecraft/libraries
+.minecraft/logs
+.minecraft/modernfix
+.minecraft/natives-windows-x86_64
+.minecraft/saves
+.minecraft/screenshots
+.minecraft/shaderpacks
+.minecraft/versions
+.minecraft/local
+hmcl.json
+.minecraft/usercache.json
+.minecraft/usernamecache.json

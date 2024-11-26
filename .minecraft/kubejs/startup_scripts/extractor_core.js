@@ -12,7 +12,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.ALL)
         .recipeType("extractor_core")
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
-        .appearanceBlock(GTBlocks.CASING_PTFE_INERT)
+        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "  AAAAA  ")
             .aisle("         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "   BBB   ", "   BBB   ", "  ABBBA  ", " A     A ")
@@ -26,11 +26,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("~", Predicates.controller(Predicates.blocks(definition.get())))
             .where("B", Predicates.blocks("gtceu:tempered_glass"))
             .where("A", Predicates.blocks("gtceu:clean_machine_casing"))
-            .where("X", Predicates.blocks("gtceu:clean_machine_casing"))
-                
-                
+            .where("X", Predicates.blocks("gtceu:clean_machine_casing")
+                .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(2))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+                .or(Predicates.autoAbilities(definition.getRecipeTypes())))
             .where(" ", Predicates.any())
             .build())
-        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_heatproof", "gtceu:block/multiblock/electric_blast_furnace")
+        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_clean_stainless_steel", "gtceu:block/multiblock/electric_blast_furnace")
 })
 
