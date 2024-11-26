@@ -12,4 +12,6 @@
 .minecraft/shaderpacks
 .minecraft/versions
 .minecraft/local
+.minecraft/worldedit
+hmcl.json
 *.log

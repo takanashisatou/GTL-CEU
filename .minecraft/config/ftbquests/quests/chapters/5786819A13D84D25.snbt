@@ -226,6 +226,16 @@
 				"1FE5F8D737ADB1B8"
 			]
 			id: "23B418803D455368"
+			rewards: [{
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 42C72077E6F090A9"
+				exclude_from_claim_all: true
+				id: "7501964A78F817D1"
+				ignore_reward_blocking: true
+				silent: true
+				title: "关闭UHV"
+				type: "command"
+			}]
 			tasks: [{
 				id: "12A595464E70C437"
 				item: "gtceu:adamantium_ingot"

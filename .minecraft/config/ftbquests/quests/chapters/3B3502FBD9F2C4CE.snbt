@@ -106,6 +106,28 @@
 			description: ["LuV阶段主要材料"]
 			hide_dependent_lines: true
 			id: "4BFA114E12BCB163"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 334F2FB0E3A828FD"
+					exclude_from_claim_all: true
+					id: "289DF2A19876C109"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启LuV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1EA2DAB43CAE4759"
+					exclude_from_claim_all: true
+					id: "7C389BE8A0B11081"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭IV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -809,6 +831,28 @@
 			]
 			hide_dependent_lines: true
 			id: "38480A52A13DA157"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 1EA2DAB43CAE4759"
+					exclude_from_claim_all: true
+					id: "2C542D2842BB525C"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启IV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2B07E660BE4B95AA"
+					exclude_from_claim_all: true
+					id: "01D44D2F848DC65C"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭EV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{

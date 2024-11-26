@@ -179,6 +179,28 @@
 		{
 			dependencies: ["77759D1FE48F958B"]
 			id: "7C23CC6ADDC33EA0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 03078EF3ACD0E9AD"
+					exclude_from_claim_all: true
+					id: "7945E0838DD53AB1"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启UV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 255E79058ADB7C59"
+					exclude_from_claim_all: true
+					id: "30675CA461C3ADC9"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭ZPM"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "68B49A32B28AECEA"
 				item: "gtceu:darmstadtium_ingot"

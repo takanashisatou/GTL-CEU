@@ -1229,6 +1229,17 @@
 			x: -8.5d
 			y: -0.5d
 		}
+		{
+			id: "197080BD724CBA16"
+			invisible: true
+			tasks: [{
+				id: "09E387ECCAA61DD1"
+				tags: ["reset"]
+				type: "custom"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
 	]
 	title: "由此开始"
 }

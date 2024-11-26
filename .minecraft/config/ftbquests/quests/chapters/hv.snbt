@@ -15,6 +15,28 @@
 			]
 			hide_dependent_lines: true
 			id: "1A48D2DB936FF632"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 00FEFAF832E49B0D"
+					exclude_from_claim_all: true
+					id: "7E8EAF87E4425C8F"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启HV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 2984DE37230AB9A2"
+					exclude_from_claim_all: true
+					id: "542FE2E22C8494A1"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭MV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -304,7 +326,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["前往探索宇宙章节了解更多"]
+			description: ["前往探索世界章节了解更多"]
 			id: "0931ECBAAD9252C7"
 			rewards: [
 				{
@@ -386,7 +408,11 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["前往石化生化章节了解更多"]
+			description: [
+				"前往石化生化章节了解更多"
+				""
+				"蒸馏塔可以叠高，每有一种流体产物就要高一层，注意每层有且只能有一个输出仓。"
+			]
 			id: "2EAAF5A6510D0EFE"
 			rewards: [{
 				id: "5BAC2973956359FC"
@@ -567,6 +593,7 @@
 		}
 		{
 			dependencies: ["06F68B574AC84B7B"]
+			description: ["可以不急着做，制作贴片要用的铂可以靠浸洗镍矿获得。"]
 			id: "157A951DA379C259"
 			rewards: [{
 				id: "22590F01A2B5B20C"
@@ -624,6 +651,7 @@
 		}
 		{
 			dependencies: ["11186961491B1773"]
+			description: ["拥有无损超频，比通用混合厂强大。"]
 			id: "29450DC426C4E2D6"
 			rewards: [{
 				id: "50F14222E01C7EAC"

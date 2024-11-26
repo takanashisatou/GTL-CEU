@@ -1,11 +1,129 @@
 {
-  "favorites": [],
+  "favorites": [
+    {
+      "stack": {
+        "type": "fluid",
+        "id": "gtceu:sulfuric_nickel_solution",
+        "amount": 1000
+      },
+      "recipe": "gtceu:chemical_reactor/pgs_from_cooperite"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "gtceu:platinum_slag_dust",
+        "amount": 6,
+        "chance": 0.75
+      },
+      "recipe": "gtceu:centrifuge/pgs_separation"
+    }
+  ],
   "lookup_history": [
-    "item:gtceu:cosmic_nugget",
-    "item:gtceu:cosmic_ingot",
-    "item:expatternprovider:fishbig",
-    "item:minecraft:dark_oak_trapdoor",
-    "item:gtceu:slaughterhouse",
+    "item:gtceu:platinum_sludge_residue_dust",
+    "item:gtceu:palladium_raw_dust",
+    "item:gtceu:platinum_raw_dust",
+    "item:gtceu:ev_field_generator",
+    {
+      "type": "fluid",
+      "id": "gtceu:aqua_regia",
+      "amount": 0
+    },
+    "item:gtceu:tungstensteel_fluid_cell",
+    "item:gtceu:reprecipitated_rhodium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:rhodium_filter_cake_solution",
+      "amount": 0
+    },
+    "item:gtceu:rhodium_filter_cake_dust",
+    {
+      "type": "item",
+      "id": "gtceu:rhodium_nitrate_dust",
+      "amount": 13
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rhodium_salt_solution",
+      "amount": 0
+    },
+    "item:gtceu:roughly_rhodium_metal_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:rhodium_sulfate",
+      "amount": 0
+    },
+    "item:gtceu:aluminium_sulfite_dust",
+    {
+      "type": "item",
+      "id": "gtceu:zinc_sulfate_dust",
+      "amount": 6
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:rhodium_sulfate_gas",
+      "amount": 0
+    },
+    "item:gtceu:ruthenium_tetroxide_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:ruthenium_tetroxide_lq",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:ruthenium_tetroxide_hot",
+      "amount": 0
+    },
+    "item:gtceu:leach_residue_dust",
+    {
+      "type": "item",
+      "id": "gtceu:sodium_rutheniate_dust",
+      "amount": 21
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:ruthenium_tetroxide",
+      "amount": 3000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:iridium_chloride_dust",
+      "amount": 4
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:acidic_iridium",
+      "amount": 1000
+    },
+    "item:gtceu:iridium_dioxide_dust",
+    {
+      "type": "item",
+      "id": "gtceu:sodium_hypochlorite_dust",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "gtceu:sodium_chlorate_dust",
+      "amount": 5
+    },
+    "item:gtceu:osmium_tetroxide_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:acidic_osmium_solution",
+      "amount": 0
+    },
+    {
+      "type": "item",
+      "id": "gtceu:platinum_slag_dust",
+      "amount": 6,
+      "chance": 0.75
+    },
+    "item:gtceu:platinum_group_sludge_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:sulfuric_nickel_solution",
+      "amount": 1000
+    },
     "item:gtceu:blackstone_aluminium_ore",
     "item:gtceu:pure_stibnite_dust",
     "item:gtceu:raw_vanadium_magnetite",

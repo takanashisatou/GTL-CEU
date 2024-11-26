@@ -162,11 +162,23 @@
 				"好了现在你的超低压蒸汽时代才是终于结束了。"
 			]
 			id: "5F5F348E3A34827E"
-			rewards: [{
-				id: "41A3ACD4F54D9969"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "41A3ACD4F54D9969"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 557C3B9762AC07CD"
+					exclude_from_claim_all: true
+					id: "2A96F8B36BA2871F"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启ULV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -927,7 +939,10 @@
 		}
 		{
 			dependencies: ["553B2D61416792DC"]
-			description: ["青铜蒸汽锅炉经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台）"]
+			description: [
+				"青铜蒸汽锅炉经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台）"
+				"维护仓在前期需要手动维护，具体方法为右键打开gui右击扳手状图标。"
+			]
 			id: "328D5CF265FCCCA3"
 			rewards: [{
 				id: "02EE5681EA132E6A"
@@ -1161,6 +1176,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["没有电的时候可以先用手摇曲柄供能"]
 			id: "664C46D5C12E7255"
 			rewards: [
 				{

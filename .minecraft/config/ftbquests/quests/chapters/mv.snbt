@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "mv"
 	group: "68CBF1606D696C68"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:mv_electric_motor"
 	id: "6AE49AAF3BDC94C1"
 	order_index: 2
@@ -14,6 +15,28 @@
 				"388E5C1034C54D19"
 			]
 			id: "7296C57805F5DC96"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 190661BA3C149185"
+					exclude_from_claim_all: true
+					id: "3A25A34B2945B955"
+					ignore_reward_blocking: true
+					silent: true
+					title: "关闭LV"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 2984DE37230AB9A2"
+					exclude_from_claim_all: true
+					id: "4C333B840A47C3B5"
+					ignore_reward_blocking: true
+					silent: true
+					title: "开启MV"
+					type: "command"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -67,7 +90,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["前往石化与生化章节查看详细内容"]
+			description: ["处理石油或者用硫酸和乙醇反应获得"]
 			id: "6CB3D4A09CC0FC63"
 			rewards: [{
 				id: "45B5000FEE2FE807"
@@ -706,7 +729,11 @@
 		}
 		{
 			dependencies: ["128671E4DC47EF55"]
-			description: ["利用这个东西从虚空流体矿脉中采流体"]
+			description: [
+				"利用这个东西从虚空流体矿脉中采流体"
+				""
+				"探矿仪潜行右键可以查看流体矿脉。钻机只能安装一个能源仓。"
+			]
 			hide_dependency_lines: true
 			id: "4AF1D57BE5C49B3E"
 			rewards: [{
