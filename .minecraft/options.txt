@@ -149,8 +149,8 @@ key_key.buildinggadgets2.settings_menu:key.keyboard.g
 key_key.buildinggadgets2.undo:key.keyboard.u
 key_key.buildinggadgets2.anchor:key.keyboard.h
 key_key.buildinggadgets2.range:key.keyboard.r
-key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbultimine:key.keyboard.grave.accent
+key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbchunks.map:key.keyboard.m
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal

@@ -1,4 +1,7 @@
-{ "material.gtceu.magnesium_sulphate" : "硫酸镁",
+{ 
+  "gtceu.extractor_core":"萃取器",
+  "block.gtceu.extractor_core":"萃取器",
+  "material.gtceu.magnesium_sulphate" : "硫酸镁",
   "material.gtceu.uranyl_sulfate":"硫酸铀酰",
   "material.gtceu.uranyl_carbonate":"碳酸铀酰",
   "material.gtceu.enriched_impure_uranyl_solution":"浓缩含杂铀酰溶液",
