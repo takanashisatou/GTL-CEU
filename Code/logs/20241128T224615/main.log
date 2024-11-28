@@ -1,0 +1,5 @@
+2024-11-28 22:46:16.074 [error] Error: Error mutex already exists
+    at Eu.U (file:///C:/Users/Jerry/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:81:18090)
+2024-11-28 22:46:16.077 [info] update#setState idle
+2024-11-28 22:46:19.122 [info] Extension host with pid 135180 exited with code: 0, signal: unknown.
+2024-11-28 22:46:19.134 [error] [UtilityProcessWorker]: terminated unexpectedly with code 1678179987, signal: unknown

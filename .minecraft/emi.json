@@ -16,9 +16,118 @@
         "chance": 0.75
       },
       "recipe": "gtceu:centrifuge/pgs_separation"
+    },
+    {
+      "stack": {
+        "type": "fluid",
+        "id": "gtceu:dilute_trichlorosilane",
+        "amount": 1000
+      },
+      "recipe": "gtceu:chemical_reactor/dilute_trichlorosilane"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "gtceu:uranium_dust",
+        "amount": 6
+      }
+    },
+    {
+      "stack": "item:gtceu:uranium_235_dust"
     }
   ],
   "lookup_history": [
+    "item:gtceu:uranium_235_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:uranium_235",
+      "amount": 48
+    },
+    "item:kubejs:reactor_uranium_simple",
+    "item:gtceu:uranium_dust",
+    "item:gtceu:lv_canner",
+    "item:minecraft:crafting_table",
+    "item:minecraft:jungle_door",
+    "item:gtlcecore:semiconductor_single_crystal_silicon",
+    "item:gtlcecore:semiconductor_polycrystalline_silicon",
+    {
+      "type": "fluid",
+      "id": "gtceu:trichlorosilane",
+      "amount": 200
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:dilute_trichlorosilane",
+      "amount": 1000
+    },
+    "item:gtceu:metallurgical_grade_silica_fume_dust",
+    {
+      "type": "item",
+      "id": "gtceu:small_metallurgical_grade_silica_fume_dust",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "gtceu:tiny_metallurgical_grade_silica_fume_dust",
+      "amount": 9
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:uranyl_carbonate",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:enriched_impure_uranyl_solution",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:uranyl_nitrate_solution_compound",
+      "amount": 1000
+    },
+    "item:gtceu:ammonium_diuranate_dust",
+    "item:gtceu:triuranium_octoxide_dust",
+    {
+      "type": "item",
+      "id": "gtceu:uranium_triplatinum_dust",
+      "amount": 4
+    },
+    "item:kubejs:depleted_reactor_uranium_simple",
+    "item:gtceu:fission_reactor",
+    "item:kubejs:depleted_reactor_uranium_dual",
+    {
+      "type": "fluid",
+      "id": "gtceu:plutonium",
+      "amount": 432
+    },
+    "item:kubejs:reactor_mox_simple",
+    {
+      "type": "item",
+      "id": "kubejs:reactor_uranium_dual",
+      "amount": 2
+    },
+    "item:kubejs:reactor_uranium_quad",
+    "item:kubejs:depleted_reactor_uranium_quad",
+    "item:gtceu:disassembly",
+    {
+      "type": "fluid",
+      "id": "gtceu:depleted_uranium_hexafluoride",
+      "amount": 900
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:enriched_uranium_hexafluoride",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:trichloroflerane",
+      "amount": 0
+    },
+    "item:gtceu:large_chemical_reactor",
+    "item:gtceu:extractor_core",
+    "item:gtceu:mv_output_hatch",
     "item:gtceu:platinum_sludge_residue_dust",
     "item:gtceu:palladium_raw_dust",
     "item:gtceu:platinum_raw_dust",
@@ -129,8 +238,7 @@
     "item:gtceu:raw_vanadium_magnetite",
     "item:gtceu:raw_pyrolusite",
     "item:minecraft:deepslate_gold_ore",
-    "item:minecraft:iron_ore",
-    "item:gtlcecore:semiconductor_single_crystal_silicon"
+    "item:minecraft:iron_ore"
   ],
   "craft_history": [],
   "recipe_defaults": {

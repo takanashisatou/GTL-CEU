@@ -1,0 +1,63 @@
+{
+    "telemetry.machineId": "66b778089cc94e9510b1f51ea89e41381ca1ed3983231e5eccf1a19ae0d00344",
+    "telemetry.sqmId": "{7F95B38F-6BFC-4D0C-A05A-71E88F2FC4BE}",
+    "telemetry.devDeviceId": "1aa99171-f05a-4110-98d7-2b2c89884314",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1732805176967"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1732805176967": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "C:\\Users\\Jerry\\Downloads\\GregTechLeisureCommunityEdition\\GregTechLeisureCommunityEdition\\Code\\Backups\\1732805176967",
+            "uiState": {
+                "mode": 1,
+                "x": 342,
+                "y": 150,
+                "width": 1026,
+                "height": 770
+            }
+        },
+        "openedWindows": []
+    }
+}
