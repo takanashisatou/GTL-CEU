@@ -390,7 +390,7 @@ ServerEvents.recipes(event => {
       .EUt(GTValues.VA[GTValues.MV])
       .duration(250)
       .itemOutputs('64x gtceu:silicon_wafer' , '64x gtceu:silicon_wafer')
-      
+    
     gtr.distillery('trichlorosilane')
       .inputFluids('gtceu:dilute_trichlorosilane 1000')
       .EUt(GTValues.VA[GTValues.MV])
@@ -416,6 +416,7 @@ ServerEvents.recipes(event => {
       .EUt(GTValues.VA[GTValues.HV])
       .duration(20*18)
       .itemOutputs('6x gtceu:uranium_235_dust')
+    
     
   }
 )

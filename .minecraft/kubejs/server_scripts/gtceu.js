@@ -16583,4 +16583,5 @@ ServerEvents.recipes((event) => {
             '64x gtceu:raw_yellow_garnet',  
             '64x gtceu:raw_zeolite')
         .duration(1200)
+        
 })
