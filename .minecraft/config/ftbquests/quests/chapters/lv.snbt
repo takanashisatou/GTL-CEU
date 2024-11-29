@@ -477,7 +477,7 @@
 		}
 		{
 			dependencies: ["6E3B42BCBA6064F5"]
-			description: ["LV阶段你的铝粉只能通过电解蓝宝石和绿色蓝宝石粉获得"]
+			description: ["LV阶段你的铝粉只能通过电解蓝宝石和绿色蓝宝石粉获得,而在HV阶段有新的产线可以获得铝"]
 			hide_dependency_lines: false
 			id: "73EFFB71A1A827D6"
 			rewards: [{

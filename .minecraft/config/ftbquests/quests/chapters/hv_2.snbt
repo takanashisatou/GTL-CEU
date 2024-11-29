@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv_2"
+	group: "3470B2BC68BD1452"
+	icon: "gtceu:raw_bauxite"
+	id: "512E7FCDAE38EA1C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4994A72C0CF380C7"
+			tasks: [{
+				id: "6F079DCECA44DEE5"
+				item: "gtceu:raw_bauxite"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "708EBA4711A1F871"
+			tasks: [{
+				id: "458A2D69C7566FE9"
+				item: "gtceu:crushed_bauxite_ore"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["708EBA4711A1F871"]
+			id: "35B30DE101C229E6"
+			tasks: [{
+				id: "55D33B18CE2FB5AE"
+				type: "checkmark"
+			}]
+			title: "拜耳法炼铝"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["708EBA4711A1F871"]
+			id: "6627BD4C16DFD0E6"
+			tasks: [{
+				id: "0489870EE191F2B0"
+				title: "烧结法炼铝"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"35B30DE101C229E6"
+				"104CCE08CFFB0ED3"
+			]
+			id: "6C0D8F268670A843"
+			tasks: [{
+				id: "4291A111DEF7D5FF"
+				item: "gtceu:sodium_aluminum_oxide_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "104CCE08CFFB0ED3"
+			subtitle: "你有多种多样的方式制备氢氧化钠粉"
+			tasks: [{
+				id: "4A3F88D54689ABF0"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "423F688AC0436895"
+			tasks: [{
+				id: "20942524399E023D"
+				item: "gtceu:soda_ash_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"104CCE08CFFB0ED3"
+				"35B30DE101C229E6"
+			]
+			id: "7A48136D10C44DD7"
+			tasks: [{
+				id: "38DF85391534D025"
+				item: "gtceu:bauxite_residue_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C0D8F268670A843"
+				"423F688AC0436895"
+				"7A48136D10C44DD7"
+			]
+			id: "2E4178ED4ECFC6C5"
+			subtitle: "纯碱粉和赤泥粉也会产出铝酸钠"
+			tasks: [{
+				id: "6A38DC79B4DE67B7"
+				item: "gtceu:sodium_aluminum_oxide_bucket"
+				type: "item"
+			}]
+			title: "铝酸钠的两种制备方法"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3B6C5FB0F34434EB"
+				"44581BD63106F9F5"
+			]
+			id: "020ED745196487DA"
+			tasks: [{
+				id: "465BB9491702937A"
+				item: "gtceu:aluminium_hydroxide_dust"
+				type: "item"
+			}]
+			title: "制备氢氧化铝"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"020ED745196487DA"
+				"2E4178ED4ECFC6C5"
+				"56B46572F78FFBB6"
+			]
+			id: "0C00C3EAE1D2D8A8"
+			tasks: [{
+				id: "10600E88372F842A"
+				item: "gtceu:aluminium_hydroxide_dust"
+				type: "item"
+			}]
+			title: "氢氧化铝增产"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0AF2EA107C8A3C76"
+				"16AD0D6A08D1284E"
+			]
+			id: "3B6C5FB0F34434EB"
+			tasks: [{
+				id: "20E09E03FF83014F"
+				item: "gtceu:aluminium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "44581BD63106F9F5"
+			tasks: [{
+				id: "51B48A2135E3A2A4"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "0AF2EA107C8A3C76"
+			tasks: [{
+				id: "6B20578557319B50"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "16AD0D6A08D1284E"
+			tasks: [{
+				id: "513D76E44FC27374"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C00C3EAE1D2D8A8"]
+			id: "3FED4EFFA9AFAE11"
+			tasks: [{
+				id: "211174A5FF0B0301"
+				item: "gtceu:aluminium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C00C3EAE1D2D8A8"]
+			id: "5F029AC98ACDF966"
+			tasks: [{
+				id: "3E1788501A7169D8"
+				item: "gtceu:alumina_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"282FD61E7FB3C185"
+				"44581BD63106F9F5"
+			]
+			id: "1E77D3675D638C7C"
+			tasks: [{
+				id: "2FA8F071EA21CDAD"
+				item: "gtlcecore:cryolite"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C00C3EAE1D2D8A8"
+				"518FA95CE5469492"
+			]
+			id: "282FD61E7FB3C185"
+			tasks: [{
+				id: "67C4BBDDED97C6EA"
+				item: "gtceu:fluoaluminic_acid_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "518FA95CE5469492"
+			tasks: [{
+				id: "700F95FBB87D26F7"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5F029AC98ACDF966"
+				"1E77D3675D638C7C"
+			]
+			id: "1262EFD8F28003FD"
+			tasks: [{
+				id: "585461FF2FCE790C"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			title: "增产成功!"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6627BD4C16DFD0E6"
+				"423F688AC0436895"
+			]
+			id: "7E486A475A7E8587"
+			tasks: [{
+				id: "12723AE8B6014164"
+				item: "gtceu:sinter_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E486A475A7E8587"]
+			id: "56B46572F78FFBB6"
+			tasks: [{
+				id: "68A04E18B4DB6A47"
+				item: "gtceu:sodium_aluminum_oxide_bucket"
+				type: "item"
+			}]
+			title: "烧结法制备铝酸钠"
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	title: "[HV]铝土矿增产产线"
+}

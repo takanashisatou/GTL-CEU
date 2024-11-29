@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
       .itemOutputs('2x gtceu:sinter_dust')
 
     gtr.chemical_reactor('sodium_aluminum_oxide_2')
-      .itemInputs('1x kubejs:sinter_dust')
+      .itemInputs('1x gtceu:sinter_dust')
       .inputFluids('minecraft:water 1000')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20)
