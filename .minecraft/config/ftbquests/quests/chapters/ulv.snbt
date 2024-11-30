@@ -1141,23 +1141,23 @@
 			id: "7198356C944E053A"
 			rewards: [
 				{
-					id: "7480CA9E0C881C90"
+					id: "3AB532906F0C2216"
 					item: {
 						Count: 1
-						id: "gtlcore:super_portable_item_storage_cell"
+						id: "gtceu:super_portable_fluid_storage_cell"
 						tag: {
-							internalCurrentPower: 2000000000
+							internalCurrentPower: 20000.0d
 						}
 					}
 					type: "item"
 				}
 				{
-					id: "7E40E854D6E1AE44"
+					id: "67D04B03EA7A50F9"
 					item: {
 						Count: 1
-						id: "gtlcore:super_portable_fluid_storage_cell"
+						id: "gtceu:super_portable_item_storage_cell"
 						tag: {
-							internalCurrentPower: 2000000000
+							internalCurrentPower: 20000.0d
 						}
 					}
 					type: "item"

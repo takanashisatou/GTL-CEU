@@ -958,6 +958,26 @@
 			x: 9.483333333333327d
 			y: 5.8000000000000185d
 		}
+		{
+			dependencies: ["7625AC3DC205C725"]
+			description: ["这个大家伙能让你一步到位，但是产出减少，具体怎么取舍就看你自己了"]
+			hide: true
+			id: "487453F5C12D2FF9"
+			rewards: [{
+				id: "6D01C13C7837D36D"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "11926432F3820ED9"
+				item: "gtceu:platinum_processor"
+				type: "item"
+			}]
+			x: 9.563095238095237d
+			y: 10.078571428571422d
+		}
 	]
 	title: "[EV]铂系产线"
 }
