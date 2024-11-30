@@ -510,8 +510,19 @@ ServerEvents.recipes(event => {
       'X':'gtceu:ev_robot_arm',
       'A':'gtceu:ev_machine_hull',
       'C':'gtceu:ev_fluid_regulator',
-      'O':'gtceu:ev_fluid_regulator'
+      'O':'gtceu:ev_electric_pump'
     })
-        
+    event.shaped('gtceu:extractor_core',[
+      'XOX',
+      'CAC',
+      'MMM',
+
+    ],{
+      'O':'gtceu:ev_electric_pump',
+      'X':'gtceu:ev_electric_motor',
+      'M':'gtceu:laminated_glass',
+      'A':'gtceu:ev_machine_hull',
+      'C':'gtceu:ev_conveyor_module'
+    })
   }
 )
