@@ -187,6 +187,7 @@
 			dependencies: [
 				"0C5B23E443F1A5D5"
 				"44BE0FD4ABE696F1"
+				"51B9A72C19F84F0E"
 			]
 			dependency_requirement: "one_completed"
 			id: "1B27E863E90AB90E"
@@ -202,6 +203,7 @@
 			dependencies: [
 				"05CD37217916D998"
 				"3C808016095484BF"
+				"7296C57805F5DC96"
 			]
 			hide_dependent_lines: true
 			id: "44BE0FD4ABE696F1"
@@ -349,6 +351,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["1A48D2DB936FF632"]
 			dependency_requirement: "all_started"
 			id: "2040F67216F6C725"
 			tasks: [{
@@ -360,6 +363,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["1A48D2DB936FF632"]
 			id: "485917419310BF87"
 			tasks: [{
 				id: "2B0F2D5706778E89"
@@ -644,6 +648,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["1E7344C133C99565"]
 			id: "60B9848C6EE1308F"
 			tasks: [{
 				icon: "gtceu:naphtha_bucket"
@@ -655,6 +660,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["1E7344C133C99565"]
 			id: "7E819C4A0FE01F2B"
 			tasks: [{
 				id: "192A4EC987157F5E"
@@ -666,6 +672,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["1E7344C133C99565"]
 			id: "62CDFA3293269503"
 			tasks: [{
 				id: "6D1663A0A04C6912"
@@ -677,6 +684,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1E7344C133C99565"]
 			id: "7C55E0393CB878B3"
 			tasks: [{
 				id: "0CB778E0041D2FB5"

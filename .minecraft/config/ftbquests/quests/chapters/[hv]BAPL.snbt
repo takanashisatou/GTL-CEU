@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "[hv]BAPL"
+	group: "3470B2BC68BD1452"
+	icon: "gtceu:hv_sensor"
+	id: "512E7FCDAE38EA1C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A59B0D0EEAA1982"]
+			description: ["一开始需要去月球找这家伙呢"]
+			id: "4994A72C0CF380C7"
+			tasks: [{
+				id: "6F079DCECA44DEE5"
+				item: "gtceu:raw_bauxite"
+				type: "item"
+			}]
+			title: "这是原矿"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			id: "708EBA4711A1F871"
+			tasks: [
+				{
+					id: "458A2D69C7566FE9"
+					item: "gtceu:crushed_bauxite_ore"
+					type: "item"
+				}
+				{
+					id: "491468F7DBDAFE0C"
+					item: "gtceu:crushed_aluminium_ore"
+					type: "item"
+				}
+			]
+			title: "这是粉碎矿"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["708EBA4711A1F871"]
+			id: "35B30DE101C229E6"
+			tasks: [{
+				id: "55D33B18CE2FB5AE"
+				type: "checkmark"
+			}]
+			title: "拜耳法炼铝"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["708EBA4711A1F871"]
+			id: "6627BD4C16DFD0E6"
+			tasks: [{
+				id: "0489870EE191F2B0"
+				title: "烧结法炼铝"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"35B30DE101C229E6"
+				"7A48136D10C44DD7"
+			]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+				"{@pagebreak}"
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			id: "6C0D8F268670A843"
+			tasks: [{
+				id: "4291A111DEF7D5FF"
+				item: "gtceu:sodium_aluminum_oxide_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			description: ["需要准备的原材料之一"]
+			id: "423F688AC0436895"
+			tasks: [{
+				id: "20942524399E023D"
+				item: "gtceu:soda_ash_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["35B30DE101C229E6"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+			]
+			id: "7A48136D10C44DD7"
+			tasks: [{
+				id: "38DF85391534D025"
+				item: "gtceu:bauxite_residue_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B6C5FB0F34434EB"]
+			hide_dependent_lines: true
+			id: "020ED745196487DA"
+			tasks: [{
+				id: "465BB9491702937A"
+				item: "gtceu:aluminium_hydroxide_dust"
+				type: "item"
+			}]
+			title: "制备你的第一份氢氧化铝粉"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0AF2EA107C8A3C76"
+				"16AD0D6A08D1284E"
+			]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+			]
+			id: "3B6C5FB0F34434EB"
+			tasks: [{
+				id: "20E09E03FF83014F"
+				item: "gtceu:aluminium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			description: ["这些粉你可以从别的地方获得，比如说蓝宝石等"]
+			id: "0AF2EA107C8A3C76"
+			tasks: [{
+				id: "6B20578557319B50"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			description: ["这里的硫酸仅作为启动资金"]
+			id: "16AD0D6A08D1284E"
+			tasks: [{
+				id: "513D76E44FC27374"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3BCDFC73EE170CF8"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			id: "5F029AC98ACDF966"
+			tasks: [{
+				id: "3E1788501A7169D8"
+				item: "gtceu:alumina_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["282FD61E7FB3C185"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			id: "1E77D3675D638C7C"
+			subtitle: "这可是新东西.jpg"
+			tasks: [{
+				id: "2FA8F071EA21CDAD"
+				item: "gtlcecore:cryolite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"518FA95CE5469492"
+				"3BCDFC73EE170CF8"
+			]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+			]
+			id: "282FD61E7FB3C185"
+			tasks: [{
+				id: "67C4BBDDED97C6EA"
+				item: "gtceu:fluoaluminic_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4994A72C0CF380C7"]
+			description: ["氢氟酸得制备一些，氟建议电解黄玉和氟碳镧"]
+			hide_dependent_lines: true
+			id: "518FA95CE5469492"
+			tasks: [{
+				id: "700F95FBB87D26F7"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5F029AC98ACDF966"
+				"1E77D3675D638C7C"
+			]
+			description: [
+				"所需机器：电解机+铝土矿粉*15"
+				"所需电压：MV"
+				"所需时间：1S"
+				"注：此配方有10%概率消耗冰晶石，额外产出的金红石可在钛产线使用"
+				"{@pagebreak}"
+				"所需机器：电解机+氧化铝粉*6"
+				"所需电压：MV"
+				"所需时间：1S"
+				"注：此配方有1%概率消耗冰晶石"
+			]
+			id: "1262EFD8F28003FD"
+			rewards: [{
+				id: "478BFD8AC58DB957"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "585461FF2FCE790C"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			title: "增产成功!"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6627BD4C16DFD0E6"
+				"423F688AC0436895"
+			]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：1S"
+				"所需线圈：白铜"
+			]
+			id: "7E486A475A7E8587"
+			tasks: [{
+				id: "12723AE8B6014164"
+				item: "gtceu:sinter_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7E486A475A7E8587"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+			]
+			id: "56B46572F78FFBB6"
+			tasks: [{
+				id: "68A04E18B4DB6A47"
+				item: "gtceu:sodium_aluminum_oxide_bucket"
+				type: "item"
+			}]
+			title: "烧结法制备铝酸钠"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6C0D8F268670A843"
+				"020ED745196487DA"
+				"56B46572F78FFBB6"
+			]
+			description: [
+				"所需机器：蒸馏室"
+				"所需电压：MV"
+				"所需时间：1S"
+			]
+			id: "3BCDFC73EE170CF8"
+			tasks: [{
+				id: "578E40F1D197037A"
+				item: "gtceu:aluminium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1262EFD8F28003FD"]
+			description: [
+				"随着你的产能提升会发现这条增产产线略微繁琐，但产出的金红石在HV前期非常非常珍贵。"
+				"现在你可以看着自己的产线好好休息会了，或者去研究一下AE的相关机制？"
+			]
+			icon: "gtceu:aluminium_ingot"
+			id: "25FE4278784B82D9"
+			rewards: [{
+				count: 16
+				id: "3F818FBB56CA6EA8"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 5.0d
+			tasks: [{
+				id: "0568C21E30E41DAE"
+				title: "后续呢？"
+				type: "checkmark"
+			}]
+			x: -9.095238095238095d
+			y: 1.0d
+		}
+		{
+			description: [
+				"这是一个给尤其前期阶段准备的增产产线。"
+				"&o本产线由GregTech Leisure: Community Edition制作组独家制作"
+			]
+			id: "3A59B0D0EEAA1982"
+			size: 3.0d
+			tasks: [{
+				id: "6C3B17254FB6E273"
+				title: "欢迎来到铝土矿增产产线"
+				type: "checkmark"
+			}]
+			x: -9.095238095238095d
+			y: -10.047619047619044d
+		}
+	]
+	title: "[HV]铝土矿增产产线"
+}

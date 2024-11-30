@@ -106,6 +106,7 @@
 			dependencies: [
 				"0BF48314F3323108"
 				"38FFB6D2003C7EB4"
+				"44F2A641F66319C9"
 			]
 			description: ["二维展开"]
 			id: "1EB9F1815EB656B0"
@@ -325,6 +326,22 @@
 			}]
 			x: 15.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["588F52A81A3A572C"]
+			hide: true
+			icon: "gtceu:max_electric_motor"
+			id: "44F2A641F66319C9"
+			shape: "pentagon"
+			size: 4.0d
+			tasks: [{
+				id: "0DE67F8281C3F4CF"
+				title: "UEV的挑战"
+				type: "checkmark"
+			}]
+			title: "MAX的曙光"
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier14-MAX"]

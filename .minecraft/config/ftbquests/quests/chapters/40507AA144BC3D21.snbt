@@ -101,6 +101,7 @@
 			dependencies: [
 				"74D84A4928FA0A35"
 				"5A61ABB6E4917C6C"
+				"588F52A81A3A572C"
 			]
 			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以设可以计成这样，无需太阳帆"]
 			id: "77CADF4536151255"
@@ -247,6 +248,7 @@
 				"2C3C46AC660CC54E"
 				"3F2335911E21E042"
 				"51D5E14423F35E6F"
+				"44F2A641F66319C9"
 			]
 			description: ["耗能固定为4A MAX"]
 			id: "296DE95F3BE7DC54"
@@ -276,6 +278,7 @@
 			dependencies: [
 				"437E5E4108228333"
 				"74186877DB7DBE4D"
+				"588F52A81A3A572C"
 			]
 			id: "57B09C66B637C894"
 			tasks: [{
@@ -368,6 +371,22 @@
 			}]
 			x: 5.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["0169D0FBB7BAB91F"]
+			hide: true
+			icon: "gtceu:opv_electric_motor"
+			id: "588F52A81A3A572C"
+			shape: "pentagon"
+			size: 4.0d
+			tasks: [{
+				id: "4E13B06676BEA1B6"
+				title: "UEV的挑战"
+				type: "checkmark"
+			}]
+			title: "OPV的觉悟"
+			x: -14.0d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Tier13-OpV"]

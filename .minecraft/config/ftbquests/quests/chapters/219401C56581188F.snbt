@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "219401C56581188F"
 	group: "68CBF1606D696C68"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:uev_electric_motor"
 	id: "219401C56581188F"
 	order_index: 10
@@ -129,6 +130,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["333BDE53FFF7F5FC"]
+			hide: true
 			id: "61B5CBFAACE6010D"
 			tasks: [{
 				id: "1D18BBEC7C609BF5"
@@ -218,6 +221,8 @@
 			dependencies: [
 				"23B418803D455368"
 				"78350872B1ACF525"
+				"333BDE53FFF7F5FC"
+				"0169D0FBB7BAB91F"
 			]
 			hide_dependency_lines: true
 			id: "26607B94D873E07A"
@@ -234,6 +239,7 @@
 				"4F0F175ACFF363F0"
 				"1AA874C1351E4A0D"
 			]
+			hide: true
 			id: "6BB5ED6ECC43E30C"
 			tasks: [{
 				id: "2BF3713C3B23B0D0"
@@ -270,6 +276,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["333BDE53FFF7F5FC"]
 			description: ["使用催发体循环"]
 			id: "42A3F72D88E25018"
 			tasks: [
@@ -288,7 +295,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4D8E0C0295DB26EF"]
+			dependencies: [
+				"4D8E0C0295DB26EF"
+				"333BDE53FFF7F5FC"
+			]
 			id: "1F5B121C6647E2CA"
 			tasks: [{
 				id: "02C4C3897AB62269"
@@ -315,7 +325,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2641CC6BC33F6A31"]
+			dependencies: [
+				"2641CC6BC33F6A31"
+				"333BDE53FFF7F5FC"
+			]
 			hide_dependency_lines: true
 			id: "335A02C9498DCBB0"
 			tasks: [{
@@ -338,7 +351,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["78350872B1ACF525"]
+			dependencies: [
+				"78350872B1ACF525"
+				"333BDE53FFF7F5FC"
+			]
 			id: "588C2C0BED069F41"
 			tasks: [{
 				id: "7045DA087F52FA80"
@@ -445,7 +461,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3063F232F801D089"]
+			dependencies: ["333BDE53FFF7F5FC"]
 			id: "192B626CF217FDBC"
 			tasks: [{
 				id: "529CC0E222436601"
@@ -537,8 +553,8 @@
 			description: ["绝对干净"]
 			id: "67D93082DA7185CC"
 			tasks: [{
-				id: "6791BE188E97863E"
-				item: "gtlcore:law_filter_casing"
+				id: "2216FBED298BB071"
+				item: "gtceu:law_cleaning_maintenance_hatch"
 				type: "item"
 			}]
 			x: 6.0d
@@ -556,6 +572,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["333BDE53FFF7F5FC"]
 			id: "68FBE0346D15916B"
 			tasks: [{
 				id: "296E4F77EC25E3C2"
@@ -638,6 +655,7 @@
 				"1F5B121C6647E2CA"
 				"2F02BC009330F5CB"
 				"348787ECA57EA11C"
+				"333BDE53FFF7F5FC"
 			]
 			hide_dependency_lines: true
 			id: "2858C1A89BAF2624"
@@ -650,17 +668,19 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["588C2C0BED069F41"]
-			id: "0ED237B0CE3DDF59"
-			shape: "rsquare"
-			size: 2.0d
+			dependencies: ["51BBDDE9AA69229F"]
+			hide: true
+			icon: "gtceu:uev_electric_motor"
+			id: "333BDE53FFF7F5FC"
+			shape: "pentagon"
+			size: 4.0d
 			tasks: [{
-				id: "3D1314CB02CBCEAC"
-				item: "gtceu:uev_fusion_reactor"
-				type: "item"
+				id: "1CE3F38CBCE530D8"
+				title: "UEV的挑战"
+				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: -6.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "5786819A13D84D25"
 	group: "68CBF1606D696C68"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:uhv_electric_motor"
 	id: "5786819A13D84D25"
 	order_index: 9
@@ -12,13 +13,13 @@
 			linked_quest: "776563C5BA327495"
 			shape: "rsquare"
 			size: 2.0d
-			x: 4.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
 			id: "70FB0919B2F4EE20"
 			linked_quest: "01433D78C43AD215"
-			x: 0.0d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
@@ -26,70 +27,33 @@
 			linked_quest: "035C470213E8B4DB"
 			shape: "rsquare"
 			size: 2.0d
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
 		}
 	]
 	quests: [
 		{
-			dependencies: [
-				"035C470213E8B4DB"
-				"7204F1B6BCC74F1C"
-				"776563C5BA327495"
-				"3008FED65F71C459"
-			]
-			description: [
-				"后面阶段的核心材料生产机器"
-				"第一次做会有些贵"
-			]
-			id: "433793B7470FAA09"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "02412DC87B9DA266"
-				item: "gtceu:stellar_forge"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3063F232F801D089"]
+			dependencies: ["51BBDDE9AA69229F"]
+			hide: true
 			id: "76BAF48FA9D845C6"
 			tasks: [{
 				id: "16C7DE1FF416631A"
 				item: "gtceu:dubnium_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 20.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3063F232F801D089"]
+			dependencies: ["51BBDDE9AA69229F"]
 			id: "5CD56CD71662D4A7"
 			tasks: [{
 				id: "393B76A2C2075C2D"
 				item: "gtceu:seaborgium_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 18.5d
 			y: 0.0d
-		}
-		{
-			dependencies: [
-				"702EFE9BA62A8CDA"
-				"776563C5BA327495"
-			]
-			id: "3063F232F801D089"
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "6A331B95C454D30D"
-				item: "gtceu:uhv_fusion_reactor"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["44126973CFF5550D"]
@@ -99,7 +63,7 @@
 				item: "gtceu:carbon_nanotubes_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 22.5d
 			y: 0.0d
 		}
 		{
@@ -116,7 +80,7 @@
 				item: "kubejs:optical_processing_core"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 24.5d
 			y: 0.0d
 		}
 		{
@@ -128,7 +92,7 @@
 				item: "kubejs:optical_processor"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: 0.0d
 		}
 		{
@@ -139,7 +103,7 @@
 				item: "kubejs:optical_assembly"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: 2.0d
 		}
 		{
@@ -150,7 +114,7 @@
 				item: "kubejs:optical_computer"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: 4.0d
 		}
 		{
@@ -164,84 +128,7 @@
 				item: "kubejs:optical_mainframe"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["比较复杂的合成"]
-			id: "1F2A80B39AEA7BE3"
-			tasks: [{
-				id: "5EBA80D415BA1587"
-				item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"1F2A80B39AEA7BE3"
-				"433793B7470FAA09"
-			]
-			id: "2DD8E128C6E3E41D"
-			tasks: [{
-				id: "078D60E2A5552DED"
-				item: "kubejs:naquadria_charge"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2DD8E128C6E3E41D"]
-			id: "5E223597F71DB81D"
-			tasks: [{
-				id: "4AEC015F52D69587"
-				item: "gtceu:enderium_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"5E223597F71DB81D"
-				"32A49A2CBFC934C8"
-			]
-			description: ["UEV超导体"]
-			hide_dependent_lines: true
-			id: "6B990D7D964DF559"
-			tasks: [{
-				id: "7681E9EB89F79679"
-				item: "gtceu:enderite_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"2DD8E128C6E3E41D"
-				"1FE5F8D737ADB1B8"
-			]
-			id: "23B418803D455368"
-			rewards: [{
-				auto: "invisible"
-				command: "/ftbquests change_progress @p reset 42C72077E6F090A9"
-				exclude_from_claim_all: true
-				id: "7501964A78F817D1"
-				ignore_reward_blocking: true
-				silent: true
-				title: "关闭UHV"
-				type: "command"
-			}]
-			tasks: [{
-				id: "12A595464E70C437"
-				item: "gtceu:adamantium_ingot"
-				type: "item"
-			}]
-			x: 2.0d
+			x: 24.5d
 			y: 6.0d
 		}
 		{
@@ -264,64 +151,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 22.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["2DD8E128C6E3E41D"]
-			hide_dependent_lines: true
-			id: "2E05225ADF4D7D31"
-			tasks: [{
-				id: "02C39E225C1D5ECD"
-				item: "gtceu:degenerate_rhenium_plate"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"035C470213E8B4DB"
-				"7204F1B6BCC74F1C"
-			]
-			description: ["将废料转化"]
-			id: "2FBCD8BCE586ADB8"
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "1E707BD4FE3FEA6B"
-				item: "gtceu:matter_fabricator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"2FBCD8BCE586ADB8"
-				"09210B5E086F6E1A"
-			]
-			hide_dependent_lines: true
-			id: "32A49A2CBFC934C8"
-			tasks: [{
-				id: "0B1D64CEDCD5AB9B"
-				item: "kubejs:titansteel_coil_block"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7370721CB75472C1"]
-			description: ["外星矿石"]
-			id: "09210B5E086F6E1A"
-			tasks: [{
-				id: "1434A7DE9BCD942E"
-				item: "gtceu:jasper_ore"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["384CC871242ECF6E"]
@@ -331,7 +162,7 @@
 				item: "kubejs:optical_slice"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 22.5d
 			y: -2.0d
 		}
 		{
@@ -342,33 +173,8 @@
 				item: "kubejs:optical_soc"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 24.5d
 			y: -2.0d
-		}
-		{
-			dependencies: [
-				"12F8275FC06FCFEE"
-				"776563C5BA327495"
-			]
-			id: "7370721CB75472C1"
-			tasks: [{
-				id: "532AAB28A3CC8CD1"
-				item: "kubejs:space_drone_mk2"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["32A49A2CBFC934C8"]
-			id: "1FE5F8D737ADB1B8"
-			tasks: [{
-				id: "1D082DFC064E38EA"
-				item: "kubejs:space_drone_mk3"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.0d
 		}
 		{
 			dependencies: ["3BA7B0BA435252E0"]
@@ -379,11 +185,14 @@
 				item: "gtceu:kevlar_plate"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 22.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["7204F1B6BCC74F1C"]
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"51BBDDE9AA69229F"
+			]
 			description: ["精密电路基板专用生产机器"]
 			id: "0CF40DD5F6239209"
 			shape: "rsquare"
@@ -393,7 +202,7 @@
 				item: "gtceu:pcb_factory"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 24.5d
 			y: 4.0d
 		}
 		{
@@ -407,55 +216,28 @@
 				item: "kubejs:optical_printed_circuit_board"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 24.5d
 			y: 2.0d
 		}
 		{
 			dependencies: [
-				"776563C5BA327495"
-				"1FA9E56114BFABF5"
-				"7204F1B6BCC74F1C"
+				"42081F59690E6469"
+				"51BBDDE9AA69229F"
 			]
-			description: ["需要光刻胶和算力来进行精密联合激光蚀刻"]
-			hide_dependent_lines: true
-			id: "42081F59690E6469"
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "6B6EF476B6430A90"
-				item: "gtceu:engraving_laser_plant"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["42081F59690E6469"]
 			id: "5BFA4802D228358C"
 			tasks: [{
 				id: "7D3290423A198D18"
 				item: "kubejs:photon_carrying_wafer"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 18.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
-				"42081F59690E6469"
-				"01433D78C43AD215"
+				"7C23CC6ADDC33EA0"
+				"51BBDDE9AA69229F"
 			]
-			id: "3008FED65F71C459"
-			tasks: [{
-				id: "7AC4A6AA9FC19537"
-				item: "kubejs:nm_chip"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7C23CC6ADDC33EA0"]
 			description: ["先进的材料"]
 			id: "55C57FADEE874B97"
 			tasks: [{
@@ -463,11 +245,14 @@
 				item: "gtceu:fullerene_dust"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0"]
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"51BBDDE9AA69229F"
+			]
 			icon: "gtceu:cycloparaphenylene_bucket"
 			id: "44126973CFF5550D"
 			tasks: [{
@@ -475,11 +260,14 @@
 				title: "环对苯撑"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 20.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4BFA114E12BCB163"]
+			dependencies: [
+				"4BFA114E12BCB163"
+				"51BBDDE9AA69229F"
+			]
 			icon: "gtceu:polyurethaneresin_bucket"
 			id: "3BA7B0BA435252E0"
 			tasks: [{
@@ -487,7 +275,7 @@
 				title: "聚氨脂树脂"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 20.5d
 			y: 4.0d
 		}
 		{
@@ -501,7 +289,7 @@
 				item: "kubejs:optical_wafer"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 20.5d
 			y: -2.0d
 		}
 		{
@@ -515,13 +303,14 @@
 				item: "gtceu:cooling_tower"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: 6.0d
 		}
 		{
 			dependencies: [
 				"783379F3A7557CEE"
 				"2E05225ADF4D7D31"
+				"51BBDDE9AA69229F"
 			]
 			description: [
 				"如果你很富有，可以制作一个，这台机器只有OpV以后阶段才有专用配方"
@@ -539,7 +328,7 @@
 				item: "gtceu:suprachronal_assembly_line"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 22.5d
 			y: 6.0d
 		}
 		{
@@ -559,7 +348,7 @@
 				item: "gtceu:dimensional_focus_engraving_array"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 22.5d
 			y: 8.0d
 		}
 		{
@@ -573,7 +362,7 @@
 				item: "gtceu:field_extruder_factory"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: 8.0d
 		}
 		{
@@ -587,7 +376,7 @@
 				item: "gtceu:mega_wiremill"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 23.5d
 			y: 8.0d
 		}
 		{
@@ -601,7 +390,7 @@
 				item: "gtceu:mega_presser"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 25.5d
 			y: 8.0d
 		}
 		{
@@ -615,7 +404,7 @@
 				item: "gtceu:mega_extractor"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 24.5d
 			y: 8.0d
 		}
 		{
@@ -629,8 +418,247 @@
 				item: "gtceu:mega_canner"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 26.5d
 			y: 7.0d
+		}
+		{
+			dependencies: [
+				"713FF88279AD9A31"
+				"281B6C20538A3CBA"
+			]
+			description: [
+				"哈，我发现了谁？"
+				"好吧，你开着FTBQ的编辑模式看到了这个任务，也就看到了后面的其他任务。"
+				"我在此谨代表GregTech Leisure: Community Edition的制作组表示抱歉，后面的流程由于存在关键机器的缺失目前是完全无法完成的状态，而且UV+的流程和任务也是需要重构的。"
+				"你可以看看流程，但绝大多数的这些流程和任务都会被取消或者重做。"
+				"以及你可以试试从REI那获取关键的几种资源看看能不能继续走下去，谁知道呢？"
+				"下次我们就不会在这里见面了。"
+			]
+			id: "51BBDDE9AA69229F"
+			invisible: true
+			shape: "gear"
+			size: 4.0d
+			tasks: [{
+				id: "509398BA048346F0"
+				title: "你是怎么看到这的？"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"035C470213E8B4DB"
+				"7204F1B6BCC74F1C"
+				"776563C5BA327495"
+				"3008FED65F71C459"
+			]
+			description: [
+				"后面阶段的核心材料生产机器"
+				"第一次做会有些贵"
+			]
+			id: "433793B7470FAA09"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "02412DC87B9DA266"
+				item: "gtceu:stellar_forge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["比较复杂的合成"]
+			id: "1F2A80B39AEA7BE3"
+			tasks: [{
+				id: "5EBA80D415BA1587"
+				item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1F2A80B39AEA7BE3"
+				"433793B7470FAA09"
+			]
+			id: "2DD8E128C6E3E41D"
+			tasks: [{
+				id: "078D60E2A5552DED"
+				item: "kubejs:naquadria_charge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DD8E128C6E3E41D"]
+			id: "5E223597F71DB81D"
+			tasks: [{
+				id: "4AEC015F52D69587"
+				item: "gtceu:enderium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5E223597F71DB81D"
+				"32A49A2CBFC934C8"
+			]
+			description: ["UEV超导体"]
+			hide_dependent_lines: true
+			id: "6B990D7D964DF559"
+			tasks: [{
+				id: "7681E9EB89F79679"
+				item: "gtceu:enderite_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"1FE5F8D737ADB1B8"
+				"2AEAA65693DC3E19"
+			]
+			id: "23B418803D455368"
+			rewards: [{
+				auto: "invisible"
+				command: "/ftbquests change_progress @p reset 42C72077E6F090A9"
+				exclude_from_claim_all: true
+				id: "7501964A78F817D1"
+				ignore_reward_blocking: true
+				silent: true
+				title: "关闭UHV"
+				type: "command"
+			}]
+			tasks: [{
+				id: "12A595464E70C437"
+				item: "gtceu:adamantium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DD8E128C6E3E41D"]
+			hide_dependent_lines: true
+			id: "2E05225ADF4D7D31"
+			tasks: [{
+				id: "02C39E225C1D5ECD"
+				item: "gtceu:degenerate_rhenium_plate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"035C470213E8B4DB"
+				"7204F1B6BCC74F1C"
+			]
+			description: ["将废料转化"]
+			id: "2FBCD8BCE586ADB8"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1E707BD4FE3FEA6B"
+				item: "gtceu:matter_fabricator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FBCD8BCE586ADB8"
+				"09210B5E086F6E1A"
+			]
+			hide_dependent_lines: true
+			id: "32A49A2CBFC934C8"
+			tasks: [{
+				id: "0B1D64CEDCD5AB9B"
+				item: "kubejs:titansteel_coil_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7370721CB75472C1"]
+			description: ["外星矿石"]
+			id: "09210B5E086F6E1A"
+			tasks: [{
+				id: "1434A7DE9BCD942E"
+				item: "gtceu:jasper_ore"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"12F8275FC06FCFEE"
+				"776563C5BA327495"
+			]
+			id: "7370721CB75472C1"
+			tasks: [{
+				id: "532AAB28A3CC8CD1"
+				item: "kubejs:space_drone_mk2"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32A49A2CBFC934C8"]
+			id: "1FE5F8D737ADB1B8"
+			tasks: [{
+				id: "1D082DFC064E38EA"
+				item: "kubejs:space_drone_mk3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"776563C5BA327495"
+				"1FA9E56114BFABF5"
+				"7204F1B6BCC74F1C"
+			]
+			description: ["需要光刻胶和算力来进行精密联合激光蚀刻"]
+			hide_dependent_lines: true
+			id: "42081F59690E6469"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6B6EF476B6430A90"
+				item: "gtceu:engraving_laser_plant"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42081F59690E6469"
+				"01433D78C43AD215"
+			]
+			id: "3008FED65F71C459"
+			tasks: [{
+				id: "7AC4A6AA9FC19537"
+				item: "kubejs:nm_chip"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
@@ -640,22 +668,25 @@
 				item: "gtceu:uhv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["776563C5BA327495"]
-			description: ["UEV的基础材料"]
+			description: [
+				"UEV的基础材料"
+				"这是目前游戏里最后的金属了，如果你做到了这不妨去外面呼吸一下新鲜空气休息一下吧！"
+			]
 			id: "713FF88279AD9A31"
-			shape: "rsquare"
-			size: 2.0d
+			shape: "octagon"
+			size: 5.0d
 			tasks: [{
 				id: "4FAE8DB663013B5C"
 				item: "gtceu:quantanium_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 12.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

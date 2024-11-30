@@ -1,0 +1,457 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "[iv]REPL"
+	group: "3470B2BC68BD1452"
+	icon: "gtceu:iv_conveyor_module"
+	id: "72FD87C00AC6A32C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"欢迎来到稀土产线！你将在这里获得一大堆奇奇怪怪的金属粉，当然他们都是后面需要的。"
+				"如果你目前电压等级低于IV，则可以先不做这个产线呢，专注于其他的产线吧！"
+				"稀土产线是GregTech Leisure: Community Edition通过时间回溯大法带回来的，好好享受吧！"
+			]
+			id: "2AEA44510E5D32CC"
+			size: 3.0d
+			tasks: [{
+				id: "02633C678C12153C"
+				title: "欢迎来到稀土产线"
+				type: "checkmark"
+			}]
+			x: 1.0595238095238102d
+			y: -2.3690476190476204d
+		}
+		{
+			dependencies: [
+				"1E58366D926EB426"
+				"55AA4942642F45C5"
+				"50F05EC3F3FA5A0D"
+				"24944CD77DDC6A43"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"还是找不到稀土的话去亲自查一下REI"
+				"或者检查一下你的机器电压等级是不是不够以至于无法出产副产？"
+			]
+			id: "097D0080F7E06868"
+			tasks: [{
+				count: 64L
+				id: "10CE561FEF318B51"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AEA44510E5D32CC"]
+			description: [
+				"主要是从矿石处理产线中获取的，这只是其中一种矿物。"
+				""
+				"手持其中一种矿物完成这一步。"
+			]
+			id: "1E58366D926EB426"
+			tasks: [{
+				id: "31578C6467A7C1CD"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "稀土的来源之一"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AEA44510E5D32CC"]
+			description: [
+				"主要是从矿石处理产线中获取的，这只是其中一种矿物。"
+				""
+				"手持其中一种矿物完成这一步。"
+			]
+			id: "55AA4942642F45C5"
+			tasks: [{
+				id: "690836A6424D5133"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			title: "稀土的来源之二"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AEA44510E5D32CC"]
+			description: [
+				"主要是从矿石处理产线中获取的，这只是其中一种矿物。"
+				""
+				"手持其中一种矿物完成这一步。"
+			]
+			id: "50F05EC3F3FA5A0D"
+			tasks: [{
+				id: "0343E20CEB273089"
+				item: "gtceu:bastnasite_dust"
+				type: "item"
+			}]
+			title: "稀土的来源之三"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AEA44510E5D32CC"]
+			description: [
+				"&m主要是从矿石处理产线中获取的，这只是其中一种矿物。&r"
+				"当然不是了，你需要电解独居石来获取稀土，至于独居石强烈建议走筛选增产的路线。"
+				""
+				"手持其中一种矿物完成这一步。"
+			]
+			id: "24944CD77DDC6A43"
+			tasks: [{
+				id: "7A9831CF83B309B8"
+				item: "gtceu:monazite_dust"
+				type: "item"
+			}]
+			title: "稀土的来源之四"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["097D0080F7E06868"]
+			description: [
+				"所需机器：搅拌机"
+				"所需电压：HV"
+				"所需时间：2.5S"
+			]
+			icon: "gtceu:rare_earth_hydroxides_bucket"
+			id: "20361B2D16AC314B"
+			tasks: [
+				{
+					id: "3B41BDC7270F38B6"
+					item: "gtceu:rare_earth_hydroxides_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75EFBA94A932007C"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["20361B2D16AC314B"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：LV"
+				"所需时间：6S"
+			]
+			icon: "gtceu:rare_earth_chlorides_bucket"
+			id: "196675596D853310"
+			tasks: [
+				{
+					id: "573EA728F82AB250"
+					item: "gtceu:rare_earth_chlorides_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E40A16797F22CC8"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["196675596D853310"]
+			description: [
+				"所需机器：离心机+HV物品磁铁"
+				"所需电压：HV"
+				"所需时间：10S"
+			]
+			id: "0E586F046B7CBB7A"
+			tasks: [
+				{
+					id: "0792CBACD558A673"
+					item: "gtceu:la_nd_oxides_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1FD53C5CBC423F13"
+					item: "gtceu:sm_gd_oxides_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "475CB7C2FBFF0420"
+					item: "gtceu:tb_ho_oxides_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "252BEFDD8253006C"
+					item: "gtceu:er_lu_oxides_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BFFA6E5304D90F1"
+					type: "checkmark"
+				}
+			]
+			title: "氧化物溶液"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0E586F046B7CBB7A"]
+			description: ["一共有16种，请确保你的下一个机器的输入总线足够大（种类）"]
+			id: "74FA6F14C9D0740B"
+			tasks: [
+				{
+					id: "26F7C7F132CA929D"
+					item: "gtceu:lanthanum_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3ECF41CB8F935A98"
+					item: "gtceu:praseodymium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07C35884CBC80D0C"
+					item: "gtceu:neodymium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BE188282247C5A4"
+					item: "gtceu:cerium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70D0ACEFAC49E033"
+					item: "gtceu:scandium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E73B53232FC103B"
+					item: "gtceu:samarium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BE8C5FDFBB69E99"
+					item: "gtceu:gadolinium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37F38DB5C19595BA"
+					item: "gtceu:europium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BA71BCD2086A0C6"
+					item: "gtceu:holmium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60CA14365D5D114A"
+					item: "gtceu:dysprosium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "679830E45E6B3012"
+					item: "gtceu:terbium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3967F54C24660465"
+					item: "gtceu:yttrium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5085E4B01F0DA6A4"
+					item: "gtceu:erbium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78F4ADD7FD3AAACC"
+					item: "gtceu:thulium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5DE7A503EDB9BC24"
+					item: "gtceu:ytterbium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6166E6C1D9234607"
+					item: "gtceu:lutetium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B496F803498F9E5"
+					type: "checkmark"
+				}
+			]
+			title: "氧化物粉"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["74FA6F14C9D0740B"]
+			description: [
+				"所有的氧化物处理方式都是一样的："
+				"所需机器：电力高炉"
+				"所需电压：HV"
+				"所需时间：10S"
+				"所需线圈：坎塔尔合金"
+			]
+			icon: "gtceu:rareearth_ingot"
+			id: "7C31E2CB223C7BE4"
+			tasks: [{
+				id: "4A8DA9E5B0A03156"
+				type: "checkmark"
+			}]
+			title: "产物！"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7C31E2CB223C7BE4"]
+			description: [
+				"至少目前看起来是这样......?对吧"
+				"是的，你现在需要的是准备好其他IV大机器的生产，以及铺开产能。"
+				"在LuV你马上就会开始使用其中的数种稀土金属元素，后面的会慢慢开始使用。"
+				"当然，稀土是没有完全提取干净的......至少现在看来是干净的，对吧？"
+				"好吧，去休息会吧！"
+			]
+			id: "1D3D27E9CB0CF452"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				id: "23C503220A1AF149"
+				title: "结束了？"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 11.958333333333336d
+		}
+		{
+			dependencies: [
+				"1D3D27E9CB0CF452"
+				"7C23CC6ADDC33EA0"
+			]
+			description: [
+				"我们又见面了。"
+				"现在你生产力可比我在这一开始见到你的时候厉害多了，那么，干点属于这个时代应该干的事情？"
+			]
+			hide: true
+			id: "47C972B653780392"
+			size: 1.5d
+			tasks: [{
+				id: "028A34380A91B18D"
+				title: "欢迎来到UV！"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["47C972B653780392"]
+			description: ["爱来自太空电梯。"]
+			id: "1429E3EEC48B79FB"
+			size: 1.5d
+			tasks: [{
+				id: "6BE618AA53A7EB2B"
+				item: "gtceu:rare_earth_metal_dust"
+				type: "item"
+			}]
+			x: -0.7380952380952337d
+			y: 15.00595238095238d
+		}
+		{
+			dependencies: ["1429E3EEC48B79FB"]
+			id: "5380D49CE2E6D1A2"
+			size: 1.5d
+			tasks: [{
+				id: "01593509536B64B9"
+				item: "gtceu:rare_earth_centrifugal"
+				type: "item"
+			}]
+			x: 2.595238095238102d
+			y: 15.00595238095238d
+		}
+		{
+			dependencies: ["5380D49CE2E6D1A2"]
+			description: ["这个当然就是最终你需要的东西，在UHV用得很多"]
+			id: "64A38206EBD49D3C"
+			rewards: [{
+				count: 10240
+				id: "23721862A030E534"
+				item: "gtceu:small_promethium_dust"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 10240L
+				id: "10A804CB198F92A4"
+				item: "gtceu:small_promethium_dust"
+				type: "item"
+			}]
+			x: 5.9761904761904745d
+			y: 15.00595238095238d
+		}
+		{
+			dependencies: [
+				"64A38206EBD49D3C"
+				"1D3D27E9CB0CF452"
+			]
+			description: ["稀土就这么完结了，拿点奖励吧！"]
+			hide: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "avaritia:singularity"
+				tag: {
+					Id: "avaritia:spacetime"
+				}
+			}
+			id: "536312ADAC8C719B"
+			rewards: [{
+				count: 128
+				id: "6D5EEFCF11A9A152"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 6.0d
+			tasks: [{
+				id: "5BCD84A763D92339"
+				title: "结束了"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 20.0d
+		}
+	]
+	title: "[IV]稀土产线"
+}
