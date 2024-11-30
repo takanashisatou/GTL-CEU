@@ -395,128 +395,151 @@ ServerEvents.recipes(event => {
       .inputFluids('gtceu:dilute_trichlorosilane 1000')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(400)
-      .outputFluids('gtceu:trichlorosilane 200')
+      .outputFluids('gtceu:trichlorosilane 100')
+
     gtr.disassembly('kubejs:depleted_reactor_uranium_simple_to_liquid')
       .itemInputs('kubejs:depleted_reactor_uranium_simple')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20*5)
       .outputFluids('gtceu:depleted_reactor_uranium_simple_liquid 8000')
+
     gtr.disassembly('kubejs:depleted_reactor_uranium_simple_to_liquid_2x')
       .itemInputs('kubejs:depleted_reactor_uranium_dual')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20*5)
       .outputFluids('gtceu:depleted_reactor_uranium_simple_liquid 16000')
+
     gtr.disassembly('kubejs:depleted_reactor_uranium_simple_to_liquid_4x')
       .itemInputs('kubejs:depleted_reactor_uranium_quad')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20*5)
       .outputFluids('gtceu:depleted_reactor_uranium_simple_liquid 32000')
+
     gtr.centrifuge('u235_gtlcecore')
       .itemInputs('gtceu:uranium_dust')
       .EUt(GTValues.VA[GTValues.HV])
       .duration(20*18)
       .itemOutputs('6x gtceu:uranium_235_dust')
+
     gtr.large_chemical_reactor('tbp_kerosene_extractant')
-        .inputFluids('gtceu:tributyl_phosphate 6000',
-          'gtceu:kerosene 12000'
-        ).outputFluids('gtceu:tbp_kerosene_extractant 18000')
-        .EUt(GTValues.VA[GTValues.HV])
-        .duration(20*30)
+      .inputFluids('gtceu:tributyl_phosphate 6000' , 'gtceu:kerosene 12000')
+      .outputFluids('gtceu:tbp_kerosene_extractant 18000')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*30)
+
     gtr.large_chemical_reactor('tbp_ce')
-        .itemInputs('12x gtceu:carbon_dust')
-        .inputFluids('gtceu:hydrogen 13500',
-          'gtceu:oxygen 2000',
-          'gtceu:phosphorus 1000'
-        ).outputFluids('gtceu:tributyl_phosphate 6000')
-        .EUt(GTValues.VA[GTValues.HV])
-        .duration(20*30)  
+      .itemInputs('12x gtceu:carbon_dust')
+      .inputFluids('gtceu:hydrogen 13500',
+        'gtceu:oxygen 2000',
+        'gtceu:phosphorus 1000')
+      .outputFluids('gtceu:tributyl_phosphate 6000')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*30)  
+
     gtr.extractor_core('organic_phase_solution_containing_tetravalent_plutonium_gtlce_core')
-        .inputFluids('gtceu:depleted_reactor_uranium_simple_liquid 16000',
-          'gtceu:tbp_kerosene_extractant 4000'
-        ).outputFluids('gtceu:organic_phase_solution_containing_tetravalent_plutonium 10000',
-          'gtceu:residual_aqueous_phase_mixed_solution 6000',
-          'gtceu:tbp_kerosene_extractant 3000'
-        ).EUt(GTValues.VA[GTValues.HV])
-        .duration(20*60)
+      .inputFluids('gtceu:depleted_reactor_uranium_simple_liquid 16000',
+        'gtceu:tbp_kerosene_extractant 4000')
+      .outputFluids('gtceu:organic_phase_solution_containing_tetravalent_plutonium 10000',
+        'gtceu:residual_aqueous_phase_mixed_solution 6000',
+        'gtceu:tbp_kerosene_extractant 3000')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*60)
+
     gtr.extractor_core('purex_plutonium_containing_aqueous_solution')
-        .inputFluids('gtceu:residual_aqueous_phase_mixed_solution 3000',
-          'gtceu:aqueous_reduction_extraction_solution 1000'
-        ).outputFluids('gtceu:plutonium_containing_aqueous_solution 2000',
+        .inputFluids(
+          'gtceu:residual_aqueous_phase_mixed_solution 3000',
+          'gtceu:aqueous_reduction_extraction_solution 1000')
+        .outputFluids(
+          'gtceu:plutonium_containing_aqueous_solution 2000',
           'gtceu:uranium_containing_oil_phase_solution 1000',
-          'gtceu:aqueous_reduction_extraction_solution 500'
-        ).duration(20*16)
+          'gtceu:aqueous_reduction_extraction_solution 500')
+        .duration(20*16)
         .EUt(GTValues.VA[GTValues.HV])
+
     gtr.extractor_core('purex_gtceu_organic_phase_solution_containing_tetravalent_plutonium')
-        .inputFluids('gtceu:organic_phase_solution_containing_tetravalent_plutonium 3000',
+        .inputFluids(
+          'gtceu:organic_phase_solution_containing_tetravalent_plutonium 3000',
           'gtceu:nitric_acid 6000',
           'gtceu:hydrazine 4000',
-          'gtceu:kerosene 5000'
-        ).outputFluids('gtceu:aqueous_reverse_extract 12000',
-          'gtceu:uranium_containing_aqueous_solution 6000'
-        ).duration(60*20).EUt(GTValues.VA[GTValues.HV])
-    gtr.extractor_core('purex_satou_meow_1')
+          'gtceu:kerosene 5000')
+        .outputFluids('gtceu:aqueous_reverse_extract 12000',
+          'gtceu:uranium_containing_aqueous_solution 6000')
+        .duration(60*20)
+        .EUt(GTValues.VA[GTValues.HV])
+
+    gtr.extractor_core('quaternary_plutonium_aqueous_solution_2')
         .inputFluids('gtceu:plutonium_containing_aqueous_solution 6000')
         .itemInputs('16x gtceu:sodium_nitrite_dust')
-        .outputFluids('gtceu:quaternary_plutonium_aqueous_solution 5000',
+        .outputFluids(
+          'gtceu:quaternary_plutonium_aqueous_solution 5000',
           'gtceu:nitric_oxide 2000',
-          'minecraft:water 1000'
-        ).duration(30*20).EUt(GTValues.VA[GTValues.HV])
-    gtr.extractor_core("purex_satou_meow_2")
-        .inputFluids('gtceu:quaternary_plutonium_aqueous_solution 8000',
+          'minecraft:water 1000')
+        .duration(30*20)
+        .EUt(GTValues.VA[GTValues.HV])
+    gtr.extractor_core("multivalent_plutonium_solution_3")
+        .inputFluids(
+          'gtceu:quaternary_plutonium_aqueous_solution 8000',
           'gtceu:organic_phase_solution_containing_tetravalent_plutonium 6000',
-          'gtceu:tbp_kerosene_extractant 20000'
-        ).outputFluids('gtceu:multivalent_plutonium_solution 14000',
-          'gtceu:tbp_kerosene_extractant 15000'
-        ).duration(75*20).EUt(GTValues.VA[GTValues.EV])
-    gtr.distillation_tower("purex_satou_meow_3")
+          'gtceu:tbp_kerosene_extractant 20000')
+        .outputFluids('gtceu:multivalent_plutonium_solution 14000' , 'gtceu:tbp_kerosene_extractant 15000')
+        .duration(75*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtr.distillation_tower("multivalent_plutonium_solution_2")
         .inputFluids('gtceu:aqueous_reverse_extract 4000')
-        .outputFluids('gtceu:multivalent_plutonium_solution 3000',
-          'minecraft:water 1000'
-        ).duration(60*20).EUt(GTValues.VA[GTValues.EV])
-    gtr.mixer("purex_qiantou_2")
-        .inputFluids('gtceu:organic_phase_solution_containing_tetravalent_plutonium 4000',
-          'gtceu:nitric_acid 2000'
-        ).outputFluids('gtceu:quaternary_plutonium_aqueous_solution 6000')
-        .duration(60*20).EUt(GTValues.VA[GTValues.EV])
-    gtr.mixer("purex_qiantou")
-        .inputFluids('gtceu:quaternary_plutonium_aqueous_solution 6000',
-          'gtceu:nitric_acid 2000'
-        ).outputFluids('gtceu:multivalent_plutonium_solution 8000')
-        .duration(60*20).EUt(GTValues.VA[GTValues.EV])
-    gtr.large_chemical_reactor("oxalic_acid_satou")
-        .inputFluids("gtceu:hydrogen 10000",
-          "gtceu:carbon_dioxide 20000"
-        ).outputFluids("gtceu:oxalic_acid 10000")
-        .duration(15*20).EUt(GTValues.VA[GTValues.MV])
-    gtr.electric_blast_furnace("purex_meow_satou5")
+        .outputFluids('gtceu:multivalent_plutonium_solution 3000' , 'minecraft:water 1000')
+        .duration(60*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtr.mixer("quaternary_plutonium_aqueous_solution_1")
+        .inputFluids('gtceu:organic_phase_solution_containing_tetravalent_plutonium 4000' , 'gtceu:nitric_acid 2000')
+        .outputFluids('gtceu:quaternary_plutonium_aqueous_solution 6000')
+        .duration(60*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtr.mixer("multivalent_plutonium_solution_1")
+        .inputFluids('gtceu:quaternary_plutonium_aqueous_solution 6000' , 'gtceu:nitric_acid 2000')
+        .outputFluids('gtceu:multivalent_plutonium_solution 8000')
+        .duration(60*20)
+        .EUt(GTValues.VA[GTValues.EV])
+
+    gtr.large_chemical_reactor("oxalic_acid")
+        .inputFluids("gtceu:hydrogen 10000" , "gtceu:carbon_dioxide 20000")
+        .outputFluids("gtceu:oxalic_acid 10000")
+        .duration(15*20)
+        .EUt(GTValues.VA[GTValues.MV])
+
+    gtr.electric_blast_furnace("plutonium_dust")
         .itemInputs('1x gtceu:plutonium_dioxide_dust')
         .inputFluids('gtceu:hydrofluoric_acid 2000')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(20 * 30)
         .itemOutputs('16x gtceu:plutonium_dust')
         .blastFurnaceTemp(4500)
-    gtr.assembler('satou_nuke')
-        .itemInputs('4x kubejs:reactor_mox_quad',
-          '5x gtceu:plutonium_block'
-        ).itemOutputs('1x gtlcecore:general_nuke')
+
+    gtr.assembler('general_nuke')
+        .itemInputs('4x kubejs:reactor_mox_quad' , '5x gtceu:plutonium_block')
+        .itemOutputs('1x gtlcecore:general_nuke')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(20 * 30)
-    event.shaped('gtceu:platinum_processor',[
-      'XOX',
-      'CAC',
-      'XOX',
+      
+    gtr.assembler('platinum_processor')
+        .itemInputs(
+            '4x gtceu:electric_blast_furnace',
+            '4x #gtceu:circuits/luv',
+            '4x gtceu:ev_robot_arm',
+            '8x gtceu:ev_fluid_regulator',
+            '8x gtceu:ev_electric_pump',
+            '16x gtceu:stainless_steel_frame')
+        .inputFluids('gtceu:tin 4608')
+        .itemOutputs('gtceu:platinum_processor')
+        .EUt(GTValues.VA[GTValues.EV])
+        .duration(600)
 
-    ],{
-      'X':'gtceu:ev_robot_arm',
-      'A':'gtceu:ev_machine_hull',
-      'C':'gtceu:ev_fluid_regulator',
-      'O':'gtceu:ev_electric_pump'
-    })
     event.shaped('gtceu:extractor_core',[
       'XOX',
       'CAC',
       'MMM',
-
     ],{
       'O':'gtceu:ev_electric_pump',
       'X':'gtceu:ev_electric_motor',

@@ -1146,7 +1146,7 @@
 						Count: 1
 						id: "gtceu:super_portable_fluid_storage_cell"
 						tag: {
-							internalCurrentPower: 20000.0d
+							internalCurrentPower: 2000000000
 						}
 					}
 					type: "item"
@@ -1157,7 +1157,7 @@
 						Count: 1
 						id: "gtceu:super_portable_item_storage_cell"
 						tag: {
-							internalCurrentPower: 20000.0d
+							internalCurrentPower: 2000000000
 						}
 					}
 					type: "item"
