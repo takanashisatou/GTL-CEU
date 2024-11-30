@@ -5,7 +5,7 @@
 	group: "24F4987B35ABEE82"
 	icon: "gtceu:electric_blast_furnace"
 	id: "49ED18A26C5A1B83"
-	order_index: 4
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -2820,126 +2820,6 @@
 			}]
 			x: -4.0d
 			y: 20.0d
-		}
-		{
-			dependencies: [
-				"6A590699685D1D8A"
-				"1003B3EB3976B4AA"
-			]
-			id: "6266818A4E07B6C0"
-			tasks: [{
-				id: "42B7D2856930C54C"
-				item: "gtceu:uhv_fusion_reactor"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 14.0d
-		}
-		{
-			dependencies: [
-				"65C4F7EDC0E9D99D"
-				"6266818A4E07B6C0"
-			]
-			id: "76663A1DCB27B23E"
-			tasks: [{
-				id: "4E7761681A5314F4"
-				item: "gtceu:uev_fusion_reactor"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 14.0d
-		}
-		{
-			dependencies: [
-				"2055BDA7D6201897"
-				"6D3BE9E3D76C71F9"
-			]
-			id: "3ADF090AC4D79F83"
-			tasks: [{
-				id: "0631BA476430AC9E"
-				item: "gtceu:luv_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 16.0d
-		}
-		{
-			dependencies: [
-				"352CFB0F948D448A"
-				"5672B9E868EDBE4D"
-			]
-			id: "051FFC493B0CD3FE"
-			tasks: [{
-				id: "63FC0B6A3ECBB021"
-				item: "gtceu:zpm_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 16.0d
-		}
-		{
-			dependencies: [
-				"253337A8CECFB499"
-				"1003B3EB3976B4AA"
-			]
-			id: "733C3D2DE15B3665"
-			tasks: [{
-				id: "5ABFA57CFAADC2A2"
-				item: "gtceu:uv_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 16.0d
-		}
-		{
-			dependencies: [
-				"6A590699685D1D8A"
-				"6266818A4E07B6C0"
-			]
-			id: "596438D407B66AA4"
-			tasks: [{
-				id: "1B231B9C1973DDDB"
-				item: "gtceu:uhv_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 16.0d
-		}
-		{
-			dependencies: [
-				"76663A1DCB27B23E"
-				"65C4F7EDC0E9D99D"
-			]
-			id: "749B0A45731259CC"
-			tasks: [{
-				id: "4DFD09227C1A238B"
-				item: "gtceu:uev_compressed_fusion_reactor"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 16.0d
-		}
-		{
-			dependencies: ["65C4F7EDC0E9D99D"]
-			id: "7E1B4060CF39DDF1"
-			tasks: [{
-				id: "0E609EEF75BF4ABA"
-				item: "gtceu:mega_fluid_heater"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["5930E12A8BCAF996"]
-			id: "51A93378CE8E3854"
-			tasks: [{
-				id: "4FD70AE24C719AB3"
-				item: "gtceu:generator_array"
-				type: "item"
-			}]
-			x: 24.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["45096D94AE6F7864"]

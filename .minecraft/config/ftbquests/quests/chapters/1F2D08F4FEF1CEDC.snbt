@@ -4,7 +4,7 @@
 	filename: "1F2D08F4FEF1CEDC"
 	group: "24F4987B35ABEE82"
 	icon: "gtceu:lv_sodium_battery"
-	id: "1F2D08F4FEF1CEDC"
+	id: "4075BEC54B89D995"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -23,9 +23,9 @@
 				"- V(伏)是电压，游戏中称为LV, MV, HV...因为这些是游戏玩法相关的值(技术上:LV = 32V = 32EU/t/A)。"
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
-			id: "7F97BED1B9552E5E"
+			id: "319670A59A073CA7"
 			tasks: [{
-				id: "7B797503EA800D59"
+				id: "5AD92385CC7D8F9D"
 				title: "基本设定"
 				type: "checkmark"
 			}]
@@ -51,9 +51,9 @@
 				"仍然可以在LV线路上运行MV机器，但只有当配方功率足够低,或者如果你有一个中压电池在机器的充电槽中，机器在空闲时只会接受1A，因此电池将以最大速率32EU/t充电。"
 			]
 			icon: "gtceu:lv_transformer_1a"
-			id: "0CC922B821305906"
+			id: "21EE855FE8AEC3F0"
 			tasks: [{
-				id: "34D8E6B118290930"
+				id: "532902A546E267B5"
 				title: "能量传输"
 				type: "checkmark"
 			}]
@@ -71,9 +71,9 @@
 				"但是这里无需担心，前期有便宜的超导，后面有无线"
 			]
 			icon: "gtceu:tin_single_cable"
-			id: "4A7E19EF14D3C072"
+			id: "3EB943A4DA18588F"
 			tasks: [{
-				id: "6C551BD24A83AB3F"
+				id: "544CF51FE86E5CAA"
 				title: "线缆传输"
 				type: "checkmark"
 			}]
@@ -91,9 +91,9 @@
 				"这意味着你可以在某些地方安全地降低你的电缆。"
 			]
 			icon: "gtceu:lv_diode"
-			id: "4F7A3702787F86A7"
+			id: "2634C5223F6A3359"
 			tasks: [{
-				id: "007D09C6CE7CB00B"
+				id: "73583CB402FDD18D"
 				title: "电流"
 				type: "checkmark"
 			}]
@@ -113,9 +113,9 @@
 				"对应的有无损超频的概念，4x配方速度，4x电力消耗。"
 			]
 			icon: "minecraft:clock"
-			id: "5535934109A12B5D"
+			id: "5FA0AD5D98C15589"
 			tasks: [{
-				id: "4DB7B7FC0312D572"
+				id: "6775BB8F9DAD77DB"
 				title: "超频"
 				type: "checkmark"
 			}]
@@ -130,9 +130,9 @@
 				"但真正的用途是给激光拐弯。"
 			]
 			icon: "gtceu:active_transformer"
-			id: "010CF028448C17A9"
+			id: "08AE40E75C3DA642"
 			tasks: [{
-				id: "311562AB006A065E"
+				id: "10B5B529B483C7BE"
 				title: "变压"
 				type: "checkmark"
 			}]

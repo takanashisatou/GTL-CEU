@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "2FBFEED9D83F24B7"
 	group: "68CBF1606D696C68"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:uiv_electric_motor"
 	id: "2FBFEED9D83F24B7"
 	order_index: 11
@@ -214,7 +215,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1DAE3D00F91134F0"]
+			dependencies: [
+				"1DAE3D00F91134F0"
+				"2AEAA65693DC3E19"
+			]
 			description: ["可以代替恒星锻炉"]
 			icon: "gtceu:dimensionally_transcendent_plasma_forge"
 			id: "2880531AF7540B24"
@@ -359,7 +363,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0"]
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"2AEAA65693DC3E19"
+			]
 			id: "5FC4E86486278172"
 			tasks: [{
 				id: "54DD3B46DB85E738"
@@ -381,6 +388,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2AEAA65693DC3E19"]
 			id: "72E0B47367FD35CC"
 			tasks: [{
 				id: "1D9470C90A72EC38"
@@ -405,7 +413,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5FFDF6751BFBD4BF"]
+			dependencies: [
+				"5FFDF6751BFBD4BF"
+				"2AEAA65693DC3E19"
+			]
 			id: "0FB0AFA8DD71B19F"
 			tasks: [{
 				id: "6227D45032949460"
@@ -416,7 +427,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2E05225ADF4D7D31"]
+			dependencies: [
+				"2E05225ADF4D7D31"
+				"2AEAA65693DC3E19"
+			]
 			description: ["要UIV级的研磨"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
@@ -428,6 +442,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["2AEAA65693DC3E19"]
 			description: ["看起来很复杂"]
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
@@ -440,6 +455,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2AEAA65693DC3E19"]
 			id: "5450D08C31AB23EF"
 			tasks: [{
 				id: "6282ECFD03A81811"
@@ -517,7 +533,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2F82F4BCC261723A"]
+			dependencies: [
+				"2F82F4BCC261723A"
+				"0169D0FBB7BAB91F"
+			]
 			description: ["非常传奇"]
 			id: "559836CC234447C0"
 			shape: "rsquare"
@@ -540,6 +559,22 @@
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["333BDE53FFF7F5FC"]
+			hide: true
+			icon: "gtceu:uiv_electric_motor"
+			id: "2AEAA65693DC3E19"
+			shape: "pentagon"
+			size: 4.0d
+			tasks: [{
+				id: "62FDBC9EEF613A6D"
+				title: "UEV的挑战"
+				type: "checkmark"
+			}]
+			title: "UIV 的决绝"
+			x: -8.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

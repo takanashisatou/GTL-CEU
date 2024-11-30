@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "23041C2CD2A7311B"
 	group: "68CBF1606D696C68"
+	hide_quest_until_deps_visible: true
 	icon: "gtceu:uxv_electric_motor"
 	id: "23041C2CD2A7311B"
 	order_index: 12
@@ -29,6 +30,7 @@
 			dependencies: [
 				"1F1FCB0CA5696FF1"
 				"63C77EE3C70E20E7"
+				"0169D0FBB7BAB91F"
 			]
 			id: "1433920A4DDCE2B5"
 			tasks: [{
@@ -235,7 +237,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2F82F4BCC261723A"]
+			dependencies: [
+				"2F82F4BCC261723A"
+				"0169D0FBB7BAB91F"
+			]
 			hide_dependent_lines: true
 			id: "63C77EE3C70E20E7"
 			shape: "rsquare"
@@ -312,6 +317,7 @@
 			dependencies: [
 				"74186877DB7DBE4D"
 				"6D6BE75CB79C7901"
+				"0169D0FBB7BAB91F"
 			]
 			id: "43CEF1808795ECAD"
 			tasks: [{
@@ -393,7 +399,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["559836CC234447C0"]
+			dependencies: [
+				"559836CC234447C0"
+				"0169D0FBB7BAB91F"
+			]
 			description: ["需被动自动化"]
 			hide_dependency_lines: true
 			id: "4A1F4AAAABC1DE23"
@@ -420,7 +429,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6C6A3B91957A0B7B"]
+			dependencies: [
+				"6C6A3B91957A0B7B"
+				"0169D0FBB7BAB91F"
+			]
 			description: ["很贵的机器"]
 			id: "2A29DA4239E6BA44"
 			shape: "gear"
@@ -448,6 +460,7 @@
 			dependencies: [
 				"0FB0AFA8DD71B19F"
 				"2F82F4BCC261723A"
+				"0169D0FBB7BAB91F"
 			]
 			id: "64441B6414C20A57"
 			tasks: [{
@@ -520,6 +533,7 @@
 			dependencies: [
 				"7819969E76A18F15"
 				"106303E7A3296E76"
+				"0169D0FBB7BAB91F"
 			]
 			id: "583D5AF26EDAF7DF"
 			tasks: [{
@@ -542,10 +556,7 @@
 			y: 0.05000000000000071d
 		}
 		{
-			dependencies: [
-				"5A61ABB6E4917C6C"
-				"0ED237B0CE3DDF59"
-			]
+			dependencies: ["5A61ABB6E4917C6C"]
 			description: ["无尽之力"]
 			id: "00A227F06D7F109E"
 			shape: "rsquare"
@@ -584,7 +595,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["29A581C935A339DD"]
+			dependencies: [
+				"29A581C935A339DD"
+				"0169D0FBB7BAB91F"
+			]
 			id: "01EE0F4156F0578B"
 			tasks: [{
 				id: "1CF19DFA270D37F3"
@@ -628,10 +642,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"108792B10FDEC848"
-				"0ED237B0CE3DDF59"
-			]
+			dependencies: ["108792B10FDEC848"]
 			hide_dependency_lines: true
 			id: "375DD76CAEAD2CE1"
 			tasks: [{
@@ -663,6 +674,22 @@
 			}]
 			x: 0.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["2AEAA65693DC3E19"]
+			hide: true
+			icon: "gtceu:uxv_electric_motor"
+			id: "0169D0FBB7BAB91F"
+			shape: "pentagon"
+			size: 4.0d
+			tasks: [{
+				id: "6521042489D81599"
+				title: "UEV的挑战"
+				type: "checkmark"
+			}]
+			title: "UXV的毅然"
+			x: -4.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier12-UXV"]

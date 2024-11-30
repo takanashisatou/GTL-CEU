@@ -1150,17 +1150,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4C591AA4F1D907C1"]
-			id: "1486FC9F82B2E56E"
-			tasks: [{
-				id: "5EE2778F62F08653"
-				item: "gtceu:generator_array"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["51B9A72C19F84F0E"]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"

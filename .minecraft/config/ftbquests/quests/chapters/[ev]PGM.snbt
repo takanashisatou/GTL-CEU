@@ -1,11 +1,11 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ev_2"
+	filename: "[ev]PGM"
 	group: "3470B2BC68BD1452"
 	icon: "gtceu:ev_conveyor_module"
 	id: "4D5AB76946E8F883"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

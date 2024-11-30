@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "[mv]MSPL"
+	group: "3470B2BC68BD1452"
+	icon: "gtceu:mv_sensor"
+	id: "31C30B5F56975BF7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"这个产线是增产产线，所以你可以不整它。"
+				"但它的产出还是非常可观的。"
+			]
+			id: "7DA64B45214B5224"
+			size: 3.0d
+			tasks: [{
+				id: "6EE0B58E011C0943"
+				title: "欢迎来到单晶硅产线！"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DA64B45214B5224"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：5S"
+				"所需线圈：白铜"
+			]
+			icon: "gtceu:metallurgical_grade_silica_fume_dust"
+			id: "5ED56F14E9E324EB"
+			tasks: [
+				{
+					id: "77412E5B4D84E07B"
+					item: "gtceu:metallurgical_grade_silica_fume_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "159431B044EEA65E"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ED56F14E9E324EB"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+			]
+			icon: "gtceu:dilute_trichlorosilane_bucket"
+			id: "13472CBB56D205E5"
+			tasks: [
+				{
+					id: "505125FA93C19CEB"
+					item: "gtceu:dilute_trichlorosilane_bucket"
+					type: "item"
+				}
+				{
+					id: "4ADCB5DCFA8DF759"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13472CBB56D205E5"]
+			description: [
+				"所需机器：蒸馏室"
+				"所需电压：MV"
+				"所需时间：20S"
+			]
+			id: "63C8C0B5BBB98E4F"
+			tasks: [{
+				id: "014D3B5E2758530E"
+				item: "gtceu:trichlorosilane_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63C8C0B5BBB98E4F"]
+			description: [
+				"所需机器：化学反应釜"
+				"所需电压：MV"
+				"所需时间：1S"
+				""
+				" 参与反应的氩气有概率会消耗，注意补充"
+			]
+			id: "6CD3D2085E18E4C3"
+			tasks: [{
+				id: "6874ADCD6F8F25D6"
+				item: "gtlcecore:semiconductor_polycrystalline_silicon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CD3D2085E18E4C3"]
+			description: [
+				"所需机器：电力高炉"
+				"所需电压：MV"
+				"所需时间：5S"
+				"所需线圈：白铜"
+			]
+			id: "3F7BDC6CB4E18D51"
+			shape: "pentagon"
+			size: 4.0d
+			tasks: [{
+				id: "6BFB99EE91C955AC"
+				item: "gtlcecore:semiconductor_single_crystal_silicon"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+	]
+	title: "[MV]单晶硅产线"
+}
