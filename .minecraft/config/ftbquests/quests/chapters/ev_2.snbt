@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev_2"
+	group: "6F905EF75BC51EC8"
+	id: "66E98CEADB8FA1F6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "03405F15E8018852"
+			tasks: [{
+				id: "328FC9B59ABB92E4"
+				item: "gtceu:raw_uraninite"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03405F15E8018852"]
+			id: "5A40920BC1B671D4"
+			tasks: [{
+				id: "37375CDE81346DCC"
+				item: "gtceu:uraninite_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A40920BC1B671D4"]
+			id: "3C49A8E04BE29418"
+			tasks: [{
+				id: "2E29B83E4EFF96E8"
+				item: "gtceu:uranyl_sulfate_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A40920BC1B671D4"]
+			id: "77E2029B8B383945"
+			tasks: [{
+				id: "5E9596F175F0C6B9"
+				item: "gtceu:uranyl_carbonate_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			id: "3E45C2349378B828"
+			tasks: [{
+				id: "4CC0D4E3CBEDDF90"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C49A8E04BE29418"
+				"3E45C2349378B828"
+				"77E2029B8B383945"
+			]
+			id: "09956A6C520EE078"
+			tasks: [{
+				id: "3AAD8403F41F088D"
+				item: "gtceu:enriched_impure_uranyl_solution_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2FFD7B3BB1C9B774"
+				"23AFDABE86EFD1AC"
+				"75521F335E684414"
+				"23BE724EAAB66E68"
+			]
+			id: "00BC6BC5DF4F5C48"
+			tasks: [{
+				id: "22A15BD1F86914A2"
+				item: "gtceu:tributyl_phosphate_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "2FFD7B3BB1C9B774"
+			tasks: [{
+				id: "3187123ABB566F9D"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			id: "23AFDABE86EFD1AC"
+			tasks: [{
+				id: "0BAF26060DA4B9FB"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			id: "75521F335E684414"
+			tasks: [{
+				id: "73BA57CB65495FE1"
+				item: "gtceu:phosphorus_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "23BE724EAAB66E68"
+			tasks: [{
+				id: "3F0E57FD628CF136"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"09956A6C520EE078"
+				"00BC6BC5DF4F5C48"
+			]
+			id: "16B02FD075245A80"
+			tasks: [{
+				id: "65AEB016FD051651"
+				item: "gtceu:uranyl_nitrate_solution_compound_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5896B9A958E2975B"
+				"17D7A95891C74ACD"
+			]
+			id: "2AB4960F7F3272E9"
+			tasks: [{
+				id: "7A7C73354E176FB4"
+				item: "gtceu:ammonia_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "5896B9A958E2975B"
+			tasks: [{
+				id: "1939F462AF11ADCA"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "17D7A95891C74ACD"
+			tasks: [{
+				id: "04F34CB168D08E2E"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"16B02FD075245A80"
+				"2AB4960F7F3272E9"
+			]
+			id: "40DB330CE2A18454"
+			tasks: [{
+				id: "188B0AD8B367011F"
+				item: "gtceu:ammonium_diuranate_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40DB330CE2A18454"]
+			id: "7B8F69105F445FFD"
+			tasks: [{
+				id: "36577DAA4196B706"
+				item: "gtceu:triuranium_octoxide_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "794E778BF5ADADA7"
+			tasks: [{
+				id: "3693DFBB6934B30D"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			title: "这里也需要氢气哟"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"794E778BF5ADADA7"
+				"7B8F69105F445FFD"
+			]
+			id: "4AD286476C4A2616"
+			tasks: [{
+				id: "5C014C028B139725"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "274A4C9470CD1864"
+			tasks: [{
+				id: "55FB493BA3925AAC"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4AD286476C4A2616"
+				"274A4C9470CD1864"
+			]
+			id: "39845F5C5187A336"
+			tasks: [{
+				id: "5F5572A5ADBB3AA0"
+				item: "gtceu:uranium_triplatinum_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39845F5C5187A336"]
+			id: "2EA53F328DA0C404"
+			tasks: [{
+				id: "2F97067DF38318D5"
+				item: "gtceu:hot_uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EA53F328DA0C404"]
+			id: "681595F805C0E3CA"
+			tasks: [{
+				id: "2EB0EDB6D588EDE3"
+				item: "gtceu:uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+	]
+	title: "[EV]铀处理"
+}
