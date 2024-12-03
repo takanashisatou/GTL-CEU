@@ -99,7 +99,7 @@
 			id: "6CD3D2085E18E4C3"
 			tasks: [{
 				id: "6874ADCD6F8F25D6"
-				item: "gtlcecore:semiconductor_polycrystalline_silicon"
+				item: "gtlceucore:semiconductor_polycrystalline_silicon"
 				type: "item"
 			}]
 			x: 6.5d
@@ -114,11 +114,17 @@
 				"所需线圈：白铜"
 			]
 			id: "3F7BDC6CB4E18D51"
+			rewards: [{
+				count: 8
+				id: "3B6870FAE93DF802"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 4.0d
 			tasks: [{
 				id: "6BFB99EE91C955AC"
-				item: "gtlcecore:semiconductor_single_crystal_silicon"
+				item: "gtlceucore:semiconductor_single_crystal_silicon"
 				type: "item"
 			}]
 			x: 9.0d

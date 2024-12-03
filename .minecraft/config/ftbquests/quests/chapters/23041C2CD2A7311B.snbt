@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "23041C2CD2A7311B"
 	group: "68CBF1606D696C68"
-	hide_quest_until_deps_visible: true
 	icon: "gtceu:uxv_electric_motor"
 	id: "23041C2CD2A7311B"
 	order_index: 12
@@ -82,10 +81,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5E223597F71DB81D"
-				"4A1F4AAAABC1DE23"
-			]
+			dependencies: ["4A1F4AAAABC1DE23"]
 			description: ["高纯龙素"]
 			id: "6A1F7D407BE033A9"
 			tasks: [{

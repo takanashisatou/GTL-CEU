@@ -436,12 +436,20 @@
 				}
 			}
 			id: "536312ADAC8C719B"
-			rewards: [{
-				count: 128
-				id: "6D5EEFCF11A9A152"
-				item: "gtceu:neutronium_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 128
+					id: "6D5EEFCF11A9A152"
+					item: "gtceu:neutronium_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32E1C3DD9F1AC02D"
+					item: "gtceu:neutronium_credit"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 6.0d
 			tasks: [{

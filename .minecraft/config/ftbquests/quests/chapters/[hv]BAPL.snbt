@@ -199,7 +199,7 @@
 			subtitle: "这可是新东西.jpg"
 			tasks: [{
 				id: "2FA8F071EA21CDAD"
-				item: "gtlcecore:cryolite"
+				item: "gtlceucore:cryolite"
 				type: "item"
 			}]
 			x: -1.5d

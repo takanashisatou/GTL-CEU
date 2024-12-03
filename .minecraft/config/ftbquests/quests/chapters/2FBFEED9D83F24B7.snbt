@@ -3,28 +3,17 @@
 	default_quest_shape: ""
 	filename: "2FBFEED9D83F24B7"
 	group: "68CBF1606D696C68"
-	hide_quest_until_deps_visible: true
 	icon: "gtceu:uiv_electric_motor"
 	id: "2FBFEED9D83F24B7"
 	order_index: 11
-	quest_links: [
-		{
-			id: "57F5245E6B9E7B6C"
-			linked_quest: "6BB5ED6ECC43E30C"
-			shape: "rsquare"
-			size: 2.0d
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			id: "4E0083FC60224675"
-			linked_quest: "23B418803D455368"
-			shape: "rsquare"
-			size: 2.0d
-			x: -2.0d
-			y: -2.0d
-		}
-	]
+	quest_links: [{
+		id: "57F5245E6B9E7B6C"
+		linked_quest: "6BB5ED6ECC43E30C"
+		shape: "rsquare"
+		size: 2.0d
+		x: -2.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -427,10 +416,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"2E05225ADF4D7D31"
-				"2AEAA65693DC3E19"
-			]
+			dependencies: ["2AEAA65693DC3E19"]
 			description: ["要UIV级的研磨"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
@@ -550,7 +536,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["23B418803D455368"]
 			id: "31AA3CEE0C967212"
 			tasks: [{
 				id: "2BF9417FE9A5FFC6"

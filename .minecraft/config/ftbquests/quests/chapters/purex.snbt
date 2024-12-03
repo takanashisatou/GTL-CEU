@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "purex"
+	group: "6F905EF75BC51EC8"
+	icon: "kubejs:reactor_mox_quad"
+	id: "61334CF552C95A01"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "318BD5C6B3EC91BF"
+			tasks: [{
+				id: "3A2B387FEB5167AA"
+				item: "kubejs:depleted_reactor_uranium_simple"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"738BA5F906261BC5"
+				"563A6093D366EA6A"
+				"318BD5C6B3EC91BF"
+			]
+			dependency_requirement: "one_completed"
+			id: "44AD6476CAE64AF8"
+			tasks: [{
+				id: "48A2408834DEC84B"
+				item: "gtceu:depleted_reactor_uranium_simple_liquid_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			id: "738BA5F906261BC5"
+			tasks: [{
+				id: "02D278DD5E5A287A"
+				item: "kubejs:depleted_reactor_uranium_dual"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			id: "563A6093D366EA6A"
+			tasks: [{
+				id: "6FFABF5D764E8689"
+				item: "kubejs:depleted_reactor_uranium_quad"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"325A9BEF3F60EB9E"
+				"34281736A07D5FB4"
+			]
+			id: "0FDA85E381FACDE0"
+			tasks: [{
+				id: "281D68846ED8E94D"
+				item: "gtceu:tbp_kerosene_extractant_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			id: "212B4457CE33190C"
+			tasks: [{
+				id: "310E0E530BFCD453"
+				item: "gtceu:extractor_core"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			id: "325A9BEF3F60EB9E"
+			tasks: [{
+				id: "75661B08696474EB"
+				item: "gtceu:tributyl_phosphate_bucket"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			id: "34281736A07D5FB4"
+			tasks: [{
+				id: "68DADAA5B082964B"
+				item: "gtceu:kerosene_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0FDA85E381FACDE0"
+				"44AD6476CAE64AF8"
+				"212B4457CE33190C"
+			]
+			description: ["萃取器里面的萃取剂会有一些的损耗，不能完全循环利用"]
+			id: "2390E22C9E0B41F6"
+			tasks: [
+				{
+					id: "20CBAF77371AE1EB"
+					item: "gtceu:residual_aqueous_phase_mixed_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "67CA69E3ED350291"
+					item: "gtceu:organic_phase_solution_containing_tetravalent_plutonium_bucket"
+					type: "item"
+				}
+				{
+					id: "3225907F609550D2"
+					item: "gtceu:tbp_kerosene_extractant_bucket"
+					type: "item"
+				}
+			]
+			title: "萃取出来！"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2390E22C9E0B41F6"]
+			id: "15790E3C05F51A20"
+			tasks: [{
+				id: "0E8AD8C10DE4765F"
+				title: "残余水相溶液利用"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2390E22C9E0B41F6"]
+			id: "37E4485BBEA0B358"
+			tasks: [{
+				id: "232C74DAE1060A5B"
+				title: "四价含钚有机相溶液利用"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+	]
+	title: "Purex处理"
+}

@@ -104,30 +104,6 @@
 			y: 14.0d
 		}
 		{
-			id: "04780ABC02DF0090"
-			linked_quest: "460277B62B964613"
-			x: 9.0d
-			y: 11.0d
-		}
-		{
-			id: "3C21EE527A246E76"
-			linked_quest: "5B1757594AE08A2A"
-			x: 9.0d
-			y: 12.5d
-		}
-		{
-			id: "0C62BF49AF9A3348"
-			linked_quest: "362C5064150C4F26"
-			x: 9.0d
-			y: 14.0d
-		}
-		{
-			id: "6064B6AE88D49FB1"
-			linked_quest: "783379F3A7557CEE"
-			x: 9.0d
-			y: 15.5d
-		}
-		{
 			id: "3BCF9F2F1C1BD78A"
 			linked_quest: "48E77454D1CD87CD"
 			x: 10.5d
@@ -230,12 +206,6 @@
 			y: 11.0d
 		}
 		{
-			id: "329A13A0E3831FB9"
-			linked_quest: "32A49A2CBFC934C8"
-			x: -7.5d
-			y: 14.0d
-		}
-		{
 			id: "60CF20C5344E7DDE"
 			linked_quest: "3EA935A712FA0EBE"
 			x: -7.5d
@@ -270,12 +240,6 @@
 			linked_quest: "43A7282802A06626"
 			x: 7.5d
 			y: 8.0d
-		}
-		{
-			id: "1591B8B14CA8599C"
-			linked_quest: "2711E6516920E825"
-			x: 9.0d
-			y: 9.5d
 		}
 		{
 			id: "087058E648713910"

@@ -48,8 +48,8 @@
     "item:gtceu:lv_canner",
     "item:minecraft:crafting_table",
     "item:minecraft:jungle_door",
-    "item:gtlcecore:semiconductor_single_crystal_silicon",
-    "item:gtlcecore:semiconductor_polycrystalline_silicon",
+    "item:gtlceucore:semiconductor_single_crystal_silicon",
+    "item:gtlceucore:semiconductor_polycrystalline_silicon",
     {
       "type": "fluid",
       "id": "gtceu:trichlorosilane",

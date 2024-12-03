@@ -3,34 +3,12 @@
 	default_quest_shape: ""
 	filename: "219401C56581188F"
 	group: "68CBF1606D696C68"
-	hide_quest_until_deps_visible: true
 	icon: "gtceu:uev_electric_motor"
 	id: "219401C56581188F"
 	order_index: 10
-	quest_links: [
-		{
-			id: "10C4932409BC9EF8"
-			linked_quest: "5CD56CD71662D4A7"
-			shape: "rsquare"
-			size: 2.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "662A44313552F6C7"
-			linked_quest: "713FF88279AD9A31"
-			shape: "rsquare"
-			size: 2.0d
-			x: 0.0d
-			y: -4.0d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5CD56CD71662D4A7"
-				"23B418803D455368"
-			]
 			description: [
 				"使用一种特殊的仪式消耗能量来收集周围的魔力"
 				"这里的魔力相当于一种原材料"
@@ -87,7 +65,6 @@
 				"01268072B19FA1C9"
 				"477C3F64F4CAA009"
 				"021401D3D29EBC87"
-				"2E05225ADF4D7D31"
 			]
 			id: "792A351AAA2A4F2B"
 			tasks: [{
@@ -100,7 +77,6 @@
 		}
 		{
 			dependencies: [
-				"2DD8E128C6E3E41D"
 				"1F5B121C6647E2CA"
 				"2F02BC009330F5CB"
 				"348787ECA57EA11C"
@@ -219,7 +195,6 @@
 		}
 		{
 			dependencies: [
-				"23B418803D455368"
 				"78350872B1ACF525"
 				"333BDE53FFF7F5FC"
 				"0169D0FBB7BAB91F"
@@ -312,7 +287,6 @@
 			dependencies: [
 				"335A02C9498DCBB0"
 				"348787ECA57EA11C"
-				"09210B5E086F6E1A"
 				"281B6C20538A3CBA"
 			]
 			id: "07B45AA08AA91467"
@@ -392,7 +366,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["55C57FADEE874B97"]
 			id: "348787ECA57EA11C"
 			tasks: [{
 				id: "1C064C1F74BB23C2"
@@ -472,7 +445,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["09210B5E086F6E1A"]
 			description: ["使用小堆粉磁化"]
 			id: "77BE1524AABF6003"
 			tasks: [{
@@ -495,7 +467,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5CD56CD71662D4A7"]
 			description: ["有点复杂"]
 			hide_dependency_lines: true
 			icon: "gtceu:euv_photoresist_bucket"
@@ -639,7 +610,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["713FF88279AD9A31"]
 			id: "2DE2948B2148AEBF"
 			tasks: [{
 				id: "57830B3E0BF08FF8"
@@ -651,7 +621,6 @@
 		}
 		{
 			dependencies: [
-				"2DD8E128C6E3E41D"
 				"1F5B121C6647E2CA"
 				"2F02BC009330F5CB"
 				"348787ECA57EA11C"
@@ -668,7 +637,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["51BBDDE9AA69229F"]
 			hide: true
 			icon: "gtceu:uev_electric_motor"
 			id: "333BDE53FFF7F5FC"
