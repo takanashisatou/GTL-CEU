@@ -212,7 +212,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:electrolyzer/bauxite_electrolysis" })
 
     gtr.electrolyzer('electolyzing_alumina')
-      .chancedInput("4x gtlceucore:cryolite", 100, 50)
+      .chancedInput("4x gtceu:cryolite_dust", 100, 50)
       .itemInputs('5x gtceu:alumina_dust')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20)
@@ -220,7 +220,7 @@ ServerEvents.recipes(event => {
       .outputFluids('gtceu:oxygen 3000')
 
     gtr.electrolyzer('electolyzing_bauxite')
-      .chancedInput("4x gtlceucore:cryolite", 1000, 100)
+      .chancedInput("4x gtceu:cryolite_dust", 1000, 100)
       .itemInputs('15x gtceu:bauxite_dust')
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20)
@@ -240,7 +240,7 @@ ServerEvents.recipes(event => {
       .blastFurnaceTemp(1700)
       .EUt(GTValues.VA[GTValues.MV])
       .duration(20)
-      .itemOutputs('1x gtlceucore:cryolite')
+      .itemOutputs('1x gtceu:cryolite_dust')
 
     gtr.electric_blast_furnace('bauxite_residue_dust')
       .itemInputs('1x gtceu:bauxite_residue_dust' , '1x gtceu:soda_ash_dust')
@@ -535,7 +535,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:platinum_processor')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(600)
-
+    
     event.shaped('gtceu:extractor_core',[
       'XOX',
       'CAC',
@@ -547,5 +547,38 @@ ServerEvents.recipes(event => {
       'A':'gtceu:ev_machine_hull',
       'C':'gtceu:ev_conveyor_module'
     })
+    gtr.large_chemical_reactor('gtceu:aqueous_reduction_extraction_solution')
+      .inputFluids('gtceu:h3no 6000',
+        'gtceu:iron_iii_chloride 4000',
+        'gtceu:hydrazine 2000'
+      ).outputFluids('gtceu:aqueous_reduction_extraction_solution 12000')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*30)
+      gtr.large_chemical_reactor('gtceu:h3no')
+      .inputFluids('gtceu:hydrogen 4000',
+        'gtceu:nitric_oxide 2000'
+      ).outputFluids('gtceu:h3no 6000')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*5)
+    gtr.distillation_tower('gtceu:uranium_containing_aqueous_solution_gtlceucore')
+      .inputFluids('gtceu:uranium_containing_aqueous_solution 6000')
+      .outputFluids('minecraft:water 4000')
+      .itemOutputs('128x gtceu:uranium_dust')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*10)
+    gtr.distillation_tower('gtceu:uranium_containing_oil_phase_solution_gtlceucore')
+      .inputFluids('gtceu:uranium_containing_oil_phase_solution 8000')
+      .outputFluids('gtceu:kerosene 6000')
+      .itemOutputs('256x gtceu:uranium_dust')
+      .EUt(GTValues.VA[GTValues.HV])
+      .duration(20*10)
+    gtr.distillation_tower('purex_final')
+      .inputFluids('gtceu:multivalent_plutonium_solution 8000')
+      .itemOutputs('800x gtceu:plutonium_dust'
+      )
+      .outputFluids('gtceu:kerosene 4000',
+        'minecraft:water 2000'
+      ).EUt(GTValues.VA[GTValues.HV])
+      .duration(20*5)
   }
 )

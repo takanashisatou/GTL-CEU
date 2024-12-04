@@ -1,39 +1,39 @@
-[11:32:35] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[11:32:35] [INIT] Loaded plugins:
-[11:32:35] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[11:32:35] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[11:32:35] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[11:32:35] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[11:32:35] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[11:32:35] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[11:32:35] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[11:32:35] [INIT] - com.probejs.ProbeJSPlugin
-[11:32:35] [INFO] Loaded script server_scripts:tag.js in 0.0 s
-[11:32:35] [INFO] misc.js#136: Loaded Java class 'com.gregtechceu.gtceu.api.capability.GTCapabilityHelper'
-[11:32:35] [INFO] misc.js#137: Loaded Java class 'net.minecraft.world.damagesource.DamageTypes'
-[11:32:35] [INFO] misc.js#138: Loaded Java class 'earth.terrarium.botarium.common.menu.MenuHooks'
-[11:32:35] [INFO] misc.js#139: Loaded Java class 'earth.terrarium.adastra.common.menus.base.PlanetsMenuProvider'
-[11:32:35] [INFO] misc.js#140: Loaded Java class 'com.hepdd.gtmthings.api.misc.WirelessEnergyManager'
-[11:32:35] [INFO] misc.js#141: Loaded Java class 'java.math.BigInteger'
-[11:32:35] [INFO] misc.js#142: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.RecipeHelper'
-[11:32:35] [INFO] misc.js#143: Loaded Java class 'com.gregtechceu.gtceu.utils.FormattingUtil'
-[11:32:35] [INFO] misc.js#144: Loaded Java class 'net.minecraft.world.level.ClipContext'
-[11:32:35] [INFO] Loaded script server_scripts:misc.js in 0.016 s
-[11:32:35] [INFO] Loaded script server_scripts:minecraft.js in 0.001 s
-[11:32:35] [INFO] Loaded script server_scripts:gtceu.js in 0.038 s
-[11:32:35] [INFO] Loaded script server_scripts:ae2.js in 0.0 s
-[11:32:35] [INFO] Loaded script server_scripts:ores.js in 0.001 s
-[11:32:35] [INFO] Loaded script server_scripts:ad.js in 0.001 s
-[11:32:35] [INFO] Loaded script server_scripts:fix.js in 0.0 s
-[11:32:35] [INFO] Loaded script server_scripts:gtlceucore.js in 0.0 s
-[11:32:35] [INFO] Loaded script server_scripts:laserio.js in 0.001 s
-[11:32:35] [INFO] Loaded 10/10 KubeJS server scripts in 0.071 s with 0 errors and 0 warnings
-[11:32:35] [INFO] Scripts loaded
-[11:32:35] [INFO] Initializing recipe event...
-[11:32:36] [INFO] [minecraft:block] Found 973 tags, added 297 objects, removed 0 objects
-[11:32:36] [INFO] [minecraft:item] Found 6118 tags, added 187 objects, removed 1 objects
-[11:32:37] [INFO] Processing recipes...
-[11:32:37] [INFO] Found 48206 recipes in 373.8 ms
-[11:32:38] [INFO] Posted recipe events in 722.1 ms
-[11:32:39] [INFO] Added 5099 recipes, removed 115 recipes, modified 1 recipes, with 0 failed recipes in 992.4 ms
-[11:32:40] [INFO] Server resource reload complete!
+[18:29:01] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[18:29:01] [INIT] Loaded plugins:
+[18:29:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:29:01] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:29:01] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[18:29:01] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[18:29:01] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[18:29:01] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[18:29:01] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[18:29:01] [INIT] - com.probejs.ProbeJSPlugin
+[18:29:01] [INFO] Loaded script server_scripts:tag.js in 0.0 s
+[18:29:01] [INFO] misc.js#136: Loaded Java class 'com.gregtechceu.gtceu.api.capability.GTCapabilityHelper'
+[18:29:01] [INFO] misc.js#137: Loaded Java class 'net.minecraft.world.damagesource.DamageTypes'
+[18:29:01] [INFO] misc.js#138: Loaded Java class 'earth.terrarium.botarium.common.menu.MenuHooks'
+[18:29:01] [INFO] misc.js#139: Loaded Java class 'earth.terrarium.adastra.common.menus.base.PlanetsMenuProvider'
+[18:29:01] [INFO] misc.js#140: Loaded Java class 'com.hepdd.gtmthings.api.misc.WirelessEnergyManager'
+[18:29:01] [INFO] misc.js#141: Loaded Java class 'java.math.BigInteger'
+[18:29:01] [INFO] misc.js#142: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.RecipeHelper'
+[18:29:01] [INFO] misc.js#143: Loaded Java class 'com.gregtechceu.gtceu.utils.FormattingUtil'
+[18:29:01] [INFO] misc.js#144: Loaded Java class 'net.minecraft.world.level.ClipContext'
+[18:29:01] [INFO] Loaded script server_scripts:misc.js in 0.002 s
+[18:29:01] [INFO] Loaded script server_scripts:minecraft.js in 0.0 s
+[18:29:01] [INFO] Loaded script server_scripts:gtceu.js in 0.012 s
+[18:29:01] [INFO] Loaded script server_scripts:ae2.js in 0.001 s
+[18:29:01] [INFO] Loaded script server_scripts:ores.js in 0.001 s
+[18:29:01] [INFO] Loaded script server_scripts:ad.js in 0.0 s
+[18:29:01] [INFO] Loaded script server_scripts:fix.js in 0.0 s
+[18:29:01] [INFO] Loaded script server_scripts:gtlceucore.js in 0.0 s
+[18:29:01] [INFO] Loaded script server_scripts:laserio.js in 0.0 s
+[18:29:01] [INFO] Loaded 10/10 KubeJS server scripts in 0.024 s with 0 errors and 0 warnings
+[18:29:01] [INFO] Scripts loaded
+[18:29:01] [INFO] Initializing recipe event...
+[18:29:01] [INFO] [minecraft:block] Found 975 tags, added 297 objects, removed 0 objects
+[18:29:01] [INFO] [minecraft:item] Found 6129 tags, added 187 objects, removed 1 objects
+[18:29:02] [INFO] Processing recipes...
+[18:29:02] [INFO] Found 48753 recipes in 256.5 ms
+[18:29:03] [INFO] Posted recipe events in 279.8 ms
+[18:29:03] [INFO] Added 5104 recipes, removed 115 recipes, modified 1 recipes, with 0 failed recipes in 875.9 ms
+[18:29:04] [INFO] Server resource reload complete!

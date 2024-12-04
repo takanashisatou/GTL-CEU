@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29F08E474660B5F1"
+	group: "68CBF1606D696C68"
+	id: "29F08E474660B5F1"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "2E914F910696E998"
+		tasks: [{
+			id: "363F5832E8B2D42B"
+			title: "暂未完成"
+			type: "checkmark"
+		}]
+		x: -4.5d
+		y: 0.0d
+	}]
+	title: "最终目标"
+}

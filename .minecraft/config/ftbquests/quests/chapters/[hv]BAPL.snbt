@@ -198,8 +198,8 @@
 			id: "1E77D3675D638C7C"
 			subtitle: "这可是新东西.jpg"
 			tasks: [{
-				id: "2FA8F071EA21CDAD"
-				item: "gtlceucore:cryolite"
+				id: "0E1B67D9A875D1E1"
+				item: "gtceu:cryolite_dust"
 				type: "item"
 			}]
 			x: -1.5d

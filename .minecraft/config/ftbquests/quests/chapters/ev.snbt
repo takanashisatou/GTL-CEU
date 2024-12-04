@@ -868,13 +868,17 @@
 		}
 		{
 			dependencies: ["1EA6BA3CBF4BE5DB"]
-			description: ["你可以去看看核物理与核化学这一章查看如何进行铀处理"]
+			description: [
+				"                                             "
+				" "
+			]
 			id: "7852E4465B3CAF80"
 			rewards: [{
 				id: "379C58C619F20529"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
+			subtitle: "{ \"text\": \"点击跳转到铀处理产线教程\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"03405F15E8018852\" } }"
 			tasks: [{
 				id: "77EDD867889A3EA6"
 				item: "gtceu:uranium_triplatinum_ingot"

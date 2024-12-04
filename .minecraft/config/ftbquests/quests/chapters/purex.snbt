@@ -26,11 +26,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "44AD6476CAE64AF8"
+			rewards: [{
+				id: "75900FDE1D79A4C9"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			subtitle: "想要钚元素并做出核弹吗"
 			tasks: [{
 				id: "48A2408834DEC84B"
 				item: "gtceu:depleted_reactor_uranium_simple_liquid_bucket"
 				type: "item"
 			}]
+			title: "Purex燃料处理的开始"
 			x: -14.0d
 			y: -0.5d
 		}
@@ -69,7 +76,9 @@
 			y: -2.0d
 		}
 		{
+			description: ["萃取来，萃取去,水相，油相，有机相,Who am I?"]
 			id: "212B4457CE33190C"
+			subtitle: "将陪伴你很久的机器"
 			tasks: [{
 				id: "310E0E530BFCD453"
 				item: "gtceu:extractor_core"
@@ -135,20 +144,239 @@
 				title: "残余水相溶液利用"
 				type: "checkmark"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2390E22C9E0B41F6"]
 			id: "37E4485BBEA0B358"
+			subtitle: "搅拌，萃取"
 			tasks: [{
 				id: "232C74DAE1060A5B"
 				title: "四价含钚有机相溶液利用"
 				type: "checkmark"
 			}]
-			x: -11.0d
+			x: -10.0d
 			y: 1.0d
 		}
+		{
+			dependencies: [
+				"15790E3C05F51A20"
+				"651396DDF6196EB8"
+			]
+			id: "33E2A876460E9DDE"
+			tasks: [
+				{
+					id: "2EDEB4C15F3D4B2B"
+					item: "gtceu:plutonium_containing_aqueous_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "7CB2CCFF4EE54FB8"
+					item: "gtceu:uranium_containing_oil_phase_solution_bucket"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3AF9F51DBF027C19"
+				"3D4886A72F6BF780"
+				"748874C23E5E6B5A"
+			]
+			id: "651396DDF6196EB8"
+			tasks: [{
+				id: "1BCB510C6D8A7D04"
+				item: "gtceu:aqueous_reduction_extraction_solution_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"716D4570B3DA6850"
+				"253240B6502E3A9E"
+			]
+			id: "3D4886A72F6BF780"
+			tasks: [{
+				id: "50424041D5CBEE53"
+				item: "gtceu:h3no_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			id: "748874C23E5E6B5A"
+			tasks: [{
+				id: "7188216519A6377F"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			id: "3AF9F51DBF027C19"
+			tasks: [{
+				id: "008BC04261DB3DB3"
+				item: "gtceu:hydrazine_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "716D4570B3DA6850"
+			tasks: [{
+				id: "6310AE7354A65AB8"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			id: "253240B6502E3A9E"
+			tasks: [{
+				id: "6F7891E3EAA8379D"
+				item: "gtceu:nitric_oxide_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["33E2A876460E9DDE"]
+			id: "370EDDA783E8DAFB"
+			tasks: [{
+				id: "55F8322E426109C4"
+				title: "含钚水相溶液处理"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33E2A876460E9DDE"]
+			id: "2DC10BFD627B2AEA"
+			tasks: [{
+				id: "6D70A256BDFB2E08"
+				title: "含铀油相溶液处理"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"370EDDA783E8DAFB"
+				"7C08A2856F273D6D"
+				"37E4485BBEA0B358"
+			]
+			id: "3A7A30FBB532399D"
+			tasks: [{
+				id: "4E05B3FC9FB18865"
+				item: "gtceu:quaternary_plutonium_aqueous_solution_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "7C08A2856F273D6D"
+			tasks: [{
+				id: "525F9D7C85BE2E16"
+				item: "gtceu:sodium_nitrite_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"69934E94DE88FA82"
+				"3A7A30FBB532399D"
+				"37E4485BBEA0B358"
+				"7D6D8FF2CD6D2EEB"
+			]
+			description: ["可以通过萃取器，搅拌器，或者蒸馏塔获取"]
+			id: "4D7523E8ADDF057B"
+			subtitle: "你有多种多样的方式来获取它"
+			tasks: [{
+				id: "17EF90F368F0E518"
+				item: "gtceu:multivalent_plutonium_solution_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "69934E94DE88FA82"
+			tasks: [{
+				id: "12F950CF62D75803"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2DC10BFD627B2AEA"
+				"7D6D8FF2CD6D2EEB"
+			]
+			id: "021A07798A13D24E"
+			tasks: [{
+				id: "5E845A53052CDD47"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37E4485BBEA0B358"]
+			id: "7D6D8FF2CD6D2EEB"
+			tasks: [
+				{
+					id: "1FEFD8D20CBB2AF1"
+					item: "gtceu:aqueous_reverse_extract_bucket"
+					type: "item"
+				}
+				{
+					id: "1BDE60AEA366E685"
+					item: "gtceu:uranium_containing_aqueous_solution_bucket"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D7523E8ADDF057B"]
+			description: ["                         如果你想欣赏基地被摧毁之后的样子"]
+			id: "15919D1057FBB55C"
+			rewards: [{
+				count: 30
+				id: "128BC0DA36611459"
+				item: "gtlceucore:general_nuke"
+				type: "item"
+			}]
+			size: 4.0d
+			subtitle: "千万要对着基地用"
+			tasks: [{
+				id: "3F670906A9F68E61"
+				item: "gtceu:plutonium_dust"
+				type: "item"
+			}]
+			title: "警告:检测到在途的核武打击"
+			x: 4.0d
+			y: 4.0d
+		}
 	]
-	title: "Purex处理"
+	title: "[EV]Purex处理"
 }

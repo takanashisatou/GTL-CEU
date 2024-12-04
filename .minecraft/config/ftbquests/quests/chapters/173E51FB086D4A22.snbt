@@ -619,7 +619,7 @@
 				type: "item"
 			}]
 			x: 31.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -638,6 +638,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["795920ABC3C110BF"]
 			id: "2667D265532AD38E"
 			tasks: [{
 				id: "749C307EF8A5ACC3"
@@ -694,6 +695,110 @@
 			title: "合成粗汽油的准备4-丙酮"
 			x: 26.5d
 			y: -0.5d
+		}
+		{
+			description: ["                          使用热解炉就可以获得大量木焦油"]
+			id: "795920ABC3C110BF"
+			tasks: [{
+				id: "316415238DB8024C"
+				item: "gtceu:wood_tar_bucket"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"208DB689166017C5"
+				"6D83C8180B3B5CC1"
+				"2667D265532AD38E"
+				"09430866C38E6393"
+				"2CADBC3E84577CE4"
+			]
+			id: "1778E14923DE7E7E"
+			tasks: [{
+				id: "30AF86EB64C22983"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43A8379FD78E8822"]
+			id: "6D83C8180B3B5CC1"
+			tasks: [{
+				id: "43E0CE5757419D20"
+				item: "gtceu:octane_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -3.0d
+		}
+		{
+			id: "09430866C38E6393"
+			tasks: [{
+				id: "1A36B6CFC3FCDB9B"
+				item: "gtceu:nitrous_oxide_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0B2B3088DC7B5345"
+				"53D846E8823C41B0"
+			]
+			id: "2CADBC3E84577CE4"
+			tasks: [{
+				id: "127C77849752EB9D"
+				item: "gtceu:ethyl_tertbutyl_ether_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 3.0d
+		}
+		{
+			id: "0B2B3088DC7B5345"
+			tasks: [{
+				id: "4B85C6C2378378AA"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68AF4C0300164425"]
+			id: "53D846E8823C41B0"
+			tasks: [{
+				id: "5410F0A53C427ACD"
+				item: "gtceu:butene_bucket"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 4.5d
+		}
+		{
+			id: "68AF4C0300164425"
+			tasks: [{
+				id: "3E83D6C2D660C1F8"
+				item: "gtceu:lightly_steam_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 6.5d
+		}
+		{
+			id: "43A8379FD78E8822"
+			tasks: [{
+				id: "3B3D2C59ED09924D"
+				item: "gtceu:lightly_hydro_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -5.0d
 		}
 	]
 	title: "石化与生化"

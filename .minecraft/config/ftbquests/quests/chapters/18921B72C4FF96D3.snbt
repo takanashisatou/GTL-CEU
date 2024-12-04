@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "18921B72C4FF96D3"
+	group: "6F905EF75BC51EC8"
+	icon: "gtlceucore:general_nuke"
+	id: "18921B72C4FF96D3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6692B14B2E6B793F"
+			tasks: [{
+				id: "62E2A825F717E478"
+				item: "gtceu:plutonium_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			id: "1E698CB29B3B662D"
+			tasks: [{
+				id: "7387774674569CE7"
+				item: "kubejs:reactor_mox_quad"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6692B14B2E6B793F"
+				"1E698CB29B3B662D"
+			]
+			description: ["                                   这玩意还能有啥作用?"]
+			id: "5B058DC75700EBBC"
+			subtitle: "这也太简单了吧"
+			tasks: [{
+				id: "74B230CEFDF3BD6C"
+				item: "gtlceucore:general_nuke"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+	]
+	title: "[EV]核弹制备"
+}

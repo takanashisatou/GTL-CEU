@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv"
+	group: "6DC28E7573C8F44A"
+	id: "7D34FC8581947C66"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "IV 高热值气体"
+}

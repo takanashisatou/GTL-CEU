@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv_98"
+	group: "6DC28E7573C8F44A"
+	id: "5D3EAA4770417FBE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "IV 航空汽油"
+}

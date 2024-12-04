@@ -96,6 +96,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('h3no')
         .color(0xea1f1f)
         .liquid()
+    event.create('cryolite')
+        .color(0x3efbf6)
+        .ore()
 })
 GTCEuStartupEvents.materialModification(() => {
     GTMaterials.get("uranyl_sulfate").setFormula("UO₂SO₄")

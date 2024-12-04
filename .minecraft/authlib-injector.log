@@ -1,11 +1,11 @@
-Logging started at 2024-12-03T03:28:52.344375Z
+Logging started at 2024-12-04T09:59:52.154131900Z
 [authlib-injector] [INFO] Version: 1.2.5
 [authlib-injector] [INFO] Authentication server: http://120.24.193.170:20001/api/yggdrasil/
 [authlib-injector] [WARNING] You are using HTTP protocol, which is INSECURE! Please switch to HTTPS if possible.
 [authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
-[authlib-injector] [INFO] Httpd is running on port 3257
+[authlib-injector] [INFO] Httpd is running on port 6574
 [authlib-injector] [INFO] Transformed [net.minecraft.client.player.AbstractClientPlayer] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]

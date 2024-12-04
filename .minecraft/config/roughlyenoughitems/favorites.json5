@@ -10,7 +10,6 @@
 		"{data:{Count:1b,id:\"constructionwand:infinity_wand\",tag:{wand_options:{}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"kubejs:depleted_reactor_uranium_quad\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Amount:1000,FluidName:\"gtceu:aqueous_reduction_extraction_solution\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Amount:1000,FluidName:\"gtceu:plutonium_containing_aqueous_solution\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Amount:1000,FluidName:\"gtceu:oxalic_acid\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"minecraft:spruce_wood\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Count:1b,id:\"gtceu:raw_uraninite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
@@ -29,7 +28,15 @@
 		"{data:{Amount:1000,FluidName:\"gtceu:tributyl_phosphate\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Amount:1000,FluidName:\"gtceu:organic_phase_solution_containing_tetravalent_plutonium\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
 		"{data:{Amount:1000,FluidName:\"gtceu:residual_aqueous_phase_mixed_solution\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
-		"{data:{Amount:1000,FluidName:\"gtceu:aqueous_reverse_extract\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}"
+		"{data:{Count:1b,id:\"gtlceucore:semiconductor_polycrystalline_silicon\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"gtlceucore:cryolite\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"gtlceucore:general_nuke\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"gtceu:uranium_containing_oil_phase_solution\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"gtceu:plutonium_containing_aqueous_solution\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"gtceu:uranium_containing_aqueous_solution\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"gtceu:aqueous_reverse_extract\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Count:1b,id:\"gtceu:uranium_235_dust\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{CategoryID:\"minecraft:plugins/crafting\",Data:{REIRecipeType:\"Shapeless\",input:[[{Count:1b,id:\"minecraft:weathered_cut_copper_stairs\",type:\"minecraft:item\"}],[{Count:1b,id:\"minecraft:honeycomb\",type:\"minecraft:item\"}]],location:\"minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb\",output:[[{Count:1b,id:\"minecraft:waxed_weathered_cut_copper_stairs\",type:\"minecraft:item\"}]]},UUID:\"d0fe9d8d-d665-4433-b87a-c37247e51525\",type:\"roughlyenoughitems:display\"}"
 	],
 	"hiddenFavorites": [
 		"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",

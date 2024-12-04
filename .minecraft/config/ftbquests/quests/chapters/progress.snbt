@@ -104,84 +104,6 @@
 			y: 14.0d
 		}
 		{
-			id: "3BCF9F2F1C1BD78A"
-			linked_quest: "48E77454D1CD87CD"
-			x: 10.5d
-			y: 12.5d
-		}
-		{
-			id: "0F8C8A80D4AADB10"
-			linked_quest: "025FA532523BF33B"
-			x: 10.5d
-			y: 14.0d
-		}
-		{
-			id: "1EA2C3577D09D935"
-			linked_quest: "140CE2AEC7015CAB"
-			x: 10.5d
-			y: 15.5d
-		}
-		{
-			id: "764A08544BE96E88"
-			linked_quest: "39F73A63746EE6E8"
-			x: 10.5d
-			y: 17.0d
-		}
-		{
-			id: "4F44775FB9E394D3"
-			linked_quest: "596E4662227F4E38"
-			x: 12.0d
-			y: 14.0d
-		}
-		{
-			id: "074EC5101C936571"
-			linked_quest: "3569AD043F42762A"
-			x: 12.0d
-			y: 15.5d
-		}
-		{
-			id: "49F73129EC03231F"
-			linked_quest: "37C0845F870CC835"
-			x: 12.0d
-			y: 17.0d
-		}
-		{
-			id: "361AFF2A20DE431C"
-			linked_quest: "6C6A3B91957A0B7B"
-			x: 12.0d
-			y: 18.5d
-		}
-		{
-			id: "3334BBE8E7BF8818"
-			linked_quest: "2895FBB66750C0DF"
-			x: 13.5d
-			y: 15.5d
-		}
-		{
-			id: "6D57DFF46BEFD4DA"
-			linked_quest: "44F9AF619F87974F"
-			x: 13.5d
-			y: 17.0d
-		}
-		{
-			id: "43190A682FC8BDC0"
-			linked_quest: "6E3F07B3E9AB5882"
-			x: -7.5d
-			y: 18.5d
-		}
-		{
-			id: "66E262911956043F"
-			linked_quest: "0CCE2A9119B2B1C4"
-			x: -7.5d
-			y: 17.0d
-		}
-		{
-			id: "11BF09DE6CAC6D94"
-			linked_quest: "1AA874C1351E4A0D"
-			x: -7.5d
-			y: 15.5d
-		}
-		{
 			id: "6C04B359DD1E68E5"
 			linked_quest: "13BBF0FF3267BFDB"
 			x: -7.5d
@@ -212,12 +134,6 @@
 			y: 12.5d
 		}
 		{
-			id: "5901E68D530F8201"
-			linked_quest: "622395061792FB5E"
-			x: -7.5d
-			y: 20.0d
-		}
-		{
 			id: "3665E019AA6AB846"
 			linked_quest: "68A3D32BFF9BF7F3"
 			x: 3.0d
@@ -240,36 +156,6 @@
 			linked_quest: "43A7282802A06626"
 			x: 7.5d
 			y: 8.0d
-		}
-		{
-			id: "087058E648713910"
-			linked_quest: "792A351AAA2A4F2B"
-			x: 10.5d
-			y: 11.0d
-		}
-		{
-			id: "4C80768654DB9C1B"
-			linked_quest: "28E91E5A98E3A8DD"
-			x: 12.0d
-			y: 12.5d
-		}
-		{
-			id: "20ABC7BCAB6ED34D"
-			linked_quest: "7843B0B9DF3F6FB3"
-			x: 13.5d
-			y: 14.0d
-		}
-		{
-			id: "302636A3604E4D3F"
-			linked_quest: "30AC80FE245A38E0"
-			x: 13.5d
-			y: 18.5d
-		}
-		{
-			id: "540B1D69F69E641D"
-			linked_quest: "32186EFF7020D432"
-			x: 13.5d
-			y: 20.0d
 		}
 		{
 			id: "4D90905A4748686C"
@@ -430,10 +316,7 @@
 	]
 	quests: [
 		{
-			dependencies: [
-				"7ADB50ACF5AE1D13"
-				"34D6F0DF329B1877"
-			]
+			dependencies: ["7ADB50ACF5AE1D13"]
 			description: ["安装在超维度等离子锻炉上才能发挥作用"]
 			id: "11D8044BD0401E53"
 			tasks: [{

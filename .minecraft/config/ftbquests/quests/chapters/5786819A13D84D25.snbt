@@ -7,7 +7,20 @@
 	id: "5786819A13D84D25"
 	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: ["加油，只剩最后一个阶段和一个终极目标就毕业了!"]
+		id: "06162BFF42F2EBA3"
+		size: 4.0d
+		subtitle: "这是GTL:CEU的最后的电压"
+		tasks: [{
+			id: "761FF13699B7BB2E"
+			item: "gtceu:uhv_electric_motor"
+			type: "item"
+		}]
+		title: "欢迎来到UHV"
+		x: -12.5d
+		y: 0.0d
+	}]
 	subtitle: ["Tier9-UHV"]
 	title: "极高压"
 }
