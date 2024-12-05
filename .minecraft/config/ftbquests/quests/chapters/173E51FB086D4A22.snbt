@@ -800,6 +800,26 @@
 			x: 31.5d
 			y: -5.0d
 		}
+		{
+			id: "3E5114FEADBB5A42"
+			tasks: [{
+				id: "62943D73EB677AC6"
+				title: "剧差压 Luv"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			id: "4142DA381D520CD0"
+			tasks: [{
+				id: "12CA20D77B0061AD"
+				title: "强导压IV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
 	]
 	title: "石化与生化"
 }

@@ -362,6 +362,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.heightRangeUniform(-10, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
+                
                 .layer(l => l.weight(2).mat(GTMaterials.Naquadah).size(2, 4))
                 .layer(l => l.weight(1).mat(GTMaterials.Plutonium239).size(2, 4))
             )

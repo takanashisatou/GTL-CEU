@@ -1,6 +1,7 @@
+// priority: 100
 ServerEvents.recipes(event => {
   const gtr = event.recipes.gtceu
-
+    
     gtr.platinum_processor("gtceu:platinum_processor_1")
       .itemInputs('288x gtceu:platinum_group_sludge_dust')
       .inputFluids('gtceu:aqua_regia 57600')
